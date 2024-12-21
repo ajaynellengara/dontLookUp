@@ -1,0 +1,63 @@
+
+.container
+    width: 100%
+    padding-right: 15px
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+    max-width: 100%
+    @media only screen and (min-width: 992px)
+        max-width: 1040px
+    @media only screen and (min-width: 1200px)
+        max-width: 1180px
+    @media only screen and (min-width: 1351px)
+        max-width: 1280px
+    @media only screen and (min-width: 1441px)
+        max-width: 1380px
+    @media only screen and (min-width: 1551px)
+        max-width: 1480px
+    @media only screen and (min-width: 1661px)
+        max-width: 1580px
+    @media only screen and (min-width: 1771px)
+        max-width: 1680px
+    @media only screen and (max-width: 768px)
+        max-width: 100%
+    &.smX
+        @media only screen and (min-width: 992px)
+            padding-left: 80px
+            padding-right: 80px
+        @media only screen and (min-width: 1200px)
+            padding-left: 100px
+            padding-right: 100px
+        @media only screen and (min-width: 1441px)
+            padding-left: 120px
+            padding-right: 120px
+
+.sp-container
+    width: 100%
+    padding-right: 15px 
+    padding-left: 15px
+    margin-right: auto
+    margin-left: auto
+    max-width: 100% 
+    @media only screen and (min-width: 992px)
+        max-width: calc(100% - ((100% - 1040px)/ 2))
+    @media only screen and (min-width: 1200px)
+        max-width: calc(100% - ((100% - 1180px)/ 2))
+        padding: 0
+    @media only screen and (min-width: 1351px)
+        max-width: calc(100% - ((100% - 1320px)/ 2))
+    @media only screen and (min-width: 1441px)
+        max-width: calc(100% - ((100% - 1380px)/ 2))
+    @media only screen and (min-width: 1551px)
+        max-width: calc(100% - ((100% - 1480px)/ 2))
+    @media only screen and (min-width: 1661px)
+        max-width: calc(100% - ((100% - 1580px)/ 2))
+    @media only screen and (min-width: 1771px)
+        max-width: calc(100% - ((100% - 1680px)/ 2))
+    &.mlauto
+        margin-left: auto
+        margin-right: unset
+    &.mrauto
+        margin-right: auto
+        margin-left: unset

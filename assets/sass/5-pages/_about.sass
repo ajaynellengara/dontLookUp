@@ -1,0 +1,343 @@
+.aboutPage
+    #MiVi
+        width: 100%
+        height: auto
+        display: block
+        padding: 40px 0 20px
+        @media only screen and (min-width: 576px)
+            padding: 60px 0 30px
+        @media only screen and (min-width: 992px)
+            padding: 80px 0 40px
+        @media only screen and (min-width: 1551px)
+            padding: 100px 0 60px
+        .dFlx
+            margin: 0 -5px
+            justify-content: center
+            @include display
+            @media only screen and (min-width: 992px)
+                margin: 0 -10px
+            @media only screen and (min-width: 1551px)
+                margin: 0 -15px
+            &>*
+                padding: 5px
+                @media only screen and (min-width: 992px)
+                    padding: 10px
+                @media only screen and (min-width: 1551px)
+                    padding: 15px
+            &>.item
+                width: 100%
+                @media only screen and (min-width: 376px)
+                    width: calc(100% / 2)
+                @media only screen and (min-width: 576px)
+                    width: calc(100% / 3)
+                    &:nth-child(even)
+                        .miviBx>.bxCntWrap
+                            top: 0
+                            bottom: auto
+        .miviBx
+            width: 100%
+            height: 340px
+            display: block
+            overflow: hidden
+            position: relative
+            z-index: 0
+            @media only screen and (min-width: 576px)
+                height: 468px
+            @media only screen and (min-width: 992px)
+                height: 576px
+            @media only screen and (min-width: 1551px)
+                height: 768px
+            @media only screen and (min-width: 1771px)
+                height: 800px
+            &:hover
+                &>.bxImgWrap>img
+                    transform: scale(1.05)
+            .tle
+                font-size: 18px
+                line-height: 1.2
+                font-weight: 700
+                color: $white
+                white-space: nowrap
+                text-overflow: ellipsis
+                overflow: hidden
+                @media only screen and (min-width: 576px)
+                    font-size: 24px
+                @media only screen and (min-width: 992px)
+                    font-size: 38px
+                @media only screen and (min-width: 1551px)
+                    font-size: 50px
+            %miviBxTxt, p
+                font-size: 12px
+                line-height: 1.4
+                font-weight: 400
+                color: $white
+                margin: 0
+                @media only screen and (min-width: 576px)
+                    font-size: 13px
+                @media only screen and (min-width: 992px)
+                    font-size: 14px
+                @media only screen and (min-width: 1551px)
+                    font-size: 16px
+            &>.bxImgWrap
+                width: 100%
+                height: 100%
+                aspect-ratio: 520/800
+                img
+                    transition: transform 0.4s ease
+                    object-position: top
+                    @include imgFit
+                    @media only screen and (min-width: 576px)
+                        object-position: unset
+            &>.bxCntWrap
+                text-align: center
+                width: 100%
+                max-width: 320px
+                height: auto
+                display: block
+                margin: auto
+                transition: all 0.4s
+                background-color: rgba($basecolor, 0.8)
+                padding: 10px
+                position: absolute
+                z-index: 1
+                inset: 0
+                top: auto
+                @media only screen and (min-width: 576px)
+                    max-width: 320px
+                    padding: 10px
+                @media only screen and (min-width: 992px)
+                    padding: 15px 20px
+                @media only screen and (min-width: 1551px)
+                    max-width: 368px
+                    padding: 20px 30px
+                &>*
+                    margin: 4px 0
+                    @media only screen and (min-width: 576px)
+                        margin: 6px 0
+                    @media only screen and (min-width: 1551px)
+                        margin: 10px 0
+                .txtWrap
+                    @extend %miviBxTxt
+                    max-height: 200px
+                    overflow-y: auto
+
+    #AdProInfo
+        width: 100%
+        height: auto
+        display: block
+        padding: 20px 0 40px
+        position: relative
+        z-index: 0
+        @media only screen and (min-width: 576px)
+            padding: 30px 0 60px
+        @media only screen and (min-width: 992px)
+            padding: 40px 0 80px
+        @media only screen and (min-width: 1551px)
+            padding: 60px 0 100px
+        .bgImg
+            display: block
+            position: absolute
+            z-index: -1
+            inset: 0
+            @include imgFit
+        .adProFlx
+            margin: 0 -10px
+            justify-content: center
+            @include display
+            @media only screen and (min-width: 576px)
+                margin: 0 -5px
+            @media only screen and (min-width: 992px)
+                margin: 0 -15px
+            @media only screen and (min-width: 1200px)
+                margin: 0 -20px
+            &>*
+                padding: 10px
+                @media only screen and (min-width: 576px)
+                    padding: 5px
+                @media only screen and (min-width: 992px)
+                    padding: 15px
+                @media only screen and (min-width: 1200px)
+                    padding: 20px
+            &>.item
+                width: calc(100% / 2)
+                @media only screen and (max-width: 466px)
+                    &:last-of-type, &:nth-child(2)
+                        .adProBx::before
+                            display: none
+                @media (min-width: 468px) and (max-width: 575px)
+                    width: calc(100% / 3)
+                    &:last-of-type, &:nth-child(3)
+                        .adProBx::before
+                            display: none
+                @media only screen and (min-width: 576px)
+                    width: calc(100% / 4)
+                    &:last-of-type
+                        .adProBx::before
+                            display: none
+        .adProBx
+            --pad-xy: 10px
+            width: 100%
+            height: auto
+            aspect-ratio: 4/4
+            background-color: rgba($white, 0)
+            border-radius: 50%
+            -webkit-border-radius: 50%
+            position: relative
+            z-index: 0
+            display: block
+            @include center
+            @media only screen and (min-width: 576px)
+                --pad-xy: 10px
+            @media only screen and (min-width: 992px)
+                --pad-xy: 15px
+            @media only screen and (min-width: 1200px)
+                --pad-xy: 20px
+            @media only screen and (min-width: 1771px)
+                --pad-xy: 30px
+            &:hover
+                &::after
+                    transform: rotate(40deg)
+                &::before
+                    transform: scale(1.1)
+                &>.bxInner
+                    transform: rotateY(360deg)
+                    .bxInnerWrap:not(.hover)
+                        display: none
+                    .bxInnerWrap.hover
+                        display: block
+            &::before
+                content: ""
+                width: 15px
+                height: auto
+                background-image: url("../images/adProInfo-dElmt1.svg")
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center
+                position: absolute
+                z-index: 1
+                top: 0
+                left: 100%
+                bottom: 0
+                display: block
+                margin: auto
+                pointer-events: none
+                transition: all 0.4s
+                @media only screen and (min-width: 376px)
+                    width: 20px
+                @media only screen and (min-width: 576px)
+                    width: 10px
+                @media only screen and (min-width: 992px)
+                    width: 30px
+                @media only screen and (min-width: 1200px)
+                    width: 40px
+            &::after
+                content: ""
+                width: 100%
+                height: 100%
+                background-image: url("../images/adProInfo-dElmt3.svg")
+                background-repeat: no-repeat
+                background-size: contain
+                background-position: center
+                position: absolute
+                z-index: 1
+                inset: 0
+                display: block
+                margin: auto
+                pointer-events: none
+                transition: all 0.4s
+            %adProBx1Tle
+                font-size: 12px
+                line-height: 1.2
+                font-weight: 600
+                color: $white
+                @media only screen and (min-width: 992px)
+                    font-size: 14px
+                @media only screen and (min-width: 1200px)
+                    font-size: 16px
+                @media only screen and (min-width: 1551px)
+                    font-size: 18px
+                @media only screen and (min-width: 1771px)
+                    font-size: 20px
+            %adProBx1Txt
+                font-size: 10px
+                line-height: 1.4
+                font-weight: 600
+                color: $white
+                @media only screen and (min-width: 576px)
+                    font-size: 12px
+                @media only screen and (min-width: 992px)
+                    font-size: 13px
+                @media only screen and (min-width: 1551px)
+                    font-size: 14px
+            &>.bxInner
+                width: calc(100% - (var(--pad-xy) * 2))
+                height: calc(100% - (var(--pad-xy) * 2))
+                padding: var(--pad-xy)
+                background: $basecolor
+                background: linear-gradient(135deg, $basecolor 0%, #0091B0 100%)
+                border-radius: 50%
+                -webkit-border-radius: 50%
+                box-shadow: 10px 20px 10px 0 rgba(#0DA7B8, 0.2)
+                transform: rotateY(0deg)
+                text-align: center
+                margin: auto
+                transition: all 0.6s
+                @include center
+                .bxInnerWrap
+                    width: 100%
+                    height: auto
+                    display: block
+                    &>*
+                        margin: 4px 0
+                        @media only screen and (min-width: 992px)
+                            margin: 6px 0
+                        @media only screen and (min-width: 1200px)
+                            margin: 10px 0
+                .bxInnerWrap.hover
+                    display: none
+                .countInfo
+                    @extend %adProBx1Tle
+                .bxImgWrap
+                    width: 100%
+                    height: auto
+                    transition: all 0.4s
+                    display: block
+                    img
+                        width: 30px
+                        height: auto
+                        margin: auto
+                        display: block
+                        aspect-ratio: 4/4
+                        @media only screen and (min-width: 576px)
+                            width: 30px
+                        @media only screen and (min-width: 992px)
+                            width: 40px
+                        @media only screen and (min-width: 1200px)
+                            width: 60px
+                .bxCntWrap
+                    width: 100%
+                    height: auto
+                    display: block
+                    transition: all 0.4s
+                    .tle
+                        @extend %adProBx1Tle
+                        margin: 0
+                        display: -webkit-box
+                        -webkit-box-orient: vertical
+                        -webkit-line-clamp: 2
+                        overflow: hidden
+                p, .txt
+                    @extend %adProBx1Txt
+                    display: -webkit-box
+                    -webkit-box-orient: vertical
+                    -webkit-line-clamp: 5
+                    overflow: hidden
+                .bxCntWrap.hover
+                    position: absolute
+                    z-index: 0
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%, -50%)
+                    opacity: 0
+                    visibility: hidden
+                    display: none

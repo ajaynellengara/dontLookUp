@@ -1,0 +1,33 @@
+@use '../0-abstracts/' as *
+//ANIMATIONS
+@keyframes fadeInDown
+    0%
+        opacity: 0
+        transform: translate3d(0, -100%, 0)
+    100%
+        opacity: 1
+        transform: translate3d(0, 0, 0)
+
+@keyframes rotation
+    0%
+        transform: scaleX(-1) rotate(360deg)
+    100%
+        transform: scaleX(-1) rotate(0deg)
+
+@keyframes playBtn
+    0%
+        box-shadow: 0 0 0 0 $white
+    50%
+        box-shadow: 0 0 0 10px rgba($black,0)
+    100%
+        box-shadow: 0 0 0 10px rgba($black,0)
+
+@keyframes text-fill
+    0%
+        width: 0%
+    80%, 100%
+        width: 100%
+
+@keyframes blinker
+    50%
+        opacity: 0
