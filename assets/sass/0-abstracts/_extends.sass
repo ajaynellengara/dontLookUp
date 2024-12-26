@@ -17,25 +17,24 @@
     @media only screen and (min-width: 1771px)
         font-size: 18px
 
-%baseBtn
+%baseBtnTxt
     @include defaultValue
-    font-size: 16px
+    font-size: 12px
     line-height: 1
-    font-weight: 600
-    color: $text
+    font-weight: 500
+    text-transform: uppercase
+    color: $basecolor
     width: 100%
     height: auto
     @include center
     @media only screen and (min-width: 576px)
-        font-size: 20px
+        font-size: 13px
     @media only screen and (min-width: 992px)
-        font-size: 24px
+        font-size: 14px
     @media only screen and (min-width: 1551px)
-        font-size: 28px
+        font-size: 16px
     span
         margin: 0 2px
-        @media only screen and (min-width: 576px)
-            margin: 0 4px
         svg, img
             fill: $white
             display: block
@@ -77,7 +76,7 @@
     border: 3px solid rgba($basecolor2, 0.4)
     border-radius: 15px
     -webkit-border-radius: 15px
-    background: $basecolor5
+    background: $basecolor3
     padding: 5px 10px
     transition: all .4s ease
     align-items: center

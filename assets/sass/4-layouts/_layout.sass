@@ -2,17 +2,28 @@
 
 // layout
 :root
-    --swiper-preloader-color: #003d4a
-    --swiper-theme-color: #cfe0d7
+    --container-x: 100%
+    --swiper-preloader-color: $basecolor
+    --swiper-theme-color: $basecolor2
     --header-y: 100px
     @media only screen and (min-width: 576px)
         --header-y: 120px
     @media only screen and (min-width: 992px)
         --header-y: 140px
+        --container-x: 1040px
+    @media only screen and (min-width: 1200px)
+        --container-x: 1180px
+    @media only screen and (min-width: 1351px)
+        --container-x: 1280px
+    @media only screen and (min-width: 1441px)
+        --container-x: 1380px
     @media only screen and (min-width: 1551px)
         --header-y: 160px
+        --container-x: 1480px
+    @media only screen and (min-width: 1661px)
+        --container-x: 1580px
     @media only screen and (min-width: 1771px)
-        --header-y: 180px
+        --container-x: 1680px
 
 #pageWrapper
     overflow: hidden
@@ -57,27 +68,21 @@
             svg
                 fill: $white
 
-.baseBtn.baseBtn1
-    @extend %baseBtn
-    color: $white
-    width: 100%
+.baseBtn_1
+    @extend %baseBtnTxt
+    color: $basecolor
     max-width: 140px
-    height: 35px
+    height: 30px
     padding: 5px
-    border: 1px solid $basecolor4
-    background-color: $basecolor4
-    border-radius: 50px
-    -webkit-border-radius: 50px
+    background-color: $basecolor2
+    border: 1px solid $basecolor2
     @media only screen and (min-width: 992px)
-        max-width: 200px
-        height: 45px
-        padding: 10px
+        max-width: 120px
     @media only screen and (min-width: 1551px)
-        max-width: 260px
-        height: 55px
+        max-width: 140px
 
 .baseBtn.vAllBtn
-    @extend %baseBtn
+    @extend %baseBtnTxt
     color: $white
     width: 100%
     min-width: 90px
@@ -98,7 +103,7 @@
         padding: 8px
 
 button[type="submit"], .btn
-    @extend %baseBtn
+    @extend %baseBtnTxt
 
 input.baseBtn
     &:hover
@@ -121,49 +126,42 @@ input.baseBtn
             margin-bottom: 10px
         @media only screen and (min-width: 1551px)
             margin-bottom: 15px
-    .mTle
-        font-size: 26px
-        line-height: 1.3
-        font-weight: normal
-        font-family: $fontstack2
-        text-transform: capitalize
-        color: $basecolor
-        @media only screen and (min-width: 468px)
-            font-size: 30px
-        @media only screen and (min-width: 576px)
-            font-size: 34px
-        @media only screen and (min-width: 992px)
-            font-size: 48px
-        @media only screen and (min-width: 1551px)
-            font-size: 68px
-        @media only screen and (min-width: 1771px)
-            font-size: 80px
-        span
-            color: $basecolor
-    .sTle
-        font-size: 16px
+    .mHd
+        font-size: 28px
         line-height: 1.2
-        font-weight: 700
-        color: $text
+        font-weight: 600
+        font-family: $fontstack3
+        text-transform: uppercase
+        color: $white
+        display: block
+        @media only screen and (min-width: 468px)
+            font-size: 36px
+        @media only screen and (min-width: 576px)
+            font-size: 54px
+        @media only screen and (min-width: 992px)
+            font-size: 68px
+        @media only screen and (min-width: 1200px)
+            font-size: 72px
+        @media only screen and (min-width: 1551px)
+            font-size: 92px
+        @media only screen and (min-width: 1771px)
+            font-size: 100px
+    .mTxt
+        font-size: 18px
+        line-height: 1
+        font-weight: 600
+        font-family: $fontstack3
+        text-transform: uppercase
+        color: $basecolor2
         display: block
         @media only screen and (min-width: 576px)
-            font-size: 20px
+            font-size: 22px
         @media only screen and (min-width: 992px)
-            font-size: 24px
+            font-size: 26px
         @media only screen and (min-width: 1551px)
-            font-size: 36px
+            font-size: 32px
         @media only screen and (min-width: 1771px)
-            font-size: 42px
-    .txt
-        font-size: 13px
-        line-height: 1.3
-        font-weight: 400
-        color: $black
-        margin-bottom: 0
-        @media only screen and (min-width: 576px)
-            font-size: 14px
-        @media only screen and (min-width: 1551px)
-            font-size: 16px
+            font-size: 38px
 
 // BREADCRUMB
 #Breadcrumb

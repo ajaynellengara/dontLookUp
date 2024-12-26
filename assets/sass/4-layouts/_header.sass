@@ -9,12 +9,11 @@
         z-index: 4
 
 #Header
-    --hd-top: 10px
     $header-collapse: 992px
     width: 100%
     height: var(--header-y)
     background: $basecolor2
-    background: linear-gradient(0deg, rgba($basecolor2, 0) 0%, rgba($basecolor2, 1) 100%)
+    background: linear-gradient(0deg, rgba($basecolor, 0) 0%, rgba($basecolor, 1) 100%)
     animation-duration: .4s
     transition: background 0s ease
     position: absolute
@@ -22,10 +21,6 @@
     top: 0
     left: 0
     right: 0
-    @media only screen and (min-width: 992px)
-        --hd-top: 20px
-    @media only screen and (min-width: 1551px)
-        --hd-top: 30px
     // &.hide
     //     display: none
     &.sticky
@@ -145,8 +140,9 @@
                     @include defaultValue
                     font-size: 16px
                     line-height: 1
-                    font-weight: 700
-                    color: $basecolor
+                    font-weight: 600
+                    text-transform: uppercase
+                    color: $white
                     width: 100%
                     transition: all .4s ease
                     padding: 15px 25px
@@ -159,21 +155,19 @@
                         padding: 15px 30px
                     @media only screen and (min-width: $header-collapse)
                         font-size: 14px
-                        padding: 15px 15px
+                        padding: 15px 10px
                     @media only screen and (min-width: 1551px)
                         font-size: 16px
-                        padding: 15px 20px
-                    @media only screen and (min-width: 1771px)
-                        font-size: 20px
+                        padding: 15px 15px
                     &[aria-expanded="true"], &:hover
-                        color: $basecolor4
+                        color: $basecolor3
                         @media only screen and (min-width: $header-collapse)
                             &>span::after
                                 opacity: 1
                                 visibility: visible
                                 transform: scaleX(100%)
                     &.active
-                        color: $basecolor4
+                        color: $basecolor3
                         &::before
                             opacity: 1
                             visibility: visible
@@ -281,7 +275,7 @@
         display: block
     #HeaderMain
         width: 100%
-        height: calc(100% - var(--hd-top))
+        height: 100%
         margin: 0 auto
         align-items: center
         @include display
@@ -291,7 +285,7 @@
             @include display
             @media only screen and (min-width: 576px)
                 margin: 0 -10px
-            @media only screen and (min-width: 992px)
+            @media only screen and (min-width: $header-collapse)
                 margin: 0 -15px
             @media only screen and (min-width: 1551px)
                 margin: 0 -20px
@@ -299,49 +293,32 @@
                 padding: 0 5px
                 @media only screen and (min-width: 576px)
                     padding: 0 10px
-                @media only screen and (min-width: 992px)
+                @media only screen and (min-width: $header-collapse)
                     padding: 0 15px
                 @media only screen and (min-width: 1551px)
                     padding: 0 20px
-            &>.midSd
+            &>.lftSd
                 width: 80px
                 @media only screen and (min-width: 376px)
                     width: 90px
                 @media only screen and (min-width: 576px)
-                    width: 110px
-                @media only screen and (min-width: 992px)
-                    width: 120px
+                    width: 100px
+                @media only screen and (min-width: $header-collapse)
+                    width: 90px
                 @media only screen and (min-width: 1551px)
-                    width: 140px
-                @media only screen and (min-width: 1771px)
-                    width: 160px
-            &>.lftSd, &>.rgtSd
+                    width: 120px
+            &>.rgtSd
                 width: calc(100% - 80px)
+                justify-content: flex-end
                 @include display
                 @media only screen and (min-width: 376px)
                     width: calc(100% - 90px)
                 @media only screen and (min-width: 576px)
-                    width: calc(100% - 110px)
-                @media only screen and (min-width: 992px)
-                    width: calc((100% - 120px) / 2)
-                @media only screen and (min-width: 1551px)
-                    width: calc((100% - 140px) / 2)
-                @media only screen and (min-width: 1771px)
-                    width: calc((100% - 160px) / 2)
-            &>.lftSd
-                display: none
+                    width: calc(100% - 100px)
                 @media only screen and (min-width: $header-collapse)
-                    display: flex
-                #AccoMenuLft
-                    justify-content: flex-end
-            &>.rgtSd
-                justify-content: flex-end
-                #AccoMenuRgt
-                    justify-content: flex-start
-                    @media only screen and (max-width: $header-collapse)
-                        display: none
-                .qLinkItemWrap
-                    justify-content: flex-start
+                    width: calc(100% - 90px)
+                @media only screen and (min-width: 1551px)
+                    width: calc(100% - 120px)
         .logo
             width: 100%
             display: block
@@ -462,7 +439,7 @@
                 min-height: 100vh
                 float: right
                 overflow-y: auto
-                background-color: $basecolor5
+                background-color: $basecolor3
                 -webkit-backdrop-filter: blur(20px)
                 backdrop-filter: blur(20px)
                 transform: translateX(100%)
@@ -503,3 +480,39 @@
                     right: 25px
                     @media only screen and (min-width: $header-collapse)
                         display: none
+        .qLinkItemWrap
+            margin: 0 -6px
+            align-items: center
+            @include display
+            flex-wrap: nowrap
+            @media only screen and (min-width: $header-collapse)
+                margin: 0 -8px
+            @media only screen and (min-width: 1551px)
+                margin: 0 -12px
+            &>.item
+                padding: 0 6px
+                @media only screen and (min-width: $header-collapse)
+                    padding: 0 8px
+                @media only screen and (min-width: 1551px)
+                    padding: 0 12px
+            .qLinkBtn
+                @include defaultValue
+                @extend %hdTxt
+                text-transform: uppercase
+                width: 100%
+                height: auto
+                padding: 4px 10px
+                background: none
+                border: 1px solid $white
+                will-change: transform
+                margin: auto
+                display: block
+                @media only screen and (min-width: $header-collapse)
+                    padding: 10px 10px
+                @media only screen and (min-width: 1551px)
+                    padding: 10px 15px
+            .qLinkBtn2
+                color: $basecolor
+                background-color: $white
+                &:hover
+                    color: $white
