@@ -16,30 +16,35 @@
     @media only screen and (min-width: 1551px)
         padding: 60px 0
     &>.delmt
-        width: 40px
+        width: 20px
         height: auto
         display: block
         position: absolute
-        z-index: 0
+        z-index: 1
         top: 4%
         left: 4%
-        &_2
+        @media only screen and (min-width: 992px)
             width: 40px
+        &_2
+            width: 20px
             height: auto
             display: block
             position: absolute
             z-index: -1
             top: 9%
             left: calc((50% + (var(--container-x) / 2)) - 15px)
+            @media only screen and (min-width: 992px)
+                width: 40px
         &_3
-            width: 40px
+            width: 20px
             height: auto
             display: block
             position: absolute
             z-index: -1
             top: 70%
             right: calc((50% + (var(--container-x) / 2)) - 15px)
-
+            @media only screen and (min-width: 992px)
+                width: 40px
         img, svg
             @include imgFit
     .galFlx
@@ -88,17 +93,33 @@
     @media only screen and (min-width: 576px)
         padding: 40px 0
     @media only screen and (min-width: 992px)
-        padding: 50px 0
-    @media only screen and (min-width: 1551px)
         padding: 60px 0
+    .programSlide
+        .swiper-slide
+            margin-top: auto
     .programBx
         width: 100%
         height: auto
+        aspect-ratio: 4/6
         display: block
         overflow: hidden
         position: relative
         z-index: 0
+        @media only screen and (min-width: 992px)
+            height: 100%
+        &:hover
+            &>img
+                transform: scale(1.05)
+            &::after
+                opacity: 1
+                transform: scaleY(1)
+                visibility: visible
+            .bxCnt
+                opacity: 1
+                transform: scale(1)
+                visibility: visible
         &>img
+            transition: transform 0.4s
             @include imgFit
         .tle
             font-size: 16px
@@ -118,7 +139,7 @@
             color: $white
         .bxCnt
             width: 100%
-            max-width: 60%
+            max-width: 85%
             height: auto
             margin: auto
             display: block
@@ -126,8 +147,9 @@
             z-index: 1
             inset: 0
             top: auto
-            margin-bottom: 30px
+            margin-bottom: 15px
             @media only screen and (min-width: 992px)
+                max-width: 60%
                 margin-bottom: 60px
             @media only screen and (min-width: 1551px)
                 margin-bottom: 80px
@@ -138,7 +160,7 @@
         .exBtn
             @extend %baseBtnTxt
             width: 100%
-            max-width: 100px
+            max-width: 120px
             height: 30px
             padding: 5px
             display: block
@@ -147,20 +169,22 @@
             transition: transform 0.4s
             @include center
             @media only screen and (min-width: 576px)
-                max-width: 120px
+                max-width: 130px
                 margin-top: 10px
             @media only screen and (min-width: 992px)
                 max-width: 140px
                 margin-top: 20px
             &:hover
                 color: $white
+            &::before
+                background-color: $basecolor
     .academyWrap
         width: 100%
         height: auto
         display: block
         margin-top: 30px
         @media only screen and (min-width: 992px)
-            margin-top: 60px
+            margin-top: 80px
         @media only screen and (min-width: 1551px)
             margin-top: 100px
         .imgWrap
@@ -172,10 +196,11 @@
                 @include imgFit
         .txtWrap
             width: 100%
-            max-width: 70%
             height: auto
             display: block
             margin-left: auto
+            @media only screen and (min-width: 992px)
+                max-width: 70%
             h5
                 line-height: 1.2
                 font-weight: 400
@@ -185,7 +210,7 @@
     width: 100%
     height: 468px
     display: block
-    background-color: $white
+    background-color: $black
     position: relative
     z-index: 0
     padding: 30px 0
@@ -202,10 +227,13 @@
         width: 100%
         height: 100%
         display: block
+        opacity: 0.8
         position: absolute
         z-index: -1
         inset: 0
         top: auto
+        @media only screen and (min-width: 992px)
+            opacity: 1
         img
             @include imgFit
     .tleWrap
@@ -242,175 +270,454 @@
                 display: none
             &[aria-expanded="true"]
                 color: $basecolor
+                pointer-events: none
             &:hover
-                color: rgba($basecolor, 0.6)
+                @media only screen and (min-width: 992px)
+                    color: rgba($basecolor, 0.6)
         .accordion-body
             padding-left: 0
             padding-right: 0
+            @media only screen and (max-width: 992px)
+                padding-top: 0
     .dFlx
         @include display
+        &>*
+            padding: 10px 0
+            @media only screen and (min-width: 992px)
+                padding: 0
         &>.lftSd
-            width: calc(100% - 340px)
+            width: 100%
+            @media only screen and (min-width: 992px)
+                width: calc(100% - 340px)
         &>.rgtSd
-            width: 340px
+            width: 100%
+            @media only screen and (min-width: 992px)
+                width: 340px
     .ckCntWrap
         h1, h2, h3, h4, h5, h6, p, li, td
             color: $basecolor
 
-#EnhanceBusiness
+#Expertise
     width: 100%
     height: auto
     display: block
+    background-color: #030303
     position: relative
     z-index: 0
-    padding: 15px 0
+    padding: 30px 0
     @media only screen and (min-width: 576px)
-        padding: 20px 0
-    @media only screen and (min-width: 992px)
-        padding: 30px 0
-    @media only screen and (min-width: 1551px)
         padding: 40px 0
-    .secTleWrap
-        width: 100%
-        max-width: 468px
+    @media only screen and (min-width: 992px)
+        padding: 60px 0
+    @media only screen and (min-width: 1551px)
+        padding: 80px 0
+    .arrowBtn
+        width: 35px
         height: auto
-        margin-left: auto
-        margin-right: auto
-        display: block
-        margin-bottom: 20px
+        aspect-ratio: 4/4
+        display: inline-block
+        background-color: $basecolor2
+        border: 1px solid $basecolor2
+        border-radius: 50%
+        -webkit-border-radius: 50%
+        transition: transform 0.4s
+        @include center
         @media only screen and (min-width: 576px)
-            margin-bottom: 30px
+            width: 50px
         @media only screen and (min-width: 992px)
-            max-width: 576px
-            margin-bottom: 40px
+            width: 80px
         @media only screen and (min-width: 1551px)
-            max-width: 768px
-            margin-bottom: 60px
-        .secTle
-            font-size: 20px
-            line-height: 1.2
-            font-weight: 400
-            text-align: center
-            color: $text
-            margin-bottom: 10px
-            @media only screen and (min-width: 576px)
-                font-size: 24px
-            @media only screen and (min-width: 992px)
-                font-size: 34px
-                margin-bottom: 20px
-            @media only screen and (min-width: 1551px)
-                font-size: 42px
-                margin-bottom: 30px
-            @media only screen and (min-width: 1771px)
-                font-size: 50px
-        &>img
-            width: 80%
+            width: 120px
+        &:hover
+            transform: scale(0.8)
+        img
+            width: 100%
+            max-width: 10px
             height: auto
-            margin: auto
             display: block
+            @media only screen and (min-width: 992px)
+                max-width: 20px
+    .tleWrap
+        margin: 0
+        .mHd
+            color: $basecolor
     .dFlx
         margin: 0 -10px
+        align-items: center
+        justify-content: space-between
         @include display
         @media only screen and (min-width: 576px)
             margin: 0 -15px
         @media only screen and (min-width: 992px)
-            margin: 0 -20px
-        @media only screen and (min-width: 1551px)
             margin: 0 -30px
         &>*
             padding: 10px
             @media only screen and (min-width: 576px)
                 padding: 15px
             @media only screen and (min-width: 992px)
-                padding: 20px
-            @media only screen and (min-width: 1551px)
                 padding: 30px
-        &>.item
-            width: 100%
-            @media only screen and (min-width: 576px)
-                width: calc(100% / 2)
+    .sp-container.rgt
+        padding-right: 0
+    .expertiseSlide
+        .swiper-slide
+            transition: opacity 0.4s ease
             @media only screen and (min-width: 992px)
-                width: calc(100% / 4)
-            &:nth-child(even)
-                .eBusinessBx
-                    --delmt-clr: #60bbd7
-    .eBusinessBx
-        --delmt-clr: #ffc4d6
+                &:not(.swiper-slide-fully-visible)
+                    opacity: 0.5
+                &.swiper-slide-fully-visible
+                    .expertiseBx:hover
+                        &>img
+                            transform: scale(1.05)
+                        &::after
+                            opacity: 1
+                            transform: scaleY(1)
+                            visibility: visible
+                        .bxCnt
+                            opacity: 1
+                            transform: scale(1)
+                            visibility: visible
+            @media only screen and (max-width: 991px)
+                &.swiper-slide-active
+                    .expertiseBx
+                        &>img
+                            transform: scale(1.05)
+                        &::after
+                            opacity: 1
+                            transform: scaleY(1)
+                            visibility: visible
+                        .bxCnt
+                            opacity: 1
+                            transform: scale(1)
+                            visibility: visible
+    .expertiseBx
         width: 100%
         height: auto
+        aspect-ratio: 376/470
+        background-color: $basecolor
+        overflow: hidden
         display: block
-        &:hover
-            .bxIcon::after
-                transform: scale(1.2)
-                opacity: 0.4
+        position: relative
+        z-index: 0
+        &::after
+            content: ""
+            position: absolute
+            z-index: 0
+            inset: 0
+            background-color: rgba($basecolor, 0.6)
+            display: block
+            pointer-events: none
+            opacity: 0
+            visibility: hidden
+            transform: scaleY(0)
+            transition: all 0.4s ease
+        &>img
+            transition: transform 0.4s
+            @include imgFit
         .tle
-            font-size: 14px
-            line-height: 1.3
-            font-weight: 700
-            color: $text
-            display: -webkit-box
-            -webkit-box-orient: vertical
-            -webkit-line-clamp: 2
-            overflow: hidden
+            font-size: 16px
+            line-height: 1.2
+            font-weight: 500
+            text-transform: uppercase
+            color: $white
             @media only screen and (min-width: 576px)
-                font-size: 16px
+                font-size: 18px
             @media only screen and (min-width: 992px)
-                font-size: 20px
+                font-size: 22px
             @media only screen and (min-width: 1551px)
                 font-size: 26px
-        .txt, .txt>p
-            font-size: 12px
+        %expertiseBxTxt
+            font-size: 10px
             line-height: 1.4
             font-weight: 500
-            color: $text
+            color: $basecolor
             @media only screen and (min-width: 576px)
+                font-size: 12px
+            @media only screen and (min-width: 992px)
                 font-size: 14px
-            @media only screen and (min-width: 992px)
-                font-size: 15px
             @media only screen and (min-width: 1551px)
-                font-size: 18px
-        .bxIcon
-            width: 60px
-            height: auto
-            aspect-ratio: 4/4
-            display: block
-            margin: auto
-            position: relative
-            z-index: 0
-            margin-bottom: 10px
-            @media only screen and (min-width: 576px)
-                width: 70px
-            @media only screen and (min-width: 992px)
-                width: 80px
-                margin-bottom: 15px
-            @media only screen and (min-width: 1551px)
-                width: 90px
-            &::after
-                content: ""
-                position: absolute
-                z-index: -1
-                inset: 0
-                width: 100%
-                height: 100%
-                background-color: var(--delmt-clr)
-                border-radius: 50%
-                -webkit-border-radius: 50%
-                transform: scale(0.9)
-                transition: all 0.4s ease
-            img
-                @include imgFit
-                object-fit: contain
+                font-size: 16px
         .bxCnt
             width: 100%
             height: auto
             display: block
             text-align: center
+            position: absolute
+            z-index: 1
+            inset: 0
+            top: auto
+            padding: 15px
+            opacity: 0
+            visibility: hidden
+            transform: scale(0)
+            transition: all 0.4s ease
+            @media only screen and (min-width: 576px)
+                padding: 20px
+            @media only screen and (min-width: 992px)
+                padding: 40px
             &>*
-                margin: 4px 0
-                @media only screen and (min-width: 576px)
-                    margin: 6px 0
+                margin-top: 5px
+                margin-bottom: 5px
                 @media only screen and (min-width: 992px)
-                    margin: 10px 0
+                    margin-top: 10px
+                    margin-bottom: 10px
+                @media only screen and (min-width: 1551px)
+                    margin-top: 15px
+                    margin-bottom: 15px
+            .txt
+                @extend %expertiseBxTxt
+                text-transform: uppercase
+                background-color: $white
+                border-radius: 100px
+                padding: 5px 10px
+                display: inline-block
+                @media only screen and (min-width: 992px)
+                    padding: 10px 20px
+            a
+                width: 30px
+                height: auto
+                aspect-ratio: 4/4
+                display: inline-block
+                background-color: $basecolor2
+                border: 1px solid $basecolor2
+                border-radius: 50%
+                -webkit-border-radius: 50%
+                margin-left: auto
+                margin-right: auto
+                transition: transform 0.4s
+                @include center
+                @media only screen and (min-width: 992px)
+                    width: 60px
+                &:hover
+                    transform: scale(0.8)
+                img
+                    width: 100%
+                    max-width: 10px
+                    height: auto
+                    display: block
+                    @media only screen and (min-width: 992px)
+                        max-width: 15px
+
+#Placement
+    width: 100%
+    height: auto
+    display: block
+    background-color: $white
+    position: relative
+    z-index: 0
+    padding: 30px 0
+    @media only screen and (min-width: 576px)
+        padding: 40px 0
+    @media only screen and (min-width: 992px)
+        padding: 60px 0
+    @media only screen and (min-width: 1551px)
+        padding: 80px 0
+    .placementBx
+        width: 100%
+        height: auto
+        display: block
+        background-color: #145ddd
+        padding: 30px 0 0
+        @media only screen and (min-width: 576px)
+            padding: 40px 0 0
+        @media only screen and (min-width: 992px)
+            padding: 60px 0 0
+        @media only screen and (min-width: 1551px)
+            padding: 80px 0 0
+        .cntWrap
+            width: 100%
+            height: auto
+            display: block
+            .baseBtn_1
+                margin: auto
+                max-width: 120px
+                @media only screen and (min-width: 992px)
+                    max-width: 140px
+                @media only screen and (min-width: 1551px)
+                    max-width: 160px
+        .imgWrap
+            width: 100%
+            max-width: 90%
+            height: auto
+            margin: auto
+            display: block
+            img
+                @include imgFit
+
+#LifeDlu
+    --galbx-y: 160px
+    width: 100%
+    height: auto
+    display: block
+    background-color: $white
+    position: relative
+    z-index: 0
+    padding: 40px 0 20px
+    @media only screen and (min-width: 576px)
+        --galbx-y: 320px
+        padding: 60px 0 40px
+    @media only screen and (min-width: 992px)
+        --galbx-y: 420px
+        padding: 80px 0 60px
+    @media only screen and (min-width: 1551px)
+        --galbx-y: 468px
+        padding: 120px 0 80px
+    .tleWrap
+        margin: 0
+        position: absolute
+        z-index: 2
+        top: 0
+        left: auto
+        right: auto
+        .mHd
+            font-size: 4em
+            line-height: 1
+            color: #145ddd
+            margin: 0
+            @media only screen and (min-width: 992px)
+                font-size: 8em
+    .galleryBx
+        width: 100%
+        height: var(--galbx-y)
+        background-color: $black
+        display: block
+        overflow: hidden
+        &:hover
+            img
+                opacity: 1
+                transform: scale(1.1)
+        &.sm
+            height: calc(var(--galbx-y) / 2)
+        img
+            opacity: 0.95
+            transition: all 0.4s ease
+            @include imgFit
+
+#Gateway
+    width: 100%
+    height: auto
+    display: block
+    background-color: $white
+    padding: 30px 0
+    @media only screen and (min-width: 576px)
+        padding: 40px 0
+    @media only screen and (min-width: 992px)
+        padding: 60px 0 100px
+    @media only screen and (min-width: 1551px)
+        padding: 80px 0 120px
+    .tleWrap
+        .mHd
+            color: #145ddd
+    .gatewaySlide
+        --bx-y: 30px
+        @media only screen and (min-width: 768px)
+            opacity: 1
+            overflow: visible
+            .swiper-wrapper
+                align-items: center
+                @include display
+            .swiper-slide
+                width: calc(100% / 7)
+                padding: 0 15px
+                justify-content: center
+                @include display
+                &:nth-child(4)
+                    width: 20%
+                &:nth-child(3)
+                    width: 16%
+                    .gatewayBx
+                        transform: translateY(calc(-1 * var(--bx-y)))
+                &:nth-child(5)
+                    width: 16%
+                    .gatewayBx
+                        transform: translateY(var(--bx-y))
+                &:nth-child(2)
+                    width: 14%
+                    .gatewayBx
+                        transform: translateY(var(--bx-y))
+                &:nth-child(6)
+                    width: 14%
+                    .gatewayBx
+                        transform: translateY(calc(-1 * var(--bx-y)))
+                &:nth-child(1)
+                    width: 10%
+                    .gatewayBx
+                        transform: translateY(calc(-1 * var(--bx-y)))
+                &:nth-child(7)
+                    width: 10%
+                    .gatewayBx
+                        transform: translateY(var(--bx-y))
+    .gatewayBx
+        width: 100%
+        height: auto
+        aspect-ratio: 4/6
+        border-radius: 20px
+        -webkit-border-radius: 20px
+        display: block
+        overflow: hidden
+        @media only screen and (min-width: 768px)
+            height: 100%
+            aspect-ratio: auto
+            border-radius: 0
+            -webkit-border-radius: 0
+            overflow: visible
+        &:hover
+            img
+                transform: scale(1.05)
+        img
+            transition: transform 0.4s ease
+            @include imgFit
+
+#JoinAcademy
+    width: 100%
+    height: auto
+    display: block
+    background: $basecolor3
+    background: linear-gradient(0deg, rgba($basecolor3,1) 50%, rgba($white,1) 50%)
+    .joinAcademyBx
+        width: 100%
+        height: auto
+        display: block
+        background-color: #145ddd
+        padding: 20px 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0
+        @media only screen and (min-width: 1551px)
+            padding: 100px 0
+        .tleWrap
+            &>*
+                margin: 5px 0
+                @media only screen and (min-width: 576px)
+                    margin: 15px 0
+                @media only screen and (min-width: 992px)
+                    margin: 20px 0
+            .mTxt
+                @media only screen and (min-width: 992px)
+                    font-size: 2em
+            .mHd
+                @media only screen and (min-width: 992px)
+                    font-size: 6em
+                    line-height: 1
+        .cntWrap
+            width: 100%
+            height: auto
+            display: block
+            .baseBtn_1
+                margin: auto
+                max-width: 120px
+                @media only screen and (min-width: 992px)
+                    max-width: 140px
+                @media only screen and (min-width: 1551px)
+                    max-width: 160px
+        .imgWrap
+            width: 100%
+            max-width: 90%
+            height: auto
+            margin: auto
+            display: block
+            img
+                @include imgFit
 
 #Products
     width: 100%

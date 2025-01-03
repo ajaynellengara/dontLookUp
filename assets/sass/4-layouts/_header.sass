@@ -29,13 +29,15 @@
         animation-name: fadeInDown
         animation-duration: .8s
         animation-fill-mode: both
-        background: rgba($white, 0.8)
+        background: rgba($basecolor, 0.8)
         backdrop-filter: blur(20px)
         box-shadow: 0 5px 10px rgba($black,.15)
         height: 65px
         @media only screen and (min-width: 576px)
             height: 75px
         @media only screen and (min-width: 992px)
+            height: 80px
+        @media only screen and (min-width: 1551px)
             height: 100px
         .hdTop
             display: none
@@ -44,38 +46,34 @@
             height: 100%
             .mainFlx
                 &>.lftSd
-                    width: 60px
+                    width: 40px
                     transition: width 0.6s ease
                     @media only screen and (min-width: 576px)
+                        width: 50px
+                    @media only screen and (min-width: $header-collapse)
+                        width: 60px
+                    @media only screen and (min-width: 1551px)
                         width: 80px
-                    @media only screen and (min-width: 992px)
-                        width: 100px
-                    @media only screen and (min-width: 1551px)
-                        width: 120px
-                    @media only screen and (min-width: 1771px)
-                        width: 130px
                 &>.rgtSd
-                    width: calc(100% - 60px)
+                    width: calc(100% - 40px)
                     transition: width 0.6s ease
                     @media only screen and (min-width: 576px)
-                        width: calc(100% - 80px)
-                    @media only screen and (min-width: 992px)
-                        width: calc(100% - 100px)
+                        width: calc(100% - 50px)
+                    @media only screen and (min-width: $header-collapse)
+                        width: calc(100% - 60px)
                     @media only screen and (min-width: 1551px)
-                        width: calc(100% - 120px)
-                    @media only screen and (min-width: 1771px)
-                        width: calc(100% - 130px)
+                        width: calc(100% - 80px)
     %hdTxt
-        font-size: 12px
+        font-size: 10px
         line-height: 1
         font-weight: 500
         color: $white
         @media only screen and (min-width: 576px)
-            font-size: 13px
+            font-size: 12px
         @media only screen and (min-width: $header-collapse)
-            font-size: 14px
+            font-size: 12px
         @media only screen and (min-width: 1551px)
-            font-size: 15px
+            font-size: 14px
         @media only screen and (min-width: 1771px)
             font-size: 16px
     .accoMenu
@@ -85,9 +83,6 @@
         align-items: center
         @include display
         flex-wrap: nowrap
-        @media only screen and (min-width: $header-collapse)
-            height: 100%
-            flex-direction: row
         .accordion-item
             border: none
             background: none
@@ -100,38 +95,11 @@
             height: auto
             position: relative
             z-index: 0
-            @media only screen and (min-width: $header-collapse)
-                width: auto
             &.hasAcco
                 &>.accordion-header
                     &:has(> button):has(> a)
-                        &>a
+                        &>a, &>button
                             width: auto
-                            @media only screen and (min-width: $header-collapse)
-                                padding-right: 1px
-                        &>button
-                            width: auto
-                            @media only screen and (min-width: $header-collapse)
-                                padding-left: 1px
-                            @media only screen and (min-width: 992px)
-                                pointer-events: none
-            &:hover
-                @media only screen and (min-width: $header-collapse)
-                    .accordion-header
-                        a::before
-                            opacity: 1
-                            visibility: visible
-                            transform: translateY(0)
-                        a
-                            &>span::after
-                                opacity: 1
-                                visibility: visible
-                                transform: scaleX(100%)
-                    &>.accordion-collapse
-                        opacity: 1
-                        pointer-events: all
-                        transform: translateY(0)
-                        display: block
             &>.accordion-header
                 justify-content: space-between
                 @include display
@@ -154,20 +122,20 @@
                         font-size: 18px
                         padding: 15px 30px
                     @media only screen and (min-width: $header-collapse)
+                        font-size: 12px
+                    @media only screen and (min-width: 1200px)
                         font-size: 14px
-                        padding: 15px 10px
                     @media only screen and (min-width: 1551px)
                         font-size: 16px
-                        padding: 15px 15px
                     &[aria-expanded="true"], &:hover
-                        color: $basecolor3
+                        color: $basecolor2
                         @media only screen and (min-width: $header-collapse)
                             &>span::after
                                 opacity: 1
                                 visibility: visible
                                 transform: scaleX(100%)
                     &.active
-                        color: $basecolor3
+                        color: $basecolor2
                         &::before
                             opacity: 1
                             visibility: visible
@@ -176,14 +144,8 @@
                         height: 10px
                         background-size: 10px
                 button
-                    @media only screen and (min-width: 992px)
-                        pointer-events: none
                     span
                         padding-right: 3px
-                        @media only screen and (min-width: 1200px)
-                            padding-right: 4px
-                        @media only screen and (min-width: 1551px)
-                            padding-right: 6px
                 a::after
                     display: none
             &>.accordion-collapse
@@ -298,24 +260,24 @@
                 @media only screen and (min-width: 1551px)
                     padding: 0 20px
             &>.lftSd
-                width: 80px
-                @media only screen and (min-width: 376px)
-                    width: 90px
+                width: 50px
                 @media only screen and (min-width: 576px)
-                    width: 100px
+                    width: 60px
                 @media only screen and (min-width: $header-collapse)
+                    width: 70px
+                @media only screen and (min-width: 1200px)
                     width: 90px
                 @media only screen and (min-width: 1551px)
                     width: 120px
             &>.rgtSd
-                width: calc(100% - 80px)
+                width: calc(100% - 50px)
                 justify-content: flex-end
                 @include display
-                @media only screen and (min-width: 376px)
-                    width: calc(100% - 90px)
                 @media only screen and (min-width: 576px)
-                    width: calc(100% - 100px)
+                    width: calc(100% - 60px)
                 @media only screen and (min-width: $header-collapse)
+                    width: calc(100% - 70px)
+                @media only screen and (min-width: 1200px)
                     width: calc(100% - 90px)
                 @media only screen and (min-width: 1551px)
                     width: calc(100% - 120px)
@@ -360,11 +322,9 @@
                         transform: rotate(-45deg) translate(2px, -2px)
             span
                 width: 100%
-                height: 2px
+                height: 4px
                 display: block
-                background-color: $black
-                border-radius: 4px
-                margin: 5px 0
+                background-color: $white
                 -webkit-transition: all 0.3s ease
                 -moz-transition: all 0.3s ease
                 -ms-transition: all 0.3s ease
@@ -372,24 +332,22 @@
                 transition: all 0.3s ease
                 position: relative
                 z-index: 0
-                @media only screen and (min-width: 1200px)
-                    margin: 6px 0
                 &:nth-child(2)
-                    width: 80%
+                    margin: 4px 0
+                    @media only screen and (min-width: 1200px)
+                        margin: 5px 0
+                &:nth-child(3)
+                    width: 60%
         .cNacBtnWrap
             display: flex
             transition: transform .4s ease
             padding: 0 0 0 10px
             @media only screen and (min-width: 576px)
                 padding: 0 0 0 15px
-            @media only screen and (min-width: $header-collapse)
-                display: none
         #CNavPOP
             opacity: 0
             visibility: hidden
             pointer-events: none
-            @media only screen and (min-width: $header-collapse)
-                display: none
             &.show
                 opacity: 1
                 visibility: visible
@@ -406,18 +364,6 @@
             top: 0
             right: 0
             transition: all .4s ease
-            @media only screen and (min-width: $header-collapse)
-                width: 100%
-                height: 100%
-                position: unset
-                display: block
-                opacity: 1
-                padding: 0
-                margin: 0
-                overflow: visible
-                min-height: auto
-                width: fit-content
-                width: -moz-fit-content
             &::before
                 content: ""
                 position: absolute
@@ -430,8 +376,6 @@
                 transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1)
                 background-color: rgba($black, 0.8)
                 transition: all 0.4s
-                @media only screen and (min-width: $header-collapse)
-                    display: none
             .cNavWrap
                 width: 100%
                 max-width: 320px
@@ -445,26 +389,16 @@
                 transform: translateX(100%)
                 transition: transform 0.4s ease-in-out
                 @include display
-                @media only screen and (min-width: $header-collapse)
-                    max-width: 100%
-                    min-height: auto
-                    transform: none
-                    background: none
-                    -webkit-backdrop-filter: none
-                    backdrop-filter: none
-                    overflow-y: visible
                 .mobLogo
                     width: 100%
                     height: 80px
                     display: block
                     padding: 5px 25px
-                    margin-bottom: 5px
-                    background-color: $white
+                    margin-bottom: 15px
+                    background-color: $basecolor
                     border-bottom: 1px solid rgba($black, 0.1)
                     @media only screen and (min-width: 576px)
                         padding: 10px 30px
-                    @media only screen and (min-width: $header-collapse)
-                        display: none
                     a
                         max-width: 120px
                         height: 100%
@@ -478,41 +412,120 @@
                     z-index: 1
                     top: 30px
                     right: 25px
-                    @media only screen and (min-width: $header-collapse)
-                        display: none
+        .accoMenuDesk>.accoMenu
+            height: 100%
+            display: none
+            flex-direction: row
+            @media only screen and (min-width: $header-collapse)
+                display: flex
+            &>.accordion-item
+                width: auto
+                &.hasAcco
+                    &>.accordion-header
+                        &:has(> button):has(> a)
+                            &>a
+                                padding-right: 1px
+                            &>button
+                                padding-left: 1px
+                                pointer-events: none
+                &:hover
+                    .accordion-header
+                        a::before
+                            opacity: 1
+                            visibility: visible
+                            transform: translateY(0)
+                        a
+                            &>span::after
+                                opacity: 1
+                                visibility: visible
+                                transform: scaleX(100%)
+                    &>.accordion-collapse
+                        opacity: 1
+                        pointer-events: all
+                        transform: translateY(0)
+                        display: block
+                &>.accordion-header
+                    a, button
+                        padding: 15px 5px
+                        @media only screen and (min-width: 1200px)
+                            padding: 15px 10px
+                        @media only screen and (min-width: 1551px)
+                            padding: 15px 15px
+                        &[aria-expanded="true"], &:hover
+                            &>span::after
+                                opacity: 1
+                                visibility: visible
+                                transform: scaleX(100%)
+                    button
+                        pointer-events: none
+                        span
+                            padding-right: 4px
+                            @media only screen and (min-width: 1551px)
+                                padding-right: 6px
+                    button
+                        pointer-events: none
+                &>.accordion-collapse
+                    position: absolute
+                    right: 0
+                    top: 100%
+                    opacity: 0
+                    pointer-events: none
+                    display: block
+                    transform: translateY(10px)
+                    &.show
+                        opacity: 1
+                        pointer-events: all
+                        transform: translateY(0)
+                .accordion-body
+                    padding: 0
         .qLinkItemWrap
             margin: 0 -6px
             align-items: center
             @include display
             flex-wrap: nowrap
             @media only screen and (min-width: $header-collapse)
-                margin: 0 -8px
+                margin: 0 -6px 0 0
+            @media only screen and (min-width: 1200px)
+                margin: 0 -10px 0 0
             @media only screen and (min-width: 1551px)
-                margin: 0 -12px
+                margin: 0 -12px 0 0
             &>.item
                 padding: 0 6px
-                @media only screen and (min-width: $header-collapse)
-                    padding: 0 8px
+                @media only screen and (min-width: 1200px)
+                    padding: 0 10px
                 @media only screen and (min-width: 1551px)
                     padding: 0 12px
             .qLinkBtn
                 @include defaultValue
                 @extend %hdTxt
+                text-align: center
                 text-transform: uppercase
                 width: 100%
-                height: auto
-                padding: 4px 10px
+                max-width: 100px
+                height: 32px
+                padding: 6px 10px
                 background: none
                 border: 1px solid $white
                 will-change: transform
                 margin: auto
                 display: block
+                @media only screen and (min-width: 376px)
+                    max-width: 160px
+                @media only screen and (min-width: 576px)
+                    max-width: 200px
                 @media only screen and (min-width: $header-collapse)
+                    max-width: 100%
                     padding: 10px 10px
                 @media only screen and (min-width: 1551px)
                     padding: 10px 15px
+                &:hover
+                    color: $black
+                &::before
+                    background-color: $basecolor2
             .qLinkBtn2
                 color: $basecolor
                 background-color: $white
                 &:hover
-                    color: $white
+                    color: $black
+                &::before
+                    background-color: $basecolor2

@@ -88,7 +88,6 @@
 
     <!-- PRECONNECTING_MOST_USED_DOMAIN --->
     <link rel="preconnect" href="https://cdnjs.cloudflare.com">
-    <link rel="preconnect" href="https://ux.intersmarthosting.in">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -98,21 +97,18 @@
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <!-- ANIMATE_CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer">
-
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"></script>
 
     <!-- LAZYLOAD -->
-    <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.min.js" defer></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" defer
         onload="initializeLazyLoad()"></script>
     <script>
         function initializeLazyLoad() {
             var lazyLoadInstance = new LazyLoad({});
         }
-    </script>
+    </script> -->
 
     <link id="AppStyle" rel="stylesheet" href="assets/css/app.min.css?v=1.0.0">
 </head>
@@ -122,9 +118,9 @@
     <div id="preloader"
         style="width: 100%;height: 100%;position: fixed;z-index: 999;inset: 0;display: flex;align-items: center;justify-content: center; transition: opacity 0.4s ease;" inert>
         <div class="circle"
-            style="position: absolute;width: 200px;height: 200px;background: rgba(249, 249, 250, 1);border-radius: 50%;box-shadow: 0 0 0 100vw #fff;">
+            style="position: absolute;width: 200px;height: 200px;background: #0080ff;border-radius: 50%;box-shadow: 0 0 0 100vw #fff;">
         </div>
-        <img decoding="async" class="logo" src="assets/images/logo.webp" style="width: 100px;height: auto; z-index: 1;" width="100" height="100" alt="logo">
+        <img decoding="async" class="logo" src="assets/images/logo.webp" style="width: 40px;height: auto; z-index: 1;" width="68" height="106" alt="logo">
     </div>
 
     <?php include "includes/header.php" ?>

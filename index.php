@@ -9,13 +9,13 @@
                         <picture>
                             <source rel="preload" srcset="assets/images/banner-home-1.webp" media="(min-width:768px)"
                                 width="1920" height="1080">
-                            <img class="lazy" rel="preload" src="assets/images/banner-home-1.webp" width="640" height="360"
+                            <img rel="preload" src="assets/images/banner-home-1.webp" width="640" height="360"
                                 alt="banner" fetchpriority="low" loading="lazy" decoding="async">
                         </picture>
                         <div class="container">
                             <div class="cntWrap">
                                 <h1 class="mTxt">Don't look up</h1>
-                                <h2 class="mHead delmt-btn" data-text="look within">look within &nbsp; <a href="index.php" aria-label="explore">
+                                <h2 class="mHead delmt-btn" data-text="look within">look within &nbsp; <a href="index.php" class="gsap_delmt_up" aria-label="explore">
                                         <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                     </a></h2>
                                 <h2 class="mHead" data-text="transform beyond">transform beyond</h2>
@@ -28,59 +28,73 @@
     </section>
 
     <section id="Gallery">
-        <div class="delmt" inert>
-            <img src="assets/images/delmt-gal-1.png" width="40" height="40" loading="lazy" alt="delmt">
+        <div class="delmt gsap_delmt_mvmt" inert>
+            <img src="assets/images/delmt-gal-1.webp" width="40" height="40" loading="lazy" alt="delmt">
         </div>
         <div class="delmt_2" inert>
-            <img src="assets/images/delmt-gal-2.png" width="40" height="40" loading="lazy" alt="delmt">
+            <img src="assets/images/delmt-gal-2.webp" width="40" height="40" loading="lazy" alt="delmt">
         </div>
         <div class="delmt_3" inert>
-            <img src="assets/images/delmt-gal-3.png" width="40" height="40" loading="lazy" alt="delmt">
+            <img src="assets/images/delmt-gal-3.webp" width="40" height="40" loading="lazy" alt="delmt">
         </div>
         <div class="container">
             <div class="galFlx">
                 <div class="galCol">
-                    <?php
-                    for ($i = 1; $i <= 3; $i++) {
-                        $imageIndex = ($i % 6 == 0) ? 6 : $i % 6;
-                    ?>
-                        <div class="item">
-                            <a href="index.php" class="imgBx" aria-label="gal">
-                                <img src="assets/images/gal-<?php echo  $imageIndex ?>.jpg" width="200" height="200" loading="lazy" alt="arrow">
-                            </a>
-                        </div>
-                    <?php
-                    }
-                    ?>
-                </div>
-                <div class="galCol">
-                    <?php
-                    for ($i = 1; $i <= 3; $i++) {
-                        $imageIndex = ($i % 6 == 0) ? 6 : $i % 6;
-                    ?>
-                        <div class="item">
-                            <a href="index.php" class="imgBx" aria-label="gal">
-                                <img src="assets/images/gal-<?php echo  $imageIndex ?>.jpg" width="200" height="200" loading="lazy" alt="arrow">
-                            </a>
-                        </div>
-                    <?php
-                    }
-                    ?>
-                </div>
-                <div class="galCol">
-                    <?php
-                    for ($i = 1; $i <= 4; $i++) {
-                        $imageIndex = ($i % 6 == 0) ? 6 : $i % 6;
-                    ?>
-                        <div class="item">
-                            <a href="index.php" class="imgBx" aria-label="gal">
-                                <img src="assets/images/gal-<?php echo  $imageIndex ?>.jpg" width="200" height="200" loading="lazy" alt="arrow">
-                            </a>
-                        </div>
-                    <?php
-                    }
-                    ?>
                     <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-1.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-2.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-3.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="galCol">
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-3.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-4.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-8.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                </div>
+                <div class="galCol">
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-6.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-7.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-5.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item">
+                        <a href="index.php" class="imgBx" aria-label="gal">
+                            <img src="assets/images/gal-9.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        </a>
+                    </div>
+                    <div class="item gsap_delmt_rgt">
                         <a href="index.php" class="imgBx" aria-label="explore">
                             <img src="assets/images/gal-vw-btn.svg" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
@@ -93,41 +107,41 @@
     <section id="Programs">
         <div class="container">
             <div class="tleWrap">
-                <h6 class="mTxt">programs & workshops</h6>
-                <h4 class="mHd">Get enrolled in the course made
+                <h6 class="mTxt gsap_delmt_up gsap_splitting_txt">programs & workshops</h6>
+                <h4 class="mHd gsap_delmt_up gsap_splitting_txt">Get enrolled in the course made
                     by industry experts!</h4>
             </div>
             <div class="swiper programSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="index.php" class="programBx" aria-label="programs">
-                            <img src="assets/images/gal-<?php echo  $imageIndex ?>.jpg" width="200" height="200" loading="lazy" alt="arrow">
+                        <div class="programBx">
+                            <img src="assets/images/program-1.webp" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">fashion event management</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                                <div class="exBtn hoveranim"><span>Explore more</span></div>
+                                <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="index.php" class="programBx" aria-label="programs">
-                            <img src="assets/images/gal-<?php echo  $imageIndex ?>.jpg" width="200" height="200" loading="lazy" alt="arrow">
+                        <div class="programBx">
+                            <img src="assets/images/program-2.webp" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">Professional Modelling</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                                <div class="exBtn hoveranim"><span>Explore more</span></div>
+                                <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="index.php" class="programBx" aria-label="programs">
-                            <img src="assets/images/gal-<?php echo  $imageIndex ?>.jpg" width="200" height="200" loading="lazy" alt="arrow">
+                        <div class="programBx">
+                            <img src="assets/images/program-3.webp" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">Professional Workshops</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                                <div class="exBtn hoveranim"><span>Explore more</span></div>
+                                <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -138,7 +152,7 @@
                 <div class="txtWrap">
                     <h5>Unmatched education quality for career growth. Experience top-tier training from industry experts with tailored courses designed for today’s corporate needs.</h5>
                     <div class="btnWrap">
-                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="read more about programs">
                             <span>Learn more</span>
                         </a>
                     </div>
@@ -149,17 +163,17 @@
 
     <section id="JoinDlu">
         <div class="delmt_bg" inert>
-            <img src="assets/images/joindlu-bg.png" width="1440" height="712" loading="lazy" alt="joindlu">
+            <img src="assets/images/joindlu-bg.webp" width="1440" height="712" loading="lazy" alt="joindlu">
         </div>
         <div class="container">
             <div class="dFlx">
                 <div class="lftSd">
                     <div class="cntWrap">
                         <div class="tleWrap">
-                            <h4 class="mHd">top reasons <br> to join DLU</h4>
+                            <h4 class="mHd gsap_delmt_up gsap_splitting_txt">top reasons <br> to join DLU</h4>
                         </div>
                         <div class="btnWrap">
-                            <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                            <a href="index.php" class="baseBtn_1 hoveranim" aria-label="read more about programs">
                                 <span>Learn more</span>
                             </a>
                         </div>
@@ -234,14 +248,14 @@
             <div class="dFlx">
                 <div class="lftSd">
                     <div class="tleWrap">
-                        <h6 class="mTxt">the touters</h6>
-                        <h4 class="mHd">Creative minds fuel our expertise</h4>
+                        <h6 class="mTxt gsap_splitting_txt">the touters</h6>
+                        <h4 class="mHd gsap_delmt_up gsap_splitting_txt">Creative minds <br> fuel our expertise</h4>
                     </div>
                 </div>
                 <div class="rgtSd">
                     <div class="btnWrap">
-                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
-                            <span>Learn more</span>
+                        <a href="index.php" class="arrowBtn" aria-label="explore">
+                            <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                         </a>
                     </div>
                 </div>
@@ -251,8 +265,8 @@
             <div class="swiper expertiseSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="programBx">
-                            <img src="assets/images/expertise-1.png" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
@@ -263,8 +277,8 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="programBx">
-                            <img src="assets/images/expertise-1.png" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
@@ -275,8 +289,8 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="programBx">
-                            <img src="assets/images/expertise-1.png" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
@@ -287,8 +301,8 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="programBx">
-                            <img src="assets/images/expertise-1.png" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
@@ -303,7 +317,133 @@
         </div>
     </section>
 
-    <section id="GetTouch">
+    <section id="Placement">
+        <div class="container">
+            <div class="placementBx">
+                <div class="cntWrap">
+                    <div class="tleWrap center">
+                        <h6 class="mTxt gsap_splitting_txt">Our Placement</h6>
+                        <h4 class="mHd gsap_delmt_up gsap_splitting_txt">Where talent meets <br> opportunity in style.</h4>
+                    </div>
+                    <div class="btnWrap">
+                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                            <span>Explore more</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="imgWrap">
+                    <img src="assets/images/placement-img.webp" width="1200" height="500" loading="lazy" alt="placement">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="LifeDlu">
+        <div class="tleWrap center">
+            <h4 class="mHd gsap_delmt_up gsap_splitting_txt gsap_delmt_mvmt">life @ DLU</h4>
+        </div>
+        <div class="swiper gallerySlide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/gallery-2.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-2.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-3.webp" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/gallery-3.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-4.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-4.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/gallery-5.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-5.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-6.webp" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/gallery-6.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-7.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-7.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/gallery-8.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-8.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-9.webp" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/gallery-9.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/gallery-10.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-10.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Gateway">
+        <div class="tleWrap center">
+            <h4 class="mHd gsap_delmt_up gsap_splitting_txt">Your Gateway to Fashion <br> expertise and Success</h4>
+        </div>
+        <div class="swiper gatewaySlide">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-1.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-2.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-3.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-4.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-5.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-6.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="gatewayBx">
+                        <img src="assets/images/gateway-7.webp" width="150" height="272" loading="lazy" alt="experise">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <?php include "./includes/joinAcademy.php" ?>
+
+
+    <!-- <section id="GetTouch">
         <div class="delmt" inert>
             <img src="assets/images/delmt-gtouch-1.webp" class="gsap_delmt_rgt" loading="lazy" width="800" height="3000" alt="touch">
         </div>
@@ -314,14 +454,14 @@
             <img src="assets/images/delmt-gtouch-3.webp" loading="lazy" width="180" height="180" alt="pineapple">
         </div>
         <div class="container">
-            <div class="tleWrap center wow animate__fadeInUp">
-                <h4 class="mTle wow animate__fadeInUp gsap_splitting_txt">Get in Touch</h4>
+            <div class="tleWrap center gsap_delmt_up">
+                <h4 class="mTle gsap_delmt_up gsap_splitting_txt">Get in Touch</h4>
                 <h3 class="secTle gsap_splitting_txt">Partner with Life Smoothies Today</h3>
                 <p>If you own a café, cofee shop, or F&B outlet in the UAE, we’d love to connect with you. </p>
                 <p>Reach out to us, and one of our dedicated sales team members will arrange a meeting to <b>discuss
                         how Life Smoothies can enhance your menu and boost revenue for your business. </b> </p>
             </div>
-            <div class="formWrap wow animate__fadeInUp">
+            <div class="formWrap gsap_delmt_up">
                 <form method="POST">
                     <div class="row">
                         <div class="col-12 col-sm-6">
@@ -377,7 +517,7 @@
                 </form>
             </div>
         </div>
-    </section>
+    </section> -->
 
 </div>
 
@@ -391,6 +531,14 @@
 <!-- SWIPER -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- FANCYBOX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -418,7 +566,7 @@
                         ease: "power3.out",
                         scrollTrigger: {
                             trigger: target,
-                            start: "top 80%",
+                            start: "top 85%",
                             toggleActions: "play none none reset",
                             markers: false,
                             once: false,
@@ -446,7 +594,7 @@
                     ease: "power3.out",
                     scrollTrigger: {
                         trigger: gsapDelmtRgt,
-                        start: "top 80%",
+                        start: "top 95%",
                         toggleActions: "play none none reset",
                         markers: false,
                         ease: "power2",
@@ -475,7 +623,7 @@
                     ease: "power3.out",
                     scrollTrigger: {
                         trigger: gsapDelmtUp,
-                        start: "top 80%",
+                        start: "top 95%",
                         toggleActions: "play none none reset",
                         markers: false,
                         ease: "power2",
@@ -489,34 +637,35 @@
             );
         });
         // GSAP_ANIMATIONS
-        function initParallaxMovement(selector, targetSelector, movement) {
-            let timeout;
-            $(selector).on("mousemove", function(e) {
-                const $this = $(this);
-                if (timeout) clearTimeout(timeout);
-                timeout = setTimeout(() => {
-                    callParallax(e, $this, targetSelector, movement);
-                }, 16);
-            });
-
-            function callParallax(e, $element, targetSelector, movement) {
-                parallaxIt(e, $element, targetSelector, movement);
-            }
-
-            function parallaxIt(e, $element, targetSelector, movement) {
-                const $target = $element.find(targetSelector);
-                const relX = e.pageX - $element.offset().left;
-                const relY = e.pageY - $element.offset().top;
-                gsap.to($target, {
-                    duration: 1,
-                    x: ((relX - $element.width() / 2) / $element.width()) * movement,
-                    y: ((relY - $element.height() / 2) / $element.height()) * movement,
-                    ease: "power2.out"
+        gsap.matchMedia().add("(min-width: 992px)", () => {
+            function initParallaxMovement(selector, targetSelector, movement) {
+                let timeout;
+                $(selector).on("mousemove", function(e) {
+                    const $this = $(this);
+                    if (timeout) clearTimeout(timeout);
+                    timeout = setTimeout(() => {
+                        callParallax(e, $this, targetSelector, movement);
+                    }, 16);
                 });
+
+                function callParallax(e, $element, targetSelector, movement) {
+                    parallaxIt(e, $element, targetSelector, movement);
+                }
+
+                function parallaxIt(e, $element, targetSelector, movement) {
+                    const $target = $element.find(targetSelector);
+                    const relX = e.pageX - $element.offset().left;
+                    const relY = e.pageY - $element.offset().top;
+                    gsap.to($target, {
+                        duration: 1,
+                        x: ((relX - $element.width() / 2) / $element.width()) * movement,
+                        y: ((relY - $element.height() / 2) / $element.height()) * movement,
+                        ease: "power2.out"
+                    });
+                }
             }
-        }
-        initParallaxMovement("#GetTouch", ".gsap_delmt_mvmt", -100);
-        initParallaxMovement(".homePage", ".delmt", -100);
+            initParallaxMovement(".homePage", ".gsap_delmt_mvmt", -100);
+        });
 
         // TESTIMONIAL_SLIDE
         var programSlide = new Swiper(".programSlide", {
@@ -539,19 +688,14 @@
                 468: {
                     slidesPerView: 2,
                     loop: $('.programSlide .swiper-slide').length >= 2 ? true : false,
-                    spaceBetween: 10,
+                    spaceBetween: 15,
                 },
                 576: {
                     slidesPerView: 3,
                     loop: $('.programSlide .swiper-slide').length >= 3 ? true : false,
-                    spaceBetween: 15,
-                },
-                992: {
-                    slidesPerView: 3,
-                    loop: $('.programSlide .swiper-slide').length >= 4 ? true : false,
                     spaceBetween: 20,
                 },
-                1551: {
+                992: {
                     slidesPerView: 3,
                     loop: $('.programSlide .swiper-slide').length >= 4 ? true : false,
                     spaceBetween: 30,
@@ -561,14 +705,14 @@
         // EXPERTISE_SLIDE
         var expertiseSlide = new Swiper(".expertiseSlide", {
             slidesPerView: 1.4,
-            loop: $('.expertiseSlide .swiper-slide').length >= 1 ? true : false,
-            spaceBetween: 10,
+            loop: false,
+            spaceBetween: 0,
             watchSlidesProgress: true,
             lazy: {
                 loadPrevNext: true,
             },
             autoplay: {
-                delay: 2500,
+                delay: 3000,
                 disableOnInteraction: false,
             },
             pagination: {
@@ -576,28 +720,86 @@
                 clickable: true,
             },
             breakpoints: {
-                468: {
+                376: {
                     slidesPerView: 2,
-                    loop: $('.expertiseSlide .swiper-slide').length >= 2 ? true : false,
-                    spaceBetween: 10,
+                },
+                468: {
+                    slidesPerView: 2.5,
                 },
                 576: {
                     slidesPerView: 3,
-                    loop: $('.expertiseSlide .swiper-slide').length >= 3 ? true : false,
-                    spaceBetween: 15,
                 },
                 992: {
-                    slidesPerView: 3,
-                    loop: $('.expertiseSlide .swiper-slide').length >= 4 ? true : false,
-                    spaceBetween: 20,
+                    slidesPerView: 3.5,
                 },
                 1551: {
-                    slidesPerView: 3,
-                    loop: $('.expertiseSlide .swiper-slide').length >= 4 ? true : false,
-                    spaceBetween: 30,
+                    slidesPerView: 3.8,
                 },
             },
         });
+        // GALLERY_SLIDE
+        var gallerySlide = new Swiper(".gallerySlide", {
+            slidesPerView: 5,
+            loop: true,
+            spaceBetween: 0,
+            autoplay: {
+                delay: 1000,
+                disableOnInteraction: true,
+            },
+            autoplay: false,
+        });
+        // GATEWAY_SLIDE
+        var gatewaySlide;
+
+        function initSwiper() {
+            if (window.innerWidth <= 768) {
+                // Initialize Swiper if it hasn't been initialized yet
+                if (!gatewaySlide) {
+                    gatewaySlide = new Swiper(".gatewaySlide", {
+                        slidesPerView: 2.5,
+                        loop: $('.gatewaySlide .swiper-slide').length > 1,
+                        spaceBetween: 10,
+                        watchSlidesProgress: true,
+                        centeredSlides: true,
+                        roundLengths: true,
+                        lazy: {
+                            loadPrevNext: true,
+                        },
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            576: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 3,
+                            }
+                        }
+                    });
+                }
+            } else {
+                // Destroy Swiper if it has been initialized
+                if (gatewaySlide) {
+                    gatewaySlide.destroy(true, true);
+                    gatewaySlide = null;
+                }
+            }
+        }
+
+        // Initialize Swiper when the page loads
+        initSwiper();
+
+        // Add resize event listener to check window size on resize
+        window.addEventListener('resize', initSwiper);
+
     });
 </script>
 

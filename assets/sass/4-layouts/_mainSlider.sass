@@ -49,7 +49,8 @@
                 padding-bottom: 40px
     img, picture, source
         @include imgFit
-        object-fit: contain
+        @media only screen and (min-width: 576px)
+            object-fit: contain
     .dFlx
         height: 100%
         flex-direction: column
@@ -93,7 +94,7 @@
                 height: 100%
                 position: absolute
                 inset: 0
-                color: $basecolor3
+                color: $basecolor2
                 overflow: hidden
                 animation: text-fill 6s ease-in-out alternate infinite
                 pointer-events: none
@@ -140,6 +141,8 @@
                     transform: scale(0.8)
                 img
                     width: 100%
-                    max-width: 20px
+                    max-width: 10px
                     height: auto
                     display: block
+                    @media only screen and (min-width: 992px)
+                        max-width: 20px

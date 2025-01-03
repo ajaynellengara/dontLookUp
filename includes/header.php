@@ -8,26 +8,26 @@
                     </a>
                 </div>
                 <div class="rgtSd">
-                    <div class="accoDesk">
+                    <div class="accoMenuDesk">
                         <div class="accordion accoMenu" id="AccoMenuMob">
                             <?php include "includes/navLinks.php" ?>
                         </div>
                     </div>
-                    <!-- <div class="cNavOuter" id="CNavPOP">
+                    <div class="cNavOuter" id="CNavPOP">
                         <div class="cNavWrap">
                             <button type="button" class="cNacBtn close" aria-labelledby="CNavPOP">
                                 <span></span>
                                 <span></span>
                                 <span></span>
                             </button>
-                            <a href="index.php" class="mobLogo" aria-label="Logo">
+                            <div class="mobLogo">
                                 <img src="assets/images/logo.svg" width="160" height="160" loading="lazy" alt="logo">
-                            </a>
+                            </div>
                             <div class="accordion accoMenu" id="AccoMenuMob">
                                 <?php include "includes/navLinks.php" ?>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="qLinkItemWrap">
                         <div class="item">
                             <button class="qLinkBtn hoveranim" aria-label="join">
