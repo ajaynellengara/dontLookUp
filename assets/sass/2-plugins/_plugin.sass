@@ -102,34 +102,12 @@
 
 // SWIPER_VERTICAL_PAGINATION
 .swiper
-    .c-swiper-button
-        width: 30px
-        height: auto
-        aspect-ratio: 4/4
-        background-color: rgba($basecolor, 0.15)
-        backdrop-filter: blur(20px)
-        -webkit-backdrop-filter: blur(20px)
-        border-radius: 50%
-        -webkit-border-radius: 50%
-        @include center
-        @media only screen and (min-width: 992px)
-            width: 40px
-        @media only screen and (min-width: 1551px)
-            width: 50px
+    .swiper-button-prev, .swiper-button-next
+        width: var(--swiper-navigation-size)
         &:hover
-            background-color: rgba($basecolor, 0.2)
-        span
-            margin: 0 5px
-            transition: margin 0.4s
-            @media only screen and (min-width: 992px)
-                margin: 0 10px
+            transform: scale(0.9)
         img
-            width: 24px
-            height: auto
-            display: block
-        &.swiper-button-prev
-            img
-                transform: scaleX(-1)
+            @include imgFit
         &::after
             display: none
     .swiper-pagination-bullets.cHorizontal, .swiper-pagination.cHorizontal

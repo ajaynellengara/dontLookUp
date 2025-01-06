@@ -4,7 +4,7 @@
             <div class="mainFlx">
                 <div class="lftSd">
                     <a href="index.php" class="logo" aria-label="Logo">
-                        <img src="assets/images/logo.svg" width="160" height="160" alt="logo">
+                        <img src="assets/images/dont-logo.gif" width="68" height="106" alt="logo">
                     </a>
                 </div>
                 <div class="rgtSd">

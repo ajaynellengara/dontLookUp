@@ -1,0 +1,474 @@
+@use '../0-abstracts/' as *
+
+.aboutPage
+    #AboutInfo
+        width: 100%
+        height: auto
+        display: block
+        padding: 40px 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0
+        @media only screen and (min-width: 1551px)
+            padding: 120px 0
+        .academyWrap
+            width: 100%
+            height: auto
+            @include display
+            .imgWrap
+                width: 100%
+                height: auto
+                display: block
+                margin-bottom: 15px
+                @media only screen and (min-width: 992px)
+                    max-width: 30%
+                img
+                    width: 140px
+                    height: auto
+                    display: block
+            .txtWrap
+                width: 100%
+                height: auto
+                display: block
+                margin-left: auto
+                @media only screen and (min-width: 992px)
+                    max-width: 70%
+                h5
+                    line-height: 1.3
+                    font-weight: 300
+                    color: $white
+                    @media only screen and (min-width: 992px)
+                        font-size: 1.5rem
+        .trainingBx
+            width: 100%
+            height: auto
+            padding: 20px
+            overflow: hidden
+            margin: 40px 0 15px
+            position: relative
+            z-index: 0
+            @include display
+            @media only screen and (min-width: 576px)
+                padding: 60px
+                margin: 80px 0 20px
+            @media only screen and (min-width: 992px)
+                padding: 80px
+                margin: 100px 0 30px
+            @media only screen and (min-width: 1551px)
+                padding: 100px
+            &>img
+                position: absolute
+                z-index: -1
+                inset: 0
+                @include imgFit
+            &>.lftSd
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 60%
+            &>.rgtSd
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 40%
+            .tleWrap
+                .mHd
+                    color: $basecolor
+            .infoUl
+                @include display
+                &>li
+                    width: 100%
+                    height: auto
+                    display: block
+                    font-size: 16px
+                    line-height: 1
+                    font-weight: 600
+                    text-transform: uppercase
+                    color: $white
+                    @media only screen and (min-width: 576px)
+                        font-size: 20px
+                    @media only screen and (min-width: 992px)
+                        font-size: 24px
+                    @media only screen and (min-width: 1551px)
+                        font-size: 30px
+                    &:not(:last-of-type)
+                        margin-bottom: 15px
+                        @media only screen and (min-width: 576px)
+                            margin-bottom: 30px
+                        @media only screen and (min-width: 992px)
+                            margin-bottom: 40px
+        .joinBx
+            width: 100%
+            height: auto
+            padding: 60px 20px 40px
+            margin-bottom: 10px
+            overflow: hidden
+            position: relative
+            z-index: 0
+            @include display
+            @media only screen and (min-width: 576px)
+                padding: 80px 40px 60px
+                margin-bottom: 10px
+            @media only screen and (min-width: 992px)
+                padding: 140px 100px 100px
+                margin-bottom: 15px
+            @media only screen and (min-width: 1551px)
+                padding: 180px 120px 120px
+            &>img
+                position: absolute
+                z-index: -1
+                inset: 0
+                @include imgFit
+            .bxCnt
+                width: 100%
+                max-width: 768px
+                height: auto
+                margin: auto
+                display: block
+                text-align: center
+        .miviFlx
+            margin: 0 -5px
+            @include display
+            @media only screen and (min-width: 576px)
+                margin: 0 -10px
+            @media only screen and (min-width: 992px)
+                margin: 0 -15px
+            &>*
+                padding: 5px
+                @media only screen and (min-width: 576px)
+                    padding: 10px
+                @media only screen and (min-width: 992px)
+                    padding: 15px
+            &>.item
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 50%
+                &:nth-child(even)
+                    .miviBx
+                        background-color: $black
+                        flex-direction: column-reverse
+                        &:hover
+                            .bxImg>img
+                                transform: scale(1.1) translateX(50%)
+                        .tle, %miviBxTxt, .txt
+                            color: $basecolor2
+                        .bxImg
+                            margin-left: 0
+                            margin-right: auto
+                        .bxCnt
+                            text-align: right
+                            margin-left: auto
+                            margin-right: 0
+        .miviBx
+            width: 100%
+            height: auto
+            padding: 20px
+            background-color: $basecolor
+            justify-content: space-between
+            flex-direction: column
+            @include display
+            @media only screen and (min-width: 576px)
+                min-height: 320px
+                padding: 40px
+            @media only screen and (min-width: 992px)
+                min-height: 468px
+                padding: 60px
+            @media only screen and (min-width: 1551px)
+                min-height: 576px
+                padding: 80px
+            &:hover
+                .bxImg>img
+                    transform: scale(1.1) translateX(-50%)
+            .tle
+                font-size: 26px
+                line-height: 1.2
+                font-weight: 600
+                font-family: $fontstack3
+                text-transform: uppercase
+                color: $white
+                display: block
+                @media only screen and (min-width: 468px)
+                    font-size: 32px
+                @media only screen and (min-width: 576px)
+                    font-size: 48px
+                @media only screen and (min-width: 992px)
+                    font-size: 62px
+                @media only screen and (min-width: 1200px)
+                    font-size: 92px
+                @media only screen and (min-width: 1551px)
+                    font-size: 100px
+            %miviBxTxt, .txt
+                font-size: 10px
+                line-height: 1.4
+                font-weight: 400
+                color: $white
+                @media only screen and (min-width: 576px)
+                    font-size: 12px
+                @media only screen and (min-width: 992px)
+                    font-size: 14px
+                @media only screen and (min-width: 1551px)
+                    font-size: 16px
+            .bxCnt
+                width: 100%
+                max-width: 320px
+                height: auto
+                display: block
+            .bxImg
+                width: 100%
+                max-width: 80px
+                height: auto
+                display: block
+                margin-left: auto
+                @media only screen and (min-width: 576px)
+                    max-width: 100px
+                @media only screen and (min-width: 992px)
+                    max-width: 120px
+                @media only screen and (min-width: 1551px)
+                    max-width: 140px
+                img
+                    transition: all 0.5s ease
+                    @include imgFit
+
+    #ReasonsJoinDlu
+        width: 100%
+        height: auto
+        display: block
+        padding: 40px 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0
+        @media only screen and (min-width: 1551px)
+            padding: 120px 0
+        .tleWrap>.mHd
+            color: $basecolor2
+        .rJoinDluGrid
+            @include display
+            margin: 0 -5px
+            @media only screen and (min-width: 992px)
+                margin: 0 -10px
+            @media only screen and (min-width: 1551px)
+                margin: 0 -15px
+            &>.gridCol
+                width: 100%
+                @include display
+                @media only screen and (min-width: 576px)
+                    width: calc(100% / 2)
+                &>*
+                    padding: 5px
+                    @media only screen and (min-width: 992px)
+                        padding: 10px
+                    @media only screen and (min-width: 1551px)
+                        padding: 15px
+                &>.item
+                    width: calc(100% / 2)
+                &:nth-child(even)
+                    &>.item
+                        &:last-of-type
+                            width: 100%
+                            .rJoinDluBx
+                                aspect-ratio: 576/260
+                &:nth-child(odd)
+                    &>.item
+                        &:nth-child(1)
+                            width: 100%
+                            .rJoinDluBx
+                                aspect-ratio: 576/260
+        .rJoinDluBx
+            width: 100%
+            height: auto
+            aspect-ratio: 276/370
+            background-color: $black
+            overflow: hidden
+            position: relative
+            z-index: 0
+            &:hover
+                &>img
+                    opacity: 0.6
+                    transform: scale(1.1)
+                .bxCnt.hover
+                    transform: none
+                    opacity: 1
+                    visibility: visible
+                .bxCnt:not(.hover)
+                    opacity: 0
+                    visibility: visible
+                    transform: translateY(-100%)
+            &>img
+                opacity: 0.9
+                position: absolute
+                z-index: -1
+                inset: 0
+                transition: opacity 0.4s ease, transform 0.4s ease
+                @include imgFit
+            .tle
+                font-size: 14px
+                line-height: 1.2
+                font-weight: 500
+                text-transform: uppercase
+                color: $white
+                display: block
+                @media only screen and (min-width: 992px)
+                    font-size: 18px
+                @media only screen and (min-width: 1551px)
+                    font-size: 24px
+            %rJoinDluBxTxt, .txt
+                font-size: 10px
+                line-height: 1.4
+                font-weight: 400
+                color: $white
+                @media only screen and (min-width: 576px)
+                    font-size: 12px
+                @media only screen and (min-width: 992px)
+                    font-size: 14px
+                @media only screen and (min-width: 1551px)
+                    font-size: 16px
+            .bxCnt
+                position: absolute
+                z-index: 0
+                inset: 0
+                top: auto
+                padding: 10px
+                transition: all 0.4s ease
+                @media only screen and (min-width: 576px)
+                    padding: 15px
+                @media only screen and (min-width: 992px)
+                    max-width: 320px
+                    padding: 30px
+                &>*
+                    margin: 5px 0
+                    @media only screen and (min-width: 992px)
+                        margin: 10px 0
+            .bxCnt.hover
+                opacity: 0
+                visibility: hidden
+                transform: translateY(100%)
+                .tle
+                    color: $basecolor2
+            .bxCnt:not(.hover)
+                opacity: 1
+                visibility: visible
+                transform: none
+
+    #OurTeam
+        width: 100%
+        height: auto
+        background-color: $basecolor
+        display: block
+        padding: 40px 0 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0 0
+        @media only screen and (min-width: 1551px)
+            padding: 120px 0 0
+        .teamSlide
+            .swiper-slide
+                &.swiper-slide-active
+                    .teamBx
+                        &:hover
+                            .bxCnt
+                                opacity: 1
+                                visibility: visible
+                                transform: none
+                            &>img
+                                opacity: 0.2
+                &:not(.swiper-slide-active)
+                    .teamBx
+                        transform: scale(0.8)
+        .teamBx
+            width: 100%
+            height: auto
+            aspect-ratio: 290/420
+            overflow: hidden
+            position: relative
+            z-index: 0
+            display: block
+            transform-origin: bottom
+            transition: transform 0.4s ease
+            &>img
+                display: block
+                transition: transform 0.4s ease
+                object-position: top
+                @include imgFit
+            .tle
+                font-size: 14px
+                line-height: 1.2
+                font-weight: 500
+                text-transform: uppercase
+                color: $white
+                display: block
+                @media only screen and (min-width: 468px)
+                    font-size: 16px
+                @media only screen and (min-width: 576px)
+                    font-size: 18px
+                @media only screen and (min-width: 992px)
+                    font-size: 20px
+                @media only screen and (min-width: 1551px)
+                    font-size: 26px
+            %rJoinDluBxTxt, .txt
+                font-size: 10px
+                line-height: 1.4
+                font-weight: 400
+                color: $white
+                @media only screen and (min-width: 576px)
+                    font-size: 12px
+                @media only screen and (min-width: 992px)
+                    font-size: 14px
+                @media only screen and (min-width: 1551px)
+                    font-size: 16px
+            .bxCnt
+                width: 100%
+                height: auto
+                display: block
+                margin: auto
+                position: absolute
+                z-index: 0
+                top: 50%
+                left: 0
+                right: 0
+                padding: 15px
+                opacity: 0
+                visibility: hidden
+                transform: translateY(100%)
+                transition: all 0.4s ease
+                text-align: center
+                @media only screen and (min-width: 576px)
+                    padding: 20px
+                @media only screen and (min-width: 992px)
+                    max-width: 268px
+                    padding: 30px
+                &>*
+                    margin: 5px 0
+                    @media only screen and (min-width: 992px)
+                        margin: 10px 0
+            .btnWrap
+                .baseBtn_1
+                    margin: auto
+
+    #OurPartners
+        width: 100%
+        height: auto
+        background-color: $white
+        display: block
+        padding: 40px 0 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0 0
+        @media only screen and (min-width: 1551px)
+            padding: 120px 0 0
+        .tleWrap>.mHd
+            color: $basecolor
+        .ourPartnersBx
+            width: 100%
+            height: auto
+            aspect-ratio: 4/2
+            display: block
+            padding: 15px
+            @media only screen and (min-width: 576px)
+                padding: 20px
+            @media only screen and (min-width: 992px)
+                padding: 30px
+            img
+                @include imgFit
+                object-fit: contain

@@ -57,6 +57,7 @@
         z-index: 1
     &:hover
         color: $white
+        border-color: $basecolor
         &::before
             -webkit-transform-origin: left
             -ms-transform-origin: left
@@ -72,14 +73,15 @@
     @extend %baseBtnTxt
     color: $basecolor
     max-width: 140px
-    height: 30px
+    height: 35px
     padding: 5px
     background-color: $basecolor2
     border: 1px solid $basecolor2
     @media only screen and (min-width: 992px)
-        max-width: 120px
-    @media only screen and (min-width: 1551px)
         max-width: 140px
+    @media only screen and (min-width: 1551px)
+        height: 40px
+        max-width: 160px
 
 .baseBtn.vAllBtn
     @extend %baseBtnTxt
@@ -141,10 +143,8 @@ input.baseBtn
         @media only screen and (min-width: 992px)
             font-size: 62px
         @media only screen and (min-width: 1200px)
-            font-size: 72px
-        @media only screen and (min-width: 1551px)
             font-size: 92px
-        @media only screen and (min-width: 1771px)
+        @media only screen and (min-width: 1551px)
             font-size: 100px
     .mTxt
         font-size: 18px
@@ -339,18 +339,6 @@ input.baseBtn
         font-size: 25px
     h6
         font-size: 0.75rem
-    %ckCntWrapTxt
-        font-size: 12px
-        line-height: 1.4
-        font-weight: 400
-        color: $text
-        @media only screen and (min-width: 576px)
-            font-size: 13px
-        @media only screen and (min-width: 992px)
-            font-size: 14px
-            line-height: 1.6
-        @media only screen and (min-width: 1551px)
-            font-size: 16px
         &:last-child
             margin-bottom: 5px
     img

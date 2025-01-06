@@ -223,64 +223,91 @@
 //                 background-color: rgba($basecolor, 0.1)
 
 // INNER_BANNER
-// #InnerBanner
-//     width: 100%
-//     height: 260px
-//     position: relative
-//     z-index: 0
-//     display: block
-//     @media only screen and (min-width: 576px)
-//         height: 320px
-//     @media only screen and (min-width: 992px)
-//         height: 370px
-//     @media only screen and (min-width: 1200px)
-//         height: 470px
-//     @media only screen and (min-width: 1451px)
-//         height: 550px
-//     @media only screen and (min-width: 1751px)
-//         height: 800px
-//     &.sm
-//         height: var(--header-y)
-//     &::after
-//         content: ''
-//         position: absolute
-//         z-index: 0
-//         bottom: 0
-//         width: 100%
-//         height: 100%
-//         opacity: 0.7
-//         background: rgb(14,55,64)
-//         background: linear-gradient(0deg, rgba(14,55,64,1) 0%, rgba(0,0,0,0) 20%)
-//         pointer-events: none
-//     picture
-//         display: block
-//         width: 100%
-//         height: 100%
-//         img
-//             @include imgFit
-//     .container
-//         position: absolute
-//         z-index: 1
-//         inset: 0
-//         padding-top: 30px
-//         padding-bottom: 30px
-//         @media only screen and (min-width: 576px)
-//             padding-top: 40px
-//             padding-bottom: 40px
-//         @media only screen and (min-width: 992px)
-//             padding-top: 60px
-//             padding-bottom: 60px
-//         @media only screen and (min-width: 1551px)
-//             padding-top: 64px
-//             padding-bottom: 64px
-//     .bgImg
-//         width: 100%
-//         height: 100%
-//         display: block
-//         img
-//             @include imgFit
-//     .cntWrap
-//         width: 100%
-//         height: auto
-//         display: block
-//         text-align: center
+#InnerBanner
+    width: 100%
+    height: 468px
+    display: block
+    background-color: $basecolor
+    position: relative
+    z-index: 0
+    @media only screen and (min-width: 576px)
+        height: var(--app-height)
+    @media only screen and (min-width: 992px)
+        min-height: 520px
+    @media only screen and (min-width: 1551px)
+        min-height: 576px
+    &.sm
+        height: var(--header-y)
+    &>.container
+        position: absolute
+        z-index: 1
+        inset: 0
+        padding-top: calc(var(--header-y) + 10px)
+        padding-bottom: 20px
+        align-items: center
+        @include display
+        @media only screen and (min-width: 576px)
+            padding-top: calc(var(--header-y) + 15px)
+            padding-bottom: 30px
+        @media only screen and (min-width: 1551px)
+            padding-top: calc(var(--header-y) + 20px)
+            padding-bottom: 40px
+    img, picture, source
+        @include imgFit
+        // @media only screen and (min-width: 576px)
+        //     object-fit: contain
+    .dFlx
+        height: 100%
+        flex-direction: column
+        justify-content: space-between
+        @include display
+        &>.fullSd
+            width: 100%
+    .cntWrap
+        width: 100%
+        height: auto
+        flex-direction: column
+        @include display
+        &>*
+            margin: 2px 0
+        .mHead
+            font-size: 36px
+            line-height: 1
+            font-weight: 600
+            font-family: $fontstack3
+            text-transform: uppercase
+            color: $white
+            display: inline-block
+            position: relative
+            z-index: 0
+            @media only screen and (min-width: 468px)
+                font-size: 54px
+            @media only screen and (min-width: 576px)
+                font-size: 68px
+            @media only screen and (min-width: 992px)
+                font-size: 72px
+            @media only screen and (min-width: 1200px)
+                font-size: 76px
+            @media only screen and (min-width: 1551px)
+                font-size: 82px
+            @media only screen and (min-width: 1771px)
+                font-size: 98px
+        .mTxt
+            font-size: 18px
+            line-height: 1
+            font-weight: 600
+            font-family: $fontstack3
+            text-transform: uppercase
+            color: $basecolor2
+            display: inline-block
+            @media only screen and (min-width: 576px)
+                font-size: 26px
+            @media only screen and (min-width: 992px)
+                font-size: 54px
+            @media only screen and (min-width: 1551px)
+                font-size: 62px
+            @media only screen and (min-width: 1771px)
+                font-size: 80px
+
+
+

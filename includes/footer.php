@@ -7,7 +7,7 @@
                 <div class="ftCol">
                     <div class="itemWrap">
                         <a href="index.php" class="logoWrap" aria-label="Logo">
-                            <img src="assets/images/logo.svg" width="70" height="109" loading="lazy" alt="logo">
+                            <img src="assets/images/dont-logo.gif" width="70" height="109" loading="lazy" alt="logo">
                         </a>
                     </div>
                 </div>
@@ -169,44 +169,44 @@
             <div class="ftAccordion">
                 <div class="ftCol">
                     <div class="itemWrap">
-                        <div class="partnerBx">
-                            <img src="assets/images/partner-1.webp" width="60" height="25" loading="lazy" alt="partner">
-                        </div>
+                        <a href="index.php" class="partnerBx" aria-label="partners">
+                            <img src="assets/images/partner-1.svg" width="60" height="25" loading="lazy" alt="partner">
+                        </a>
                     </div>
                 </div>
                 <div class="ftCol">
                     <div class="itemWrap">
-                        <div class="partnerBx">
-                            <img src="assets/images/partner-2.webp" width="60" height="25" loading="lazy" alt="partner">
-                        </div>
+                        <a href="index.php" class="partnerBx" aria-label="partners">
+                            <img src="assets/images/partner-2.svg" width="60" height="25" loading="lazy" alt="partner">
+                        </a>
                     </div>
                 </div>
                 <div class="ftCol">
                     <div class="itemWrap">
-                        <div class="partnerBx">
-                            <img src="assets/images/partner-3.webp" width="60" height="25" loading="lazy" alt="partner">
-                        </div>
+                        <a href="index.php" class="partnerBx" aria-label="partners">
+                            <img src="assets/images/partner-3.svg" width="60" height="25" loading="lazy" alt="partner">
+                        </a>
                     </div>
                 </div>
                 <div class="ftCol">
                     <div class="itemWrap">
-                        <div class="partnerBx">
-                            <img src="assets/images/partner-4.webp" width="60" height="25" loading="lazy" alt="partner">
-                        </div>
+                        <a href="index.php" class="partnerBx" aria-label="partners">
+                            <img src="assets/images/partner-4.svg" width="60" height="25" loading="lazy" alt="partner">
+                        </a>
                     </div>
                 </div>
                 <div class="ftCol">
                     <div class="itemWrap">
-                        <div class="partnerBx">
-                            <img src="assets/images/partner-5.webp" width="60" height="25" loading="lazy" alt="partner">
-                        </div>
+                        <a href="index.php" class="partnerBx" aria-label="partners">
+                            <img src="assets/images/partner-5.svg" width="60" height="25" loading="lazy" alt="partner">
+                        </a>
                     </div>
                 </div>
                 <div class="ftCol">
                     <div class="itemWrap">
-                        <div class="partnerBx">
-                            <img src="assets/images/partner-6.webp" width="60" height="25" loading="lazy" alt="partner">
-                        </div>
+                        <a href="index.php" class="partnerBx" aria-label="partners">
+                            <img src="assets/images/partner-6.svg" width="60" height="25" loading="lazy" alt="partner">
+                        </a>
                     </div>
                 </div>
             </div>

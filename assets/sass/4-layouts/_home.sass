@@ -12,8 +12,6 @@
     @media only screen and (min-width: 576px)
         padding: 40px 0
     @media only screen and (min-width: 992px)
-        padding: 50px 0
-    @media only screen and (min-width: 1551px)
         padding: 60px 0
     &>.delmt
         width: 20px
@@ -107,6 +105,7 @@
         z-index: 0
         @media only screen and (min-width: 992px)
             height: 100%
+            aspect-ratio: auto
         &:hover
             &>img
                 transform: scale(1.05)
@@ -130,7 +129,7 @@
             @media only screen and (min-width: 576px)
                 font-size: 20px
             @media only screen and (min-width: 992px)
-                font-size: 24px
+                font-size: 26px
             @media only screen and (min-width: 1551px)
                 font-size: 30px
         .txt
@@ -152,6 +151,7 @@
                 max-width: 60%
                 margin-bottom: 60px
             @media only screen and (min-width: 1551px)
+                max-width: 70%
                 margin-bottom: 80px
             &>*
                 margin: 5px 0
@@ -161,7 +161,7 @@
             @extend %baseBtnTxt
             width: 100%
             max-width: 120px
-            height: 30px
+            height: 35px
             padding: 5px
             display: block
             background-color: $basecolor2
@@ -173,7 +173,9 @@
                 margin-top: 10px
             @media only screen and (min-width: 992px)
                 max-width: 140px
-                margin-top: 20px
+                margin-top: 40px
+            @media only screen and (min-width: 1551px)
+                max-width: 160px
             &:hover
                 color: $white
             &::before
@@ -202,9 +204,11 @@
             @media only screen and (min-width: 992px)
                 max-width: 70%
             h5
-                line-height: 1.2
-                font-weight: 400
+                line-height: 1.3
+                font-weight: 300
                 color: $white
+                @media only screen and (min-width: 992px)
+                    font-size: 1.5rem
 
 #JoinDlu
     width: 100%
@@ -323,9 +327,9 @@
         transition: transform 0.4s
         @include center
         @media only screen and (min-width: 576px)
-            width: 50px
+            width: 60px
         @media only screen and (min-width: 992px)
-            width: 80px
+            width: 100px
         @media only screen and (min-width: 1551px)
             width: 120px
         &:hover
@@ -557,7 +561,7 @@
         padding: 60px 0 40px
     @media only screen and (min-width: 992px)
         --galbx-y: 420px
-        padding: 80px 0 60px
+        padding: 100px 0 60px
     @media only screen and (min-width: 1551px)
         --galbx-y: 468px
         padding: 120px 0 80px
@@ -568,6 +572,7 @@
         top: 0
         left: auto
         right: auto
+        transform: translateY(50%)
         .mHd
             font-size: 4em
             line-height: 1
@@ -719,800 +724,110 @@
             img
                 @include imgFit
 
-#Products
-    width: 100%
-    height: auto
-    display: block
-    position: relative
-    z-index: 0
-    padding: 15px 0 20px
-    @media only screen and (min-width: 576px)
-        padding: 20px 0 30px
-    @media only screen and (min-width: 992px)
-        padding: 30px 0 60px
-    @media only screen and (min-width: 1551px)
-        padding: 40px 0 80px
-    &>.delmt
-        width: 60px
-        height: auto
-        display: block
-        position: absolute
-        z-index: -1
-        top: 50%
-        left: 2%
-        @media only screen and (min-width: 992px)
-            width: 80px
-        @media only screen and (min-width: 1551px)
-            width: 120px
-        img
-            transform: scaleX(-1)
-        &_pack
-            width: 180px
-            height: auto
-            display: block
-            position: absolute
-            z-index: -1
-            top: 8%
-            left: 5%
-            @media only screen and (min-width: 576px)
-                width: 268px
-            @media only screen and (min-width: 992px)
-                width: 320px
-            @media only screen and (min-width: 1551px)
-                width: 468px
-            img
-                transform: rotate(-45deg) translate(-50%, -50%)
-        img
-            @include imgFit
-    .tleWrap
-        position: relative
-        z-index: 0
-        &>.delmt
-            width: 40px
-            height: auto
-            display: block
-            margin: 0
-            transform: scaleX(-1)
-            position: absolute
-            z-index: -1
-            top: -14%
-            left: 54%
-            @media only screen and (min-width: 576px)
-                width: 60px
-            @media only screen and (min-width: 992px)
-                width: 70px
-            @media only screen and (min-width: 1551px)
-                width: 80px
-            img
-                @include imgFit
-        .mTle
-            color: $basecolor2
-    .dFlx
-        margin: 0 -5px
-        @include display
-        @media only screen and (min-width: 576px)
-            margin: 0 -10px
-        @media only screen and (min-width: 992px)
-            margin: 0 -20px
-        @media only screen and (min-width: 1200px)
-            margin: 0 -30px
-        &>*
-            padding: 5px
-            @media only screen and (min-width: 576px)
-                padding: 10px
-            @media only screen and (min-width: 992px)
-                padding: 20px
-            @media only screen and (min-width: 1200px)
-                padding: 30px
-        &>.item
-            width: 100%
-            width: calc(100% / 2)
-            @media only screen and (min-width: 576px)
-                width: calc(100% / 3)
-            @media only screen and (min-width: 992px)
-                width: calc(100% / 4)
-    .proBx
-        width: 100%
-        height: auto
-        display: block
-        .tle
-            font-size: 14px
-            line-height: 1.3
-            font-weight: 700
-            text-align: center
-            text-transform: uppercase
-            color: $text
-            white-space: nowrap
-            overflow: hidden
-            text-overflow: ellipsis
-            @media only screen and (min-width: 576px)
-                font-size: 16px
-            @media only screen and (min-width: 992px)
-                font-size: 20px
-            @media only screen and (min-width: 1551px)
-                font-size: 24px
-        .bxIcon
-            width: 100%
-            height: auto
-            display: block
-            aspect-ratio: 4/4
-            border-radius: 20px
-            -webkit-border-radius: 20px
-            overflow: hidden
-            margin-bottom: 5px
-            @media only screen and (min-width: 992px)
-                margin-bottom: 10px
-            @media only screen and (min-width: 1551px)
-                margin-bottom: 20px
-            &:hover
-                img
-                    transform: scale(1.2)
-            img
-                transition: transform 0.4s ease
-                @include imgFit
-        .bxCnt
-            width: 100%
-            height: auto
-            display: block
-
-#FeaturedProduct
-    --delmt-y: 100px
-    --circle-slide-xy: 268px
-    --item-xy: 120px
-    width: 100%
-    height: auto
-    display: block
-    position: relative
-    z-index: 0
-    padding: var(--delmt-y) 0 0
-    @media only screen and (min-width: 576px)
-        --delmt-y: 110px
-        --circle-slide-xy: 320px
-        --item-xy: 168px
-    @media only screen and (min-width: 992px)
-        --delmt-y: 160px
-        --circle-slide-xy: 420px
-        --item-xy: 260px
-    @media only screen and (min-width: 1551px)
-        --delmt-y: 180px
-        --circle-slide-xy: 468px
-        --item-xy: 276px
-    &>.delmt
-        width: 60px
-        height: auto
-        display: block
-        transform: scaleX(-1)
-        position: absolute
-        z-index: 1
-        top: 25px
-        left: 30%
-        @media only screen and (min-width: 576px)
-            width: 80px
-        @media only screen and (min-width: 992px)
-            width: 140px
-        &_leaf
-            width: 140px
-            height: auto
-            display: block
-            position: absolute
-            z-index: -1
-            bottom: 7%
-            left: 2%
-            transform: translate(-50%, 50%)
-            @media only screen and (min-width: 576px)
-                width: 220px
-            @media only screen and (min-width: 992px)
-                width: 276px
-            @media only screen and (min-width: 1551px)
-                width: 320px
-        &_bg
-            width: 100%
-            height: 100%
-            display: block
-            position: absolute
-            z-index: -1
-            inset: 0
-            span
-                width: 100%
-                height: calc(100% - (var(--delmt-y) * 2))
-                margin: var(--delmt-y) 0
-                display: block
-                background-color: $basecolor3
-                display: block
-                position: relative
-                z-index: 0
-                &::after, &::before
-                    content: ""
-                    width: 100%
-                    height: calc(var(--delmt-y) + 2px)
-                    display: block
-                    position: absolute
-                    z-index: -1
-                    left: 0
-                    right: 0
-                    background-image: url("../images/delmt-fpro-bg.svg")
-                &::before
-                    top: calc(var(--delmt-y) * -1)
-                    background-position: top
-                &::after
-                    bottom: calc(var(--delmt-y) * -1)
-                    background-position: bottom
-    .dFlx
-        flex-direction: column-reverse
-        align-items: center
-        @include display
-        @media only screen and (min-width: 768px)
-            flex-direction: row
-            margin: 0 -15px
-        @media only screen and (min-width: 992px)
-            margin: 0 -30px
-        @media only screen and (min-width: 1551px)
-            margin: 0 -40px
-        &>*
-            padding: 10px 0
-            @media only screen and (min-width: 768px)
-                padding: 0 15px
-            @media only screen and (min-width: 992px)
-                padding: 0 30px
-            @media only screen and (min-width: 1551px)
-                padding: 0 40px
-        &>.lftSd
-            width: 100%
-            @media only screen and (min-width: 768px)
-                width: 50%
-            @media only screen and (min-width: 992px)
-                width: 468px
-            @media only screen and (min-width: 1200px)
-                width: 520px
-            @media only screen and (min-width: 1551px)
-                width: 620px
-        &>.rgtSd
-            width: 100%
-            @media only screen and (min-width: 768px)
-                width: 50%
-            @media only screen and (min-width: 992px)
-                width: calc(100% - 468px)
-            @media only screen and (min-width: 1200px)
-                width: calc(100% - 520px)
-            @media only screen and (min-width: 1551px)
-                width: calc(100% - 620px)
-    .tleWrap
-        position: relative
-        z-index: 0
-        text-align: center
-        @media only screen and (min-width: 768px)
-            text-align: start
-        &>#delmt-fProducts-tle
-            width: 40px
-            height: auto
-            display: block
-            margin: 0
-            position: absolute
-            z-index: -1
-            top: 0
-            left: 65%
-            @media only screen and (min-width: 992px)
-                width: 60px
-                top: -45px
-                left: 36%
-            @media only screen and (min-width: 1551px)
-                width: 80px
-            svg
-                @include imgFit
-                path
-                    animation: blinker 3s step-end infinite
-                    &:nth-child(1)
-                        animation: blinker 2s step-end infinite
-                    &:nth-child(3)
-                        animation: blinker 1s step-end infinite
-        .mTle, .mTle span
-            color: $basecolor2
-    .cntWrap
-        width: 100%
-        height: auto
-        display: block
-        margin-bottom: 70px
-        @media only screen and (min-width: 576px)
-            margin-bottom: 90px
-        @media only screen and (min-width: 992px)
-            margin-bottom: 150px
-    .imgWrap
-        width: 100%
-        max-width: var(--circle-slide-xy)
-        height: auto
-        aspect-ratio: 580/520
-        background-color: $basecolor2
-        box-shadow: -5px -5px 0 5px rgba($basecolor, 1)
-        position: relative
-        z-index: 0
-        border-radius: 50%
-        -webkit-border-radius: 50%
-        overflow: hidden
-        margin: 0 auto
-        @media only screen and (min-width: 992px)
-            max-width: 100%
-            box-shadow: -20px -20px 0 10px rgba($basecolor, 1)
-    .circleSlideWrap
-        width: 100%
-        max-width: calc(var(--circle-slide-xy) + (var(--item-xy) / 2))
-        height: calc((var(--circle-slide-xy) / 2) + (var(--item-xy) / 2))
-        display: block
-        margin-left: auto
-        margin-right: auto
-        margin-top: calc(var(--item-xy) / 2)
-        position: relative
-        z-index: 0
-        @media only screen and (min-width: 768px)
-            margin-left: 0
-            margin-right: 0
-        &::after, &::before
-            content: ""
-            position: absolute
-            z-index: -1
-            top: 0
-            background-repeat: repeat
-            background-size: contain
-            width: 82px
-            height: 150px
-        &::after
-            background-image: url(../images/circle-arrow-lft.png)
-            right: calc(50% + (var(--item-xy) / 2))
-        &::before
-            background-image: url(../images/circle-arrow-rgt.png)
-            left: calc(50% + (var(--item-xy) / 2))
-        .circleSlide
-            width: 100%
-            max-width: var(--circle-slide-xy)
-            height: auto
-            aspect-ratio: 4/4
-            margin: auto
-            border-radius: 100%
-            -webkit-border-radius: 100%
-            transition: rotate 1s
-            position: relative
-            z-index: 0
-            @include center
-            .circleSlide_item
-                width: var(--item-xy)
-                position: absolute
-                z-index: 1
-                &:nth-child(1)
-                    top: calc((var(--item-xy) / 2) * -1)
-                    transform: rotate(0)
-                &:nth-child(2)
-                    right: calc((var(--item-xy) / 2) * -1)
-                    transform: rotate(90deg)
-                &:nth-child(3)
-                    bottom: calc((var(--item-xy) / 2) * -1)
-                    transform: rotate(180deg)
-                &:nth-child(4)
-                    left: calc((var(--item-xy) / 2) * -1)
-                    transform: rotate(270deg)
-                &.active
-                    .circleSlide_bx
-                        &>img
-                            transform: scale(1)
-                            transition: transform 0.5s 0.5s
-                        &>.bxCnt
-                            opacity: 1
-                            visibility: visible
-                            transform: scale(1)
-                            transition: all 0.5s 0.5s
-                &.last_item
-                    .circleSlide_bx
-                        &>img
-                            opacity: 0
-                            transform: scale(0)
-                            transition: all 0.5s
-                .circleSlide_bx
-                    width: 100%
-                    height: auto
-                    display: block
-                    position: relative
-                    z-index: 0
-                    &>img
-                        width: 100%
-                        object-fit: cover
-                        transform: scale(0.6)
-                        transition: transform 0.5s
-                    &>.bxCnt
-                        width: 100%
-                        height: auto
-                        position: absolute
-                        z-index: 1
-                        top: 100%
-                        left: 0
-                        right: 0
-                        opacity: 0
-                        visibility: hidden
-                        transform: scale(0)
-                        transition: all 0.5s
-                    .tle
-                        font-size: 16px
-                        line-height: 1.2
-                        font-weight: 700
-                        text-align: center
-                        color: $text
-                        white-space: nowrap
-                        overflow: hidden
-                        text-overflow: ellipsis
-                        margin-bottom: 5px
-                        @media only screen and (min-width: 576px)
-                            font-size: 20px
-                        @media only screen and (min-width: 992px)
-                            font-size: 28px
-                            margin-bottom: 10px
-                        @media only screen and (min-width: 1551px)
-                            font-size: 38px
-                    .learnBtn
-                        @include defaultValue
-                        font-size: 12px
-                        line-height: 1
-                        font-weight: 700
-                        text-align: center
-                        color: $white
-                        width: 100%
-                        max-width: 160px
-                        height: 40px
-                        margin: auto
-                        background-color: $basecolor
-                        transition: background 0.4s ease
-                        border-radius: 50px
-                        -webkit-border-radius: 50px
-                        @include center
-                        @media only screen and (min-width: 576px)
-                            font-size: 14px
-                        @media only screen and (min-width: 992px)
-                            font-size: 16px
-                        @media only screen and (min-width: 1551px)
-                            font-size: 18px
-                        &:hover
-                            background-color: $basecolor2
-    .circleSlide_thumbnail
-        width: 100%
-        height: 100%
-        display: block
-        position: relative
-        z-index: 0
-        .circleSlide_thumb
-            width: 100%
-            height: 100%
-            display: block
-            overflow: hidden
-            position: absolute
-            z-index: -1
-            inset: 0
-            transition: all 1s 0.5s
-            opacity: 0
-            visibility: hidden
-            &.active
-                opacity: 1
-                visibility: visible
-        img
-            @include imgFit
-    .arrows
-        width: 95%
-        height: auto
-        margin: auto
-        position: absolute
-        z-index: 1
-        top: calc(50% - 20px)
-        left: 0
-        right: 0
-        justify-content: space-between
-        @include display
-        &>button
-            @include defaultValue
-            width: 40px
-            height: auto
-            aspect-ratio: 4/4
-            border-radius: 50%
-            -webkit-border-radius: 50%
-            background: rgba($basecolor, 0.6)
-            transition: background 0.4s
-            &:hover
-                background-color: $basecolor
-            svg
-                display: block
-
-#Steps
-    width: 100%
-    height: auto
-    display: block
-    padding: 15px 0
-    @media only screen and (min-width: 576px)
-        padding: 20px 0
-    @media only screen and (min-width: 992px)
-        padding: 30px 0
-    @media only screen and (min-width: 1551px)
-        padding: 40px 0
-    .delmt
-        width: 100%
-        max-width: 320px
-        height: auto
-        margin-top: 30px
-        margin-left: auto
-        margin-right: auto
-        display: block
-        position: relative
-        z-index: 0
-        @media only screen and (min-width: 576px)
-            max-width: 468px
-            margin-top: 60px
-        @media only screen and (min-width: 992px)
-            max-width: 576px
-            margin-top: 80px
-        @media only screen and (min-width: 1551px)
-            max-width: 768px
-            margin-top: 120px
-        &_fruit
-            width: 40px
-            height: auto
-            aspect-ratio: 140/150
-            position: absolute
-            z-index: 0
-            top: 20px
-            left: 50%
-            transform: translate(-50%, -50%)
-            transition: left 0.4s cubic-bezier(.2,.8,.9,.6)
-            @media only screen and (min-width: 576px)
-                width: 60px
-            @media only screen and (min-width: 992px)
-                width: 80px
-            @media only screen and (min-width: 1551px)
-                width: 120px
-        img
-            width: 100%
-            height: auto
-            display: block
-    .secWrap
-        width: 100%
-        height: auto
-        max-width: 468px
-        margin: auto
-        display: block
-        @media only screen and (min-width: 576px)
-            max-width: 576px
-        @media only screen and (min-width: 992px)
-            max-width: 992px
-        @media only screen and (min-width: 1551px)
-            max-width: 1300px
-    .secTleWrap
-        width: 100%
-        height: auto
-        display: block
-        margin-bottom: 20px
-        @media only screen and (min-width: 576px)
-            margin-bottom: 40px
-        @media only screen and (min-width: 992px)
-            margin-bottom: 60px
-        @media only screen and (min-width: 1551px)
-            margin-bottom: 80px
-        &>img
-            width: 100%
-            height: auto
-            display: block
-        // .secTle
-        //     font-size: 20px
-        //     line-height: 1.2
-        //     font-weight: 400
-        //     text-align: center
-        //     color: $text
-        //     @media only screen and (min-width: 576px)
-        //         font-size: 24px
-        //     @media only screen and (min-width: 992px)
-        //         font-size: 34px
-        //     @media only screen and (min-width: 1551px)
-        //         font-size: 42px
-        //     @media only screen and (min-width: 1771px)
-        //         font-size: 50px
-        //     &>span
-        //         display: inline-block
-        //         padding: 0 0 0 1px
-        //         position: relative
-        //         z-index: 0
-    .dFlx
-        margin: 0 -10px
-        justify-content: center
-        @include display
-        @media only screen and (min-width: 576px)
-            margin: 0 -15px
-        @media only screen and (min-width: 992px)
-            margin: 0 -20px
-        @media only screen and (min-width: 1551px)
-            margin: 0 -30px
-        &>*
-            padding: 10px
-            @media only screen and (min-width: 576px)
-                padding: 15px
-            @media only screen and (min-width: 992px)
-                padding: 20px
-            @media only screen and (min-width: 1551px)
-                padding: 30px
-        &>.item
-            width: 100%
-            @media only screen and (min-width: 576px)
-                width: calc(100% / 2)
-            @media only screen and (min-width: 992px)
-                width: calc(100% / 3)
-    .stepsBx
-        width: 100%
-        height: auto
-        justify-content: center
-        @include display
-        &:hover
-            .bxIcon>img
-                transform: scale(0.8)
-        .tle
-            font-size: 16px
-            line-height: 1.2
-            font-weight: 700
-            color: $text
-            @media only screen and (min-width: 576px)
-                font-size: 18px
-            @media only screen and (min-width: 992px)
-                font-size: 20px
-            @media only screen and (min-width: 1551px)
-                font-size: 26px
-        .txt
-            font-size: 12px
-            line-height: 1.4
-            font-weight: 500
-            color: $text
-            @media only screen and (min-width: 576px)
-                font-size: 14px
-            @media only screen and (min-width: 992px)
-                font-size: 16px
-            @media only screen and (min-width: 1551px)
-                font-size: 18px
-        .bxIcon
-            width: 60px
-            height: 60px
-            padding: 15px
-            display: block
-            background-color: $basecolor3
-            border-radius: 50%
-            -webkit-border-radius: 50%
-            margin-bottom: 10px
-            @include center
-            @media only screen and (min-width: 576px)
-                width: 80px
-                height: 80px
-            @media only screen and (min-width: 992px)
-                width: 100px
-                height: 100px
-                padding: 20px
-                margin-bottom: 0
-            @media only screen and (min-width: 1551px)
-                width: 140px
-                height: 140px
-            img
-                transition: transform 0.4s
-                @include imgFit
-                object-fit: contain
-        .bxCnt
-            text-align: center
-            width: 100%
-            height: auto
-            display: block
-            @media only screen and (min-width: 992px)
-                text-align: start
-                width: calc(100% - 100px)
-                padding-left: 15px
-            @media only screen and (min-width: 1551px)
-                width: calc(100% - 140px)
-                padding-left: 20px
-            &>*
-                margin: 0 0 4px 0
-                @media only screen and (min-width: 576px)
-                    margin: 0 0 6px 0
-                @media only screen and (min-width: 992px)
-                    margin: 0 0 8px 0
-
-#GetTouch
-    width: 100%
-    height: auto
-    display: block
-    position: relative
-    z-index: 0
-    padding: 30px 0 15px
-    @media only screen and (min-width: 576px)
-        padding: 60px 0 30px
-    @media only screen and (min-width: 992px)
-        padding: 80px 0 40px
-    @media only screen and (min-width: 1551px)
-        padding: 100px 0 50px
-    .delmt
-        width: 100%
-        max-width: 120px
-        height: auto
-        display: block
-        opacity: 0.4
-        position: absolute
-        z-index: -1
-        top: 15%
-        left: 0
-        transform: translate(-50%, -50%)
-        @media only screen and (min-width: 576px)
-            max-width: 260px
-        @media only screen and (min-width: 992px)
-            max-width: 468px
-            opacity: 1
-        @media only screen and (min-width: 1551px)
-            max-width: 576px
-        &_fruit
-            width: 80px
-            height: auto
-            opacity: 0.4
-            position: absolute
-            z-index: -1
-            top: 15%
-            right: 0
-            transform: translate(50%, -50%)
-            @media only screen and (min-width: 576px)
-                width: 220px
-            @media only screen and (min-width: 992px)
-                width: 276px
-                opacity: 1
-            @media only screen and (min-width: 1551px)
-                width: 320px
-        &_pineapple
-            width: 80px
-            height: auto
-            position: absolute
-            z-index: -1
-            bottom: -20px
-            left: 30%
-            @media only screen and (min-width: 576px)
-                width: 100px
-            @media only screen and (min-width: 992px)
-                width: 120px
-            @media only screen and (min-width: 1551px)
-                width: 180px
-        img
-            width: 100%
-            height: auto
-            display: block
-    .tleWrap
-        .mTle, .mTle span
-            color: $text
-        .secTle
-            font-size: 20px
-            line-height: 1.2
-            font-weight: 700
-            color: $basecolor2
-            display: block
-            @media only screen and (min-width: 576px)
-                font-size: 26px
-            @media only screen and (min-width: 992px)
-                font-size: 34px
-            @media only screen and (min-width: 1551px)
-                font-size: 48px
-            @media only screen and (min-width: 1771px)
-                font-size: 60px
-    .formWrap, .tleWrap>p
-        width: 100%
-        height: auto
-        margin-left: auto
-        margin-right: auto
-        @media only screen and (min-width: 576px)
-            max-width: 576px
-        @media only screen and (min-width: 992px)
-            max-width: 768px
-        @media only screen and (min-width: 1551px)
-            max-width: 1080px
-    .formWrap
-        width: 100%
-        height: auto
-        display: block
-        .btnWrap
-            width: 100%
-            height: auto
-            display: block
-            margin-top: 15px
-            @media only screen and (min-width: 992px)
-                margin-top: 20px
-            @media only screen and (min-width: 1551px)
-                margin-top: 40px
-            .baseBtn
-                margin: auto
+// #GetTouch
+//     width: 100%
+//     height: auto
+//     display: block
+//     position: relative
+//     z-index: 0
+//     padding: 30px 0 15px
+//     @media only screen and (min-width: 576px)
+//         padding: 60px 0 30px
+//     @media only screen and (min-width: 992px)
+//         padding: 80px 0 40px
+//     @media only screen and (min-width: 1551px)
+//         padding: 100px 0 50px
+//     .delmt
+//         width: 100%
+//         max-width: 120px
+//         height: auto
+//         display: block
+//         opacity: 0.4
+//         position: absolute
+//         z-index: -1
+//         top: 15%
+//         left: 0
+//         transform: translate(-50%, -50%)
+//         @media only screen and (min-width: 576px)
+//             max-width: 260px
+//         @media only screen and (min-width: 992px)
+//             max-width: 468px
+//             opacity: 1
+//         @media only screen and (min-width: 1551px)
+//             max-width: 576px
+//         &_fruit
+//             width: 80px
+//             height: auto
+//             opacity: 0.4
+//             position: absolute
+//             z-index: -1
+//             top: 15%
+//             right: 0
+//             transform: translate(50%, -50%)
+//             @media only screen and (min-width: 576px)
+//                 width: 220px
+//             @media only screen and (min-width: 992px)
+//                 width: 276px
+//                 opacity: 1
+//             @media only screen and (min-width: 1551px)
+//                 width: 320px
+//         &_pineapple
+//             width: 80px
+//             height: auto
+//             position: absolute
+//             z-index: -1
+//             bottom: -20px
+//             left: 30%
+//             @media only screen and (min-width: 576px)
+//                 width: 100px
+//             @media only screen and (min-width: 992px)
+//                 width: 120px
+//             @media only screen and (min-width: 1551px)
+//                 width: 180px
+//         img
+//             width: 100%
+//             height: auto
+//             display: block
+//     .tleWrap
+//         .mTle, .mTle span
+//             color: $text
+//         .secTle
+//             font-size: 20px
+//             line-height: 1.2
+//             font-weight: 700
+//             color: $basecolor2
+//             display: block
+//             @media only screen and (min-width: 576px)
+//                 font-size: 26px
+//             @media only screen and (min-width: 992px)
+//                 font-size: 34px
+//             @media only screen and (min-width: 1551px)
+//                 font-size: 48px
+//             @media only screen and (min-width: 1771px)
+//                 font-size: 60px
+//     .formWrap, .tleWrap>p
+//         width: 100%
+//         height: auto
+//         margin-left: auto
+//         margin-right: auto
+//         @media only screen and (min-width: 576px)
+//             max-width: 576px
+//         @media only screen and (min-width: 992px)
+//             max-width: 768px
+//         @media only screen and (min-width: 1551px)
+//             max-width: 1080px
+//     .formWrap
+//         width: 100%
+//         height: auto
+//         display: block
+//         .btnWrap
+//             width: 100%
+//             height: auto
+//             display: block
+//             margin-top: 15px
+//             @media only screen and (min-width: 992px)
+//                 margin-top: 20px
+//             @media only screen and (min-width: 1551px)
+//                 margin-top: 40px
+//             .baseBtn
+//                 margin: auto
