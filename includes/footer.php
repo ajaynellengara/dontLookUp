@@ -25,7 +25,7 @@
                                 <div class="accordion-body">
                                     <ul class="ftUl">
                                         <li>
-                                            <a href="index.php" class="ftTxt" aria-label="nav">About</a>
+                                            <a href="about.php" class="ftTxt" aria-label="nav">About</a>
                                         </li>
                                         <li>
                                             <a href="index.php" class="ftTxt" aria-label="nav">Privacy Policy</a>

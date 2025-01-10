@@ -100,16 +100,6 @@
     <!-- JQUERY -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"></script>
 
-    <!-- LAZYLOAD -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.min.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.3/dist/lazyload.min.js" defer
-        onload="initializeLazyLoad()"></script>
-    <script>
-        function initializeLazyLoad() {
-            var lazyLoadInstance = new LazyLoad({});
-        }
-    </script> -->
-
     <link id="AppStyle" rel="stylesheet" href="assets/css/app.min.css?v=1.0.0">
 </head>
 

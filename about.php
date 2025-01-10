@@ -1,5 +1,7 @@
 <?php include "main.php" ?>
 
+<link rel="stylesheet" href="assets/css/pages.min.css?v=1.0.0">
+
 <div id="pageWrapper" class="aboutPage">
     <section id="InnerBanner">
         <picture>
@@ -11,7 +13,7 @@
         <div class="container">
             <div class="cntWrap">
                 <h1 class="mTxt">Who we are</h1>
-                <h2 class="mHead" data-text="Empowering Your Future with Quality, Industry-Focused Education">Empowering Your Future with Quality, Industry-Focused Education</h2>
+                <h2 class="mHead">Empowering Your Future with Quality, Industry-Focused Education</h2>
             </div>
         </div>
     </section>

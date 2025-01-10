@@ -1,0 +1,250 @@
+@use '../0-abstracts/' as *
+
+.coursePage
+    #CourseInfo
+        width: 100%
+        height: auto
+        display: block
+        padding: 40px 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0
+        @media only screen and (min-width: 1551px)
+            padding: 120px 0
+        .academyWrap
+            width: 100%
+            height: auto
+            @include display
+            .imgWrap
+                font-size: 24px
+                line-height: 1
+                font-weight: 600
+                font-family: $fontstack3
+                text-transform: uppercase
+                color: $basecolor2
+                width: 100%
+                height: auto
+                display: block
+                margin-bottom: 15px
+                @media only screen and (min-width: 576px)
+                    font-size: 28px
+                @media only screen and (min-width: 992px)
+                    font-size: 32px
+                    max-width: 30%
+                @media only screen and (min-width: 1551px)
+                    font-size: 38px
+                img
+                    width: 140px
+                    height: auto
+                    display: block
+            .txtWrap
+                width: 100%
+                height: auto
+                display: block
+                margin-left: auto
+                @media only screen and (min-width: 992px)
+                    max-width: 70%
+                h5
+                    line-height: 1.3
+                    font-weight: 300
+                    color: $white
+                    @media only screen and (min-width: 992px)
+                        font-size: 1.5rem
+        .courseDtlFlx
+            margin: 0 -5px
+            align-items: center
+            @include display
+            @media only screen and (min-width: 576px)
+                margin: 0 -10px
+            @media only screen and (min-width: 992px)
+                margin: 0 -15px
+            &>*
+                padding: 0 5px
+                @media only screen and (min-width: 576px)
+                    padding: 0 10px
+                @media only screen and (min-width: 992px)
+                    padding: 0 15px
+            &>.w50
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 50%
+            .btnWrap
+                margin-top: 15px
+                @media only screen and (min-width: 576px)
+                    margin-top: 30px
+        .courseFlx
+            margin: 0 -5px
+            @include display
+            @media only screen and (min-width: 576px)
+                margin: 0 -10px
+            @media only screen and (min-width: 992px)
+                margin: 0 -15px
+            &>*
+                padding: 5px
+                @media only screen and (min-width: 576px)
+                    padding: 10px
+                @media only screen and (min-width: 992px)
+                    padding: 15px
+            &>.item
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 50%
+                &:last-of-type
+                    width: 100%
+            .programBx
+                aspect-ratio: 585/580
+        .courseVdoBx
+            width: 100%
+            height: auto
+            aspect-ratio: 1080/468
+            display: block
+            position: relative
+            z-index: 0
+            .icon
+                width: 35px
+                height: auto
+                aspect-ratio: 4/4
+                display: block
+                margin: auto
+                position: absolute
+                z-index: 0
+                inset: 0
+                &:hover
+                    img
+                        transform: scale(1.1)
+                img
+                    transition: transform 0.4s
+                    object-fit: contain
+            img
+                @include imgFit
+
+    #Gateway
+        .gatewayBx
+            border-radius: 20px
+            -webkit-border-radius: 20px
+            @media only screen and (max-width: 767px)
+                aspect-ratio: auto
+        .gatewaySlide
+            @media only screen and (max-width: 767px)
+                opacity: 1
+                overflow: visible
+                .swiper-wrapper
+                    align-items: center
+                    @include display
+                .swiper-slide
+                    width: calc(100% / 7)
+                    padding: 0 4px
+                    justify-content: center
+                    @include display
+                    @media only screen and (max-width: 576px)
+                        padding: 0 2px
+                    &:nth-child(4)
+                        width: 20%
+                    &:nth-child(3)
+                        width: 16%
+                        .gatewayBx
+                            transform: translateY(calc(-1 * var(--bx-y)))
+                    &:nth-child(5)
+                        width: 16%
+                        .gatewayBx
+                            transform: translateY(var(--bx-y))
+                    &:nth-child(2)
+                        width: 14%
+                        .gatewayBx
+                            transform: translateY(var(--bx-y))
+                    &:nth-child(6)
+                        width: 14%
+                        .gatewayBx
+                            transform: translateY(calc(-1 * var(--bx-y)))
+                    &:nth-child(1)
+                        width: 10%
+                        .gatewayBx
+                            transform: translateY(calc(-1 * var(--bx-y)))
+                    &:nth-child(7)
+                        width: 10%
+                        .gatewayBx
+                            transform: translateY(var(--bx-y))
+
+.coursePage.detail
+    #CourseInfo
+        padding-bottom: 0
+
+    #CourseSyllabus
+        width: 100%
+        height: auto
+        background-color: $white
+        display: block
+        padding: 40px 0
+        @media only screen and (min-width: 576px)
+            padding: 60px 0
+        @media only screen and (min-width: 992px)
+            padding: 80px 0
+        @media only screen and (min-width: 1551px)
+            padding: 100px 0
+        .tleWrap
+            .mHd
+                line-height: 1
+                color: $basecolor
+        .ckCntWrap
+            h1, h2, h3, h4, h5, h6, p, li, td
+                color: $text
+        .cSyllabusFlx
+            margin: 0 -5px
+            @include display
+            @media only screen and (min-width: 576px)
+                margin: 0 -10px
+            @media only screen and (min-width: 992px)
+                margin: 0 -15px
+            &>*
+                padding: 0 5px
+                @media only screen and (min-width: 576px)
+                    padding: 0 10px
+                @media only screen and (min-width: 992px)
+                    padding: 0 15px
+            &>.lftSd, &>.rgtSd
+                width: 100%
+                @media only screen and (min-width: 576px)
+                    width: 50%
+        .cObjectBx
+            width: 100%
+            height: auto
+            margin: auto
+            display: block
+            @media only screen and (min-width: 576px)
+                max-width: 320px
+            @media only screen and (min-width: 992px)
+                max-width: 376px
+            @media only screen and (min-width: 1551px)
+                max-width: 420px
+            .tle
+                font-size: 16px
+                line-height: 1.2
+                font-weight: 600
+                text-transform: uppercase
+                color: $basecolor
+                margin-bottom: 20px
+                @media only screen and (min-width: 576px)
+                    font-size: 20px
+                @media only screen and (min-width: 992px)
+                    font-size: 24px
+                    margin-bottom: 30px
+                @media only screen and (min-width: 1551px)
+                    font-size: 30px
+                    margin-bottom: 40px
+            ul
+                margin-left: 15px
+                &>li
+                    @extend %pTxt
+                    color: $basecolor
+                    width: 100%
+                    list-style: disc
+                    &:not(:last-of-type)
+                        margin-bottom: 15px
+                        @media only screen and (min-width: 992px)
+                            margin-bottom: 20px
+            p
+                color: $basecolor
+
+
+

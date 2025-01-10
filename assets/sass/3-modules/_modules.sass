@@ -37,190 +37,85 @@
 //         text-orientation: mixed
 
 // FIXED_ICON
-#fixedRgt
-    --bx-xy: 100%
-    width: var(--bx-xy)
-    height: 40px
-    box-shadow: 0 -5px 10px 0 rgba($black, 0.2)
-    position: fixed
-    z-index: 9
-    bottom: 0
-    right: 0
-    @include display
-    flex-wrap: nowrap
-    @media only screen and (min-width: 468px)
-        --bx-xy: 30px
-        height: auto
-        box-shadow: none
-        bottom: 23%
-        flex-wrap: wrap
-        right: 10px
-    @media only screen and (min-width: 576px)
-        --bx-xy: 30px
-        right: 15px
-    @media only screen and (min-width: 992px)
-        --bx-xy: 32px
-        right: 20px
-    @media only screen and (min-width: 1351px)
-        --bx-xy: 32px
-        right: 15px
-    @media only screen and (min-width: 1551px)
-        --bx-xy: 40px
-        right: 40px
-    @media only screen and (min-width: 1771px)
-        --bx-xy: 44px
-    &>li
-        width: calc(100% / 3 )
-        background-color: $white
-        @media only screen and (min-width: 468px)
-            width: 100%
-            margin: 4px 0
-            background: none
-        @media only screen and (min-width: 992px)
-            margin: 6px 0
-        @media only screen and (min-width: 1551px)
-            margin: 10px 0
-        &>a, &>.socialBtn
-            font-size: 14px
-            line-height: 1
-            font-weight: 700
-            color: #28a19f
-            width: var(--bx-xy)
-            height: var(--bx-xy)
-            padding: 6px
-            border: 0
-            border-radius: 0
-            @include center
-            @media only screen and (min-width: 468px)
-                font-size: 16px
-                padding: 0
-                border-radius: 50%
-                box-shadow: 0 0 10px 0 rgba($black, 0.1)
-            @media only screen and (min-width: 992px)
-                font-size: 18px
-            @media only screen and (min-width: 1551px)
-                font-size: 20px
-            &:hover
-                background-color: rgba($basecolor, 0.1)
-                svg, img
-                    transform: scale(1.1)
-            svg, img
-                transition: transform 0.4s ease
-                @include imgFit
-                object-fit: contain
-    .whatsapp
-        background-color: #409744
-        @media only screen and (min-width: 468px)
-            background: none
-    .call
-        background-color: #df3b4a
-        @media only screen and (min-width: 468px)
-            background: none
-
-// SEARCH_MODAL
-// .searchModal
-//     background-color: rgba($black, 0.8)
-//     --bs-backdrop-opacity: 0
-//     .modal-dialog
-//         position: unset
-//         max-width: 100%
-//     .modal-content
-//         background: none
-//         border: 0
-//         border-radius: 0
-//         position: unset
-//     .modal-header
-//         padding: 0
-//         border: 0
-//         border-radius: 0
-//         .btn-close
-//             margin: 0
-//             filter: var(--bs-btn-close-white-filter)
-//             position: absolute
-//             z-index: 1
-//             top: 0
-//             right: 0
-//     .modal-body
-//         width: 100%
-//         max-width: 376px
+// #fixedRgt
+//     --bx-xy: 100%
+//     width: var(--bx-xy)
+//     height: 40px
+//     box-shadow: 0 -5px 10px 0 rgba($black, 0.2)
+//     position: fixed
+//     z-index: 9
+//     bottom: 0
+//     right: 0
+//     @include display
+//     flex-wrap: nowrap
+//     @media only screen and (min-width: 468px)
+//         --bx-xy: 30px
 //         height: auto
-//         margin: auto
-//         padding: 20px
-//         display: block
-//         @media only screen and (min-width: 576px)
-//             max-width: 500px
-//     .searchForm
-//         --input-y: 40px
-//         position: relative
-//         z-index: 0
+//         box-shadow: none
+//         bottom: 23%
+//         flex-wrap: wrap
+//         right: 10px
+//     @media only screen and (min-width: 576px)
+//         --bx-xy: 30px
+//         right: 15px
+//     @media only screen and (min-width: 992px)
+//         --bx-xy: 32px
+//         right: 20px
+//     @media only screen and (min-width: 1351px)
+//         --bx-xy: 32px
+//         right: 15px
+//     @media only screen and (min-width: 1551px)
+//         --bx-xy: 40px
+//         right: 40px
+//     @media only screen and (min-width: 1771px)
+//         --bx-xy: 44px
+//     &>li
+//         width: calc(100% / 3 )
+//         background-color: $white
+//         @media only screen and (min-width: 468px)
+//             width: 100%
+//             margin: 4px 0
+//             background: none
 //         @media only screen and (min-width: 992px)
-//             --input-y: 60px
-//     .searchInputWrap
-//         width: 100%
-//         height: auto
-//         background-color: $white
-//         border: 1px solid #444
-//         box-shadow: 0 0 0 10px rgba($white, 0.2)
-//         border-radius: 50px
-//         -webkit-border-radius: 50px
-//         overflow: hidden
-//         @include display
-//         .searchInput
-//             @extend %pTxt
-//             color: #444
-//             width: calc(100% - 60px)
-//             height: var(--input-y)
+//             margin: 6px 0
+//         @media only screen and (min-width: 1551px)
+//             margin: 10px 0
+//         &>a, &>.socialBtn
+//             font-size: 14px
+//             line-height: 1
+//             font-weight: 700
+//             color: #28a19f
+//             width: var(--bx-xy)
+//             height: var(--bx-xy)
+//             padding: 6px
 //             border: 0
-//             padding: 10px 15px
-//             @media only screen and (min-width: 992px)
-//                 padding: 10px 20px
-//         .searchBtn
-//             @include defaultValue
-//             width: 60px
-//             height: var(--input-y)
-//             background-color: $basecolor
-//             transition: all 0.4s
+//             border-radius: 0
 //             @include center
-//             &:hover
-//                 background-color: #001b21
-//                 img, svg
-//                     transform: scale(1.1)
-//             .icon
-//                 width: 20px
-//                 height: auto
-//                 display: block
-//             img, svg
-//                 transition: transform 0.4s
-//                 @include imgFit
-//     .resultWrap
-//         width: 100%
-//         height: auto
-//         background-color: $white
-//         border-radius: 20px
-//         -webkit-border-radius: 20px
-//         // position: absolute
-//         // z-index: 1
-//         // top: var(--input-y)
-//         // left: 0
-//         // right: 0
-//         &>li
-//             width: 100%
-//             height: auto
-//             display: block
-//             &:not(:last-of-type)
-//                 border-bottom: 1px solid rgba($black, 0.1)
-//         .resultBx
-//             @extend %pTxt
-//             width: 100%
-//             height: auto
-//             display: block
-//             transition: background 0.4s
-//             cursor: pointer
-//             padding: 10px 15px
+//             @media only screen and (min-width: 468px)
+//                 font-size: 16px
+//                 padding: 0
+//                 border-radius: 50%
+//                 box-shadow: 0 0 10px 0 rgba($black, 0.1)
 //             @media only screen and (min-width: 992px)
-//                 padding: 10px 20px
+//                 font-size: 18px
+//             @media only screen and (min-width: 1551px)
+//                 font-size: 20px
 //             &:hover
 //                 background-color: rgba($basecolor, 0.1)
+//                 svg, img
+//                     transform: scale(1.1)
+//             svg, img
+//                 transition: transform 0.4s ease
+//                 @include imgFit
+//                 object-fit: contain
+//     .whatsapp
+//         background-color: #409744
+//         @media only screen and (min-width: 468px)
+//             background: none
+//     .call
+//         background-color: #df3b4a
+//         @media only screen and (min-width: 468px)
+//             background: none
 
 // INNER_BANNER
 #InnerBanner
@@ -309,5 +204,88 @@
             @media only screen and (min-width: 1771px)
                 font-size: 80px
 
-
+// PROGRAMBX
+.programBx
+    width: 100%
+    height: auto
+    aspect-ratio: 4/6
+    display: block
+    overflow: hidden
+    position: relative
+    z-index: 0
+    &:hover
+        &>img
+            transform: scale(1.05)
+        &::after
+            opacity: 1
+            transform: scaleY(1)
+            visibility: visible
+        .bxCnt
+            opacity: 1
+            transform: scale(1)
+            visibility: visible
+    &>img
+        transition: transform 0.4s
+        object-position: top
+        @include imgFit
+    .tle
+        font-size: 16px
+        line-height: 1.1
+        font-weight: 500
+        text-transform: uppercase
+        color: $white
+        @media only screen and (min-width: 576px)
+            font-size: 20px
+        @media only screen and (min-width: 992px)
+            font-size: 26px
+        @media only screen and (min-width: 1551px)
+            font-size: 30px
+    .txt
+        @extend %pTxt
+        text-transform: uppercase
+        color: $white
+    .bxCnt
+        width: 100%
+        max-width: 85%
+        height: auto
+        margin: auto
+        display: block
+        position: absolute
+        z-index: 1
+        inset: 0
+        top: auto
+        margin-bottom: 15px
+        @media only screen and (min-width: 992px)
+            max-width: 60%
+            margin-bottom: 60px
+        @media only screen and (min-width: 1551px)
+            max-width: 70%
+            margin-bottom: 80px
+        &>*
+            margin: 5px 0
+            @media only screen and (min-width: 992px)
+                margin: 10px 0
+    .exBtn
+        @extend %baseBtnTxt
+        width: 100%
+        max-width: 120px
+        height: 35px
+        padding: 5px
+        display: block
+        background-color: $basecolor2
+        border: 1px solid $basecolor2
+        transition: transform 0.4s
+        @include center
+        @media only screen and (min-width: 576px)
+            max-width: 130px
+            margin-top: 10px
+        @media only screen and (min-width: 992px)
+            max-width: 140px
+            margin-top: 40px
+        @media only screen and (min-width: 1551px)
+            max-width: 160px
+        &:hover
+            color: $white
+        &::before
+            background-color: $basecolor
 
