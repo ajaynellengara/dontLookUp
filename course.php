@@ -2,6 +2,10 @@
 
 <link rel="stylesheet" href="assets/css/pages.min.css?v=1.0.0">
 
+<!-- SWIPER -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 <div id="pageWrapper" class="coursePage">
     <section id="InnerBanner">
         <picture>
@@ -62,66 +66,12 @@
         </div>
     </section>
 
-    <section id="Gateway">
-        <div class="tleWrap center">
-            <h4 class="mHd">Your Gateway to Fashion <br> expertise and Success</h4>
-        </div>
-        <div class="swiper gatewaySlide">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-1.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include "./includes/gateway.php" ?>
 
     <?php include "./includes/joinAcademy.php" ?>
 
 
 </div>
-
-<!-- GSAP -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
-
-<!-- SPLIT_TEXT -->
-<script src="https://unpkg.com/splitting/dist/splitting.min.js" defer></script>
-
-<!-- SWIPER -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <!-- FANCYBOX -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
@@ -131,125 +81,66 @@
     integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
+<!-- SWIPER -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        // TEAM_SLIDE
-        var teamSlide = new Swiper(".teamSlide", {
-            slidesPerView: 1.4,
-            loop: $('.teamSlide .swiper-slide').length >= 1 ? true : false,
-            spaceBetween: 10,
-            centeredSlides: true,
-            roundLengths: true,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
-            },
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            autoplay: false,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev"
-            },
-            breakpoints: {
-                468: {
-                    slidesPerView: 2,
-                    loop: $('.teamSlide .swiper-slide').length >= 2 ? true : false,
-                    spaceBetween: 15,
-                },
-                576: {
-                    slidesPerView: 3,
-                    loop: $('.teamSlide .swiper-slide').length >= 3 ? true : false,
-                    spaceBetween: 20,
-                },
-                992: {
-                    slidesPerView: 3,
-                    loop: $('.teamSlide .swiper-slide').length >= 4 ? true : false,
-                    spaceBetween: 30,
-                },
-            },
-        });
-        // EXPERTISE_SLIDE
-        var expertiseSlide = new Swiper(".expertiseSlide", {
-            slidesPerView: 1.4,
-            loop: false,
-            spaceBetween: 0,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
-            },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                376: {
-                    slidesPerView: 2,
-                },
-                468: {
-                    slidesPerView: 2.5,
-                },
-                576: {
-                    slidesPerView: 3,
-                },
-                992: {
-                    slidesPerView: 3.5,
-                },
-                1551: {
-                    slidesPerView: 3.8,
-                },
-            },
-        });
-        // EXPERTISE_SLIDE
-        var ourPartnersSlide = new Swiper(".ourPartnersSlide", {
-            slidesPerView: 2,
-            loop: true,
-            spaceBetween: 0,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
-            },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                376: {
-                    slidesPerView: 3,
-                },
-                576: {
-                    slidesPerView: 4,
-                },
-                992: {
-                    slidesPerView: 5,
-                },
-            },
-        });
-        // GALLERY_SLIDE
-        var gallerySlide = new Swiper(".gallerySlide", {
-            slidesPerView: 5,
-            loop: true,
-            spaceBetween: 0,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: true,
-            },
-            autoplay: false,
-        });
+
+        // GATEWAY_SLIDE
+        var gatewaySlide;
+
+        function initSwiper() {
+            if (window.innerWidth <= 768) {
+                // Initialize Swiper if it hasn't been initialized yet
+                if (!gatewaySlide) {
+                    gatewaySlide = new Swiper(".gatewaySlide", {
+                        slidesPerView: 2.5,
+                        loop: $('.gatewaySlide .swiper-slide').length > 1,
+                        spaceBetween: 10,
+                        watchSlidesProgress: true,
+                        centeredSlides: true,
+                        roundLengths: true,
+                        lazy: {
+                            loadPrevNext: true,
+                        },
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            576: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 3,
+                            }
+                        }
+                    });
+                }
+            } else {
+                // Destroy Swiper if it has been initialized
+                if (gatewaySlide) {
+                    gatewaySlide.destroy(true, true);
+                    gatewaySlide = null;
+                }
+            }
+        }
+
+        // Initialize Swiper when the page loads
+        initSwiper();
+
+        // Add resize event listener to check window size on resize
+        window.addEventListener('resize', initSwiper);
+
 
     });
 </script>

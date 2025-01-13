@@ -75,216 +75,246 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <div class="cStructureBx">
-                <div class="lftSd">
-                    <div class="bxCnt">
-                        <div class="tleWrap">
-                            <h4 class="mHd">Course Structure</h4>
+                <div class="fullSd">
+                    <div class="cStructureBx">
+                        <div class="lftSd">
+                            <div class="bxCnt">
+                                <div class="tleWrap">
+                                    <h4 class="mHd">Course Structure</h4>
+                                </div>
+                                <div class="txt">The course commences in <br>
+                                    JAN 2025 - JUNE 2025</div>
+                                <br>
+                                <div class="txt">
+                                    Duration: 6 months <br>
+                                    3 classes per week <br>
+                                    Saturday / Sunday / Monday <br>
+                                    Timings: 6:30 pm– 8:30 pm <br>
+                                    ( Sunday 12 am -2 pm)</div>
+                            </div>
                         </div>
-                        <div class="txt">The course commences in <br>
-                            JAN 2025 - JUNE 2025</div>
-                        <div class="txt">
-                            Duration: 6 months <br>
-                            3 classes per week <br>
-                            Saturday / Sunday / Monday <br>
-                            Timings: 6:30 pm– 8:30 pm <br>
-                            ( Sunday 12 am -2 pm)</div>
+                        <div class="rgtSd">
+                            <div class="durationBx">
+                                <div class="duration">1</div>
+                                <div class="dBxCnt">
+                                    <div class="tle">month</div>
+                                    <div class="txt">Introduction to
+                                        Fashion Event Management</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="rgtSd"></div>
+                <div class="lftSd">
+                    <div class="requirementsBx">
+                        <div class="tle">Requirements</div>
+                        <ul>
+                            <li>Pre-Assessment SOP (Statement of Purpose)</li>
+                            <li>Passport Copy + Visa Page</li>
+                            <li>2 passport size latest photos</li>
+                            <li>Academic Transcript/Record</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="rgtSd">
+                    <div class="feeStruBx">
+                        <div class="tle">Course Objectives</div>
+                        <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
+                        <div class="amoutTxt">25000 AED</div>
+                        <div class="line">
+                            <img src="assets/images/amoutline.svg" width="510" height="40" loading="lazy" alt="amoutline">
+                            <div class="lineTxt">6 months</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fullSd">
+                    <div class="careerRoleBx">
+                        <div class="lftSd">
+                            <div class="bxCnt">
+                                <div class="tleWrap">
+                                    <h4 class="mHd">CAREER ROLES IN
+                                        EVENT MANAGEMENT</h4>
+                                </div>
+                                <p>In the field of fashion event management, there are several key career roles, each with its own responsibilities and focus areas. Here are some prominent roles:</p>
+                                <div class="btnWrap">
+                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                        <span>enrol now</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rgtSd">
+                            <div class="bxCnt">
+                                <ul>
+                                    <li><b>Fashion Event Coordinator:</b> Oversees the planning and execution of fashion events, ensuring all logistical aspects are managed efficiently.</li>
+                                    <li><b>
+                                            Fashion Show Producer:</b> Manages the overall production of fashion shows, including choreography, stage design, and coordination between designers, models, and other stakeholders.</li>
+                                    <li><b>
+                                            Fashion Event Planner:</b> Develops and organizes event concepts, schedules, and budgets, and works closely with clients to bring their vision to life.</li>
+                                    <li><b>
+                                            Fashion PR Specialist:</b> Handles public relations and media outreach for fashion events, including crafting press releases, managing media relationships, and securing coverage.
+                                    </li>
+                                    <li><b>
+                                            Fashion Marketing Manager:</b> Focuses on promoting fashion events through various marketing strategies, including social media, advertising, and influencer partnerships.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="Gateway">
-        <div class="tleWrap center">
-            <h4 class="mHd">Your Gateway to Fashion <br> expertise and Success</h4>
-        </div>
-        <div class="swiper gatewaySlide">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
+    <section id="ReasonsJoinDlu">
+        <div class="container">
+            <div class="tleWrap center">
+                <h3 class="mHd">Top Reasons to Join DLU</h3>
+            </div>
+            <div class="rJoinDluGrid">
+                <div class="gridCol">
+                    <div class="item">
+                        <div class="rJoinDluBx">
+                            <img src="assets/images/rJoinDlu-1.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <div class="bxCnt">
+                                <div class="tle">UAE's first Training Hub</div>
+                            </div>
+                            <div class="bxCnt hover">
+                                <div class="tle">UAE's first Training Hub</div>
+                                <div class="txt">The first professional training center for fashion event management, modeling, and workshops.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rJoinDluBx">
+                            <img src="assets/images/rJoinDlu-2.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <div class="bxCnt">
+                                <div class="tle">INDUSTRY NETWORKING</div>
+                            </div>
+                            <div class="bxCnt hover">
+                                <div class="tle">INDUSTRY NETWORKING</div>
+                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="rJoinDluBx">
+                            <img src="assets/images/rJoinDlu-3.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <div class="bxCnt">
+                                <div class="tle">PRACTICAL KNOWLEDGE</div>
+                            </div>
+                            <div class="bxCnt hover">
+                                <div class="tle">PRACTICAL KNOWLEDGE</div>
+                                <div class="txt">Practical Insights Through Real-Life Knowledge and Case Studies.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
+                <div class="gridCol">
+                    <div class="item">
+                        <div class="rJoinDluBx">
+                            <img src="assets/images/rJoinDlu-4.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <div class="bxCnt">
+                                <div class="tle">INDUSTRY NETWORKING</div>
+                            </div>
+                            <div class="bxCnt hover">
+                                <div class="tle">INDUSTRY NETWORKING</div>
+                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities.</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
+                    <div class="item">
+                        <div class="rJoinDluBx">
+                            <img src="assets/images/rJoinDlu-5.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <div class="bxCnt">
+                                <div class="tle">BEST OPPORTUNITIES</div>
+                            </div>
+                            <div class="bxCnt hover">
+                                <div class="tle">BEST OPPORTUNITIES</div>
+                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities.</div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-1.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="gatewayBx">
-                        <img src="assets/images/course-gateway-thumb.png" width="150" height="272" loading="lazy" alt="experise">
+                    <div class="item">
+                        <div class="rJoinDluBx">
+                            <img src="assets/images/rJoinDlu-6.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <div class="bxCnt">
+                                <div class="tle">RECOGNISED CERTIFICATION</div>
+                            </div>
+                            <div class="bxCnt hover">
+                                <div class="tle">RECOGNISED CERTIFICATION</div>
+                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities.</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <?php include "./includes/gateway.php" ?>
 
     <?php include "./includes/joinAcademy.php" ?>
 
 
 </div>
 
-<!-- GSAP -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js" defer></script>
-
-<!-- SPLIT_TEXT -->
-<script src="https://unpkg.com/splitting/dist/splitting.min.js" defer></script>
-
 <!-- SWIPER -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- FANCYBOX -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
-    integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
-    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
-
 <script>
     document.addEventListener("DOMContentLoaded", function() {
-        // TEAM_SLIDE
-        var teamSlide = new Swiper(".teamSlide", {
-            slidesPerView: 1.4,
-            loop: $('.teamSlide .swiper-slide').length >= 1 ? true : false,
-            spaceBetween: 10,
-            centeredSlides: true,
-            roundLengths: true,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
-            },
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
-            autoplay: false,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev"
-            },
-            breakpoints: {
-                468: {
-                    slidesPerView: 2,
-                    loop: $('.teamSlide .swiper-slide').length >= 2 ? true : false,
-                    spaceBetween: 15,
-                },
-                576: {
-                    slidesPerView: 3,
-                    loop: $('.teamSlide .swiper-slide').length >= 3 ? true : false,
-                    spaceBetween: 20,
-                },
-                992: {
-                    slidesPerView: 3,
-                    loop: $('.teamSlide .swiper-slide').length >= 4 ? true : false,
-                    spaceBetween: 30,
-                },
-            },
-        });
-        // EXPERTISE_SLIDE
-        var expertiseSlide = new Swiper(".expertiseSlide", {
-            slidesPerView: 1.4,
-            loop: false,
-            spaceBetween: 0,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
-            },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                376: {
-                    slidesPerView: 2,
-                },
-                468: {
-                    slidesPerView: 2.5,
-                },
-                576: {
-                    slidesPerView: 3,
-                },
-                992: {
-                    slidesPerView: 3.5,
-                },
-                1551: {
-                    slidesPerView: 3.8,
-                },
-            },
-        });
-        // EXPERTISE_SLIDE
-        var ourPartnersSlide = new Swiper(".ourPartnersSlide", {
-            slidesPerView: 2,
-            loop: true,
-            spaceBetween: 0,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
-            },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
-            },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                376: {
-                    slidesPerView: 3,
-                },
-                576: {
-                    slidesPerView: 4,
-                },
-                992: {
-                    slidesPerView: 5,
-                },
-            },
-        });
-        // GALLERY_SLIDE
-        var gallerySlide = new Swiper(".gallerySlide", {
-            slidesPerView: 5,
-            loop: true,
-            spaceBetween: 0,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: true,
-            },
-            autoplay: false,
-        });
+        // GATEWAY_SLIDE
+        var gatewaySlide;
+        function initSwiper() {
+            if (window.innerWidth <= 768) {
+                // Initialize Swiper if it hasn't been initialized yet
+                if (!gatewaySlide) {
+                    gatewaySlide = new Swiper(".gatewaySlide", {
+                        slidesPerView: 2.5,
+                        loop: $('.gatewaySlide .swiper-slide').length > 1,
+                        spaceBetween: 10,
+                        watchSlidesProgress: true,
+                        centeredSlides: true,
+                        roundLengths: true,
+                        lazy: {
+                            loadPrevNext: true,
+                        },
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            576: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 3,
+                            }
+                        }
+                    });
+                }
+            } else {
+                // Destroy Swiper if it has been initialized
+                if (gatewaySlide) {
+                    gatewaySlide.destroy(true, true);
+                    gatewaySlide = null;
+                }
+            }
+        }
+
+        // Initialize Swiper when the page loads
+        initSwiper();
+
+        // Add resize event listener to check window size on resize
+        window.addEventListener('resize', initSwiper);
+
 
     });
 </script>

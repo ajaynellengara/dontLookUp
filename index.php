@@ -750,7 +750,6 @@
         });
         // GATEWAY_SLIDE
         var gatewaySlide;
-
         function initSwiper() {
             if (window.innerWidth <= 768) {
                 // Initialize Swiper if it hasn't been initialized yet
