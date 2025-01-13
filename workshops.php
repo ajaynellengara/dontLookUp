@@ -62,7 +62,7 @@
         </div>
     </section>
 
-    <section id="UpcomingWorkshops">
+    <section id="UpcomingWorkshops"> 
         <div class="container">
             <div class="uWorkshopsBx">
                 <div class="lftSd">
