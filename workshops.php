@@ -77,7 +77,7 @@
                             <h4 class="mHd">Where talent meets Dummcon in style.</h4>
                         </div>
                         <div class="btnWrap">
-                            <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                            <a href="enrolNow.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                 <span>enrol now</span>
                             </a>
                         </div>
@@ -147,7 +147,6 @@
     <?php include "./includes/gateway.php" ?>
 
     <?php include "./includes/joinAcademy.php" ?>
-
 
 </div>
 

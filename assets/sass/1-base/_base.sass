@@ -213,12 +213,12 @@ svg
     box-shadow: none
 
 .row
-    margin-left: -10px
-    margin-right: -10px
+    margin-left: -15px
+    margin-right: -15px
     @include display
     &>*
-        padding-left: 10px
-        padding-right: 10px
+        padding-left: 15px
+        padding-right: 15px
 
 .help-block, .error-block
     font-size: 12px
@@ -431,66 +431,59 @@ svg
 //         &:hover
 //             color: $basecolor
 
-// .c-checkbox
-//     position: relative
-//     z-index: 0
-//     align-items: center
-//     @include display
-//     input[type="checkbox"]
-//         opacity: 0
-//         position: absolute
-//         z-index: 1
-//         inset: 0
-//         cursor: pointer
-//     label
-//         position: relative
-//         cursor: pointer
-//         margin: 0
-//         font-size: 12px
-//         line-height: 1
-//         font-weight: 400
-//         @media only screen and (min-width: 376px)
-//             font-size: 13px
-//         @media only screen and (min-width: 992px)
-//             font-size: 14px
-//         @media only screen and (min-width: 1551px)
-//             font-size: 16px
-//         &:after
-//             content: ''
-//             display: block
-//             position: absolute
-//             top: 3px
-//             left: 6px
-//             width: 5px
-//             height: 10px
-//             border: solid transparent
-//             border-width: 0 2px 2px 0
-//             transform: rotate(45deg)
-//             margin-top: -2px
-//             @media only screen and (min-width: 992px)
-//                 top: 5px
-//         &:before
-//             content: ''
-//             -webkit-appearance: none
-//             background-color: $white
-//             border: 1px solid #328496
-//             will-change: transform
-//             border-radius: 5px
-//             -webkit-border-radius: 5px
-//             box-shadow: none
-//             padding: 7px
-//             display: inline-block
-//             position: relative
-//             vertical-align: middle
-//             cursor: pointer
-//             margin-right: 5px
-//             margin-top: -2px
-//             @media only screen and (min-width: 992px)
-//                 margin-right: 10px
-//     input[type="checkbox"]:checked + label
-//         color: $basecolor
-//         &::before
-//             background-color: $white
-//             border-color: $basecolor
-//     input[type="checkbox"]:checked + label:after
-//         border-color: $black
+.c-checkbox
+    position: relative
+    z-index: 0
+    align-items: center
+    @include display
+    input[type="checkbox"]
+        opacity: 0
+        position: absolute
+        z-index: 1
+        inset: 0
+        cursor: pointer
+    label.label
+        @extend %form-control-txt
+        line-height: 1.4
+        position: relative
+        cursor: pointer
+        margin: 0
+        &:after
+            content: ''
+            display: block
+            position: absolute
+            top: 3px
+            left: 5px
+            width: 5px
+            height: 10px
+            border: solid transparent
+            border-width: 0 2px 2px 0
+            transform: rotate(45deg)
+            margin-top: -2px
+            @media only screen and (min-width: 992px)
+                top: 5px
+        &:before
+            content: ''
+            -webkit-appearance: none
+            background: none
+            border: 1px solid $white
+            will-change: transform
+            border-radius: 0
+            -webkit-border-radius: 0
+            box-shadow: none
+            padding: 7px
+            display: inline-block
+            position: relative
+            vertical-align: middle
+            cursor: pointer
+            margin-right: 5px
+            margin-top: -2px
+            @media only screen and (min-width: 992px)
+                margin-right: 10px
+    input[type="checkbox"]:checked + label
+        color: $white
+        &::before
+            background-color: $black
+            border-color: $basecolor
+    input[type="checkbox"]:checked + label:after
+        border-color: $basecolor2

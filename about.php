@@ -189,7 +189,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -203,7 +203,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -217,7 +217,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -231,7 +231,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>

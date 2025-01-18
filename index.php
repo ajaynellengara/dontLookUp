@@ -15,7 +15,7 @@
                         <div class="container">
                             <div class="cntWrap">
                                 <h1 class="mTxt">Don't look up</h1>
-                                <h2 class="mHead delmt-btn" data-text="look within">look within &nbsp; <a href="index.php" class="gsap_delmt_up" aria-label="explore">
+                                <h2 class="mHead delmt-btn" data-text="look within">look within &nbsp; <a href="#Gallery" class="gsap_delmt_up" aria-label="explore">
                                         <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                     </a></h2>
                                 <h2 class="mHead" data-text="transform beyond">transform beyond</h2>
@@ -41,61 +41,61 @@
             <div class="galFlx">
                 <div class="galCol">
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-1.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-1.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-2.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-2.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-3.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-3.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                 </div>
                 <div class="galCol">
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-3.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-3.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-4.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-4.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-8.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-8.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                 </div>
                 <div class="galCol">
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-6.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-6.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-7.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-7.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-5.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-5.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item">
-                        <a href="index.php" class="imgBx" aria-label="gal">
+                        <a href="assets/images/gal-9.webp" class="imgBx" data-fancybox="gallery1" aria-label="gal">
                             <img src="assets/images/gal-9.webp" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
                     <div class="item gsap_delmt_rgt">
-                        <a href="index.php" class="imgBx" aria-label="explore">
+                        <a href="about.php" class="imgBx" data-fancybox="gallery1" aria-label="explore">
                             <img src="assets/images/gal-vw-btn.svg" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
@@ -119,7 +119,7 @@
                             <div class="bxCnt">
                                 <div class="tle">fashion event management</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                                <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                                <a href="fashionEvent.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Professional Modelling</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                                <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                                <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
                     </div>
@@ -139,7 +139,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Professional Workshops</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                                <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                                <a href="workshops.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                 <div class="txtWrap">
                     <h5>Unmatched education quality for career growth. Experience top-tier training from industry experts with tailored courses designed for today’s corporate needs.</h5>
                     <div class="btnWrap">
-                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="read more about programs">
+                        <a href="lifeDlu.php" class="baseBtn_1 hoveranim" aria-label="read more about programs">
                             <span>Learn more</span>
                         </a>
                     </div>
@@ -173,7 +173,7 @@
                             <h4 class="mHd gsap_delmt_up gsap_splitting_txt">top reasons <br> to join DLU</h4>
                         </div>
                         <div class="btnWrap">
-                            <a href="index.php" class="baseBtn_1 hoveranim" aria-label="read more about programs">
+                            <a href="about.php" class="baseBtn_1 hoveranim" aria-label="read more about programs">
                                 <span>Learn more</span>
                             </a>
                         </div>
@@ -254,7 +254,7 @@
                 </div>
                 <div class="rgtSd">
                     <div class="btnWrap">
-                        <a href="index.php" class="arrowBtn" aria-label="explore">
+                        <a href="about.php#OurTeam" class="arrowBtn" aria-label="explore">
                             <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                         </a>
                     </div>
@@ -270,7 +270,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
-                                <a href="index.php" aria-label="explore">
+                                <a href="teamMember.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                 </a>
                             </div>
@@ -282,7 +282,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
-                                <a href="index.php" aria-label="explore">
+                                <a href="teamMember.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                 </a>
                             </div>
@@ -294,7 +294,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
-                                <a href="index.php" aria-label="explore">
+                                <a href="teamMember.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                 </a>
                             </div>
@@ -306,7 +306,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
-                                <a href="index.php" aria-label="explore">
+                                <a href="teamMember.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                 </a>
                             </div>
@@ -326,7 +326,7 @@
                         <h4 class="mHd gsap_delmt_up gsap_splitting_txt">Where talent meets <br> opportunity in style.</h4>
                     </div>
                     <div class="btnWrap">
-                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <a href="about.php#OurPartners" class="baseBtn_1 hoveranim" aria-label="learn">
                             <span>Explore more</span>
                         </a>
                     </div>
@@ -441,83 +441,6 @@
     </section>
 
     <?php include "./includes/joinAcademy.php" ?>
-
-
-    <!-- <section id="GetTouch">
-        <div class="delmt" inert>
-            <img src="assets/images/delmt-gtouch-1.webp" class="gsap_delmt_rgt" loading="lazy" width="800" height="3000" alt="touch">
-        </div>
-        <div class="delmt_fruit gsap_delmt_up" inert>
-            <img src="assets/images/delmt-gtouch-2.webp" loading="lazy" width="515" height="464" alt="leaf">
-        </div>
-        <div class="delmt_pineapple gsap_delmt_mvmt">
-            <img src="assets/images/delmt-gtouch-3.webp" loading="lazy" width="180" height="180" alt="pineapple">
-        </div>
-        <div class="container">
-            <div class="tleWrap center gsap_delmt_up">
-                <h4 class="mTle gsap_delmt_up gsap_splitting_txt">Get in Touch</h4>
-                <h3 class="secTle gsap_splitting_txt">Partner with Life Smoothies Today</h3>
-                <p>If you own a café, cofee shop, or F&B outlet in the UAE, we’d love to connect with you. </p>
-                <p>Reach out to us, and one of our dedicated sales team members will arrange a meeting to <b>discuss
-                        how Life Smoothies can enhance your menu and boost revenue for your business. </b> </p>
-            </div>
-            <div class="formWrap gsap_delmt_up">
-                <form method="POST">
-                    <div class="row">
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
-                                <label>Full Name*</label>
-                                <input type="text" class="form-control" placeholder="Enter your name" required>
-                                <div class="help-block danger d-none">Invalid Input</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
-                                <label>Email*</label>
-                                <input type="mail" class="form-control" placeholder="Enter your email" required>
-                                <div class="help-block danger d-none">Invalid Input</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
-                                <label>Contact Number*</label>
-                                <input type="tel" class="form-control" placeholder="Enter your number" required>
-                                <div class="help-block danger d-none">Invalid Input</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
-                                <label>Company*</label>
-                                <input type="text" class="form-control" placeholder="Enter your company name" required>
-                                <div class="help-block danger d-none">Invalid Input</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
-                                <label>Country*</label>
-                                <input type="text" class="form-control" placeholder="Enter your country" required>
-                                <div class="help-block danger d-none">Invalid Input</div>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <div class="form-group">
-                                <label>Additional Info</label>
-                                <input type="text" class="form-control" placeholder="Type here.." required>
-                                <div class="help-block danger d-none">Invalid Input</div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="btnWrap">
-                                <button type="submit" class="baseBtn baseBtn1 hoveranim" aria-label="submit">
-                                    <span class="btnSubmit">SUBMIT</span>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </section> -->
 
 </div>
 
@@ -750,6 +673,7 @@
         });
         // GATEWAY_SLIDE
         var gatewaySlide;
+
         function initSwiper() {
             if (window.innerWidth <= 768) {
                 // Initialize Swiper if it hasn't been initialized yet
