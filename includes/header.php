@@ -31,7 +31,7 @@
                     <div class="qLinkItemWrap">
                         <div class="item">
                             <a href="enrolNow.php" class="qLinkBtn hoveranim" aria-label="join">
-                                <span>Join the community</span>
+                                <span>Online academy</span>
                             </a>
                         </div>
                         <div class="item">

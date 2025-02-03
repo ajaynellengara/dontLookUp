@@ -59,7 +59,7 @@
                     <div class="tleWrap center">
                         <h3 class="mHd">Join the Future NOW</h3>
                     </div>
-                    <p>Our vision extends beyond mere qualifications on paper, even though our event management courses and modules offer credible certification. Our true success lies in what happens to our students next. We celebrate the career leaps made by professionals, the new faces shaping events through experiential marketing, and those earning event planning certification. With opportunities for paid volunteering and hands-on work on live projects and events in Dubai, Join us and become part of the future of Fashion event management.</p>
+                    <p>At Don't Lookup Academy (DLU), Dubai's leading academy for Fashion Event Management and Professional Modeling courses, we are committed to nurturing creativity, professionalism, and excellence in the dynamic world of fashion and events. Based in the vibrant city of Dubai, DLU offers world-class courses in Fashion Event Management, Professional Modeling, and a range of other specialized programs designed to empower aspiring professionals and unlock their full potential.</p>
                 </div>
             </div>
             <div class="miviFlx">

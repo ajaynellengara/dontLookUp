@@ -132,6 +132,43 @@
                 transition: transform 0.4s
                 @include imgFit
 
+    #ExGallery
+        width: 100%
+        height: auto
+        display: block
+        padding: 15px 0 40px
+        @media only screen and (min-width: 576px)
+            padding: 15px 0 60px
+        @media only screen and (min-width: 992px)
+            padding: 20px 0 80px
+        @media only screen and (min-width: 1551px)
+            padding: 20px 0 100px
+        .exGallerySlide
+            margin: auto
+            --swiper-pagination-color: #145ddd
+            --swiper-pagination-bottom: 0
+            --swiper-pagination-bullet-inactive-color: #a0a0a0
+            --swiper-pagination-bullet-inactive-opacity: 1
+            @media only screen and (min-width: 576px)
+                max-width: 576px
+            @media only screen and (min-width: 992px)
+                max-width: 1080px
+            @media only screen and (min-width: 1551px)
+                max-width: 1080px
+            .exGalleryBx
+                width: 100%
+                max-width: calc(100% - 100px)
+                height: auto
+                aspect-ratio: 4/2
+                overflow: hidden
+                display: block
+                margin: 0 auto 20px
+                @media only screen and (min-width: 992px)
+                    margin: 0 auto 30px
+                    max-width: calc(100% - 200px)
+                img
+                    @include imgFit
+
 .eventsPage.blog
     #EventInfo
         position: relative

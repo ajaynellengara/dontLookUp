@@ -38,7 +38,7 @@
                     <div class="programBx">
                         <img src="assets/images/program-1.webp" width="200" height="200" loading="lazy" alt="arrow">
                         <div class="bxCnt">
-                            <div class="tle">fashion event management</div>
+                            <div class="tle">fashion event <br>  management</div>
                             <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
                             <a href="fashionEvent.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                         </div>
@@ -48,8 +48,8 @@
                     <div class="programBx">
                         <img src="assets/images/program-2.webp" width="200" height="200" loading="lazy" alt="arrow">
                         <div class="bxCnt">
-                            <div class="tle">Professional Modelling</div>
-                            <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
+                            <div class="tle">ProfessionalModelling</div>
+                            <div class="txt">6 months <br> 9:00am - 11:00am</div>
                             <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                         </div>
                     </div>

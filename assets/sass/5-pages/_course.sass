@@ -5,6 +5,7 @@
         width: 100%
         height: auto
         display: block
+        overflow: hidden
         padding: 40px 0
         @media only screen and (min-width: 576px)
             padding: 60px 0
@@ -205,6 +206,9 @@
                             margin-bottom: 20px
             p
                 color: $basecolor
+        .cStructureSlide
+            --swiper-pagination-color: white
+            --swiper-theme-color: red
         .cStructureBx
             width: 100%
             height: auto
@@ -388,16 +392,49 @@
                 display: block
                 position: relative
                 z-index: 0
+                input[type="range"]
+                    width: 100%
+                    height: 1px
+                    -webkit-appearance: none
+                    appearance: none
+                    background-color: $black
+                    pointer-events: none
+                input[type=range]::-webkit-slider-thumb
+                    -webkit-appearance: none
+                    pointer-events: all
+                    width: 30px
+                    height: 30px
+                    background-image: url(../images/icon-range.png)
+                    background-position: center
+                    background-size: contain
+                    border-radius: 50%
+                    cursor: pointer
+                // input[type=range]::-moz-range-thumb
+                //     -webkit-appearance: none
+                //     pointer-events: all
+                //     width: 24px
+                //     height: 24px
+                //     background-color: #fff
+                //     background-image: url(./images/icon-ragne.svg)
+                //     border-radius: 50%
+                //     box-shadow: 0 0 0 1px #C6C6C6
+                //     cursor: pointer
+                input[type=range]::-webkit-slider-thumb:hover
+                    box-shadow: 0 0 4px 4px rgba($black, 0.4)
+                input[type=range]::-webkit-slider-thumb:active
+                    box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe
+                    -webkit-box-shadow: inset 0 0 3px #387bbe, 0 0 9px #387bbe
+
                 .lineTxt
                     @extend %pTxt
                     font-weight: 600
+                    white-space: nowrap
                     text-transform: uppercase
                     position: absolute
                     z-index: 0
                     top: 100%
-                    left: 88%
-                    transform: translateX(-50%)
-                    white-space: nowrap
+                    left: var(--left-value)
+                    transform: translate(-110%, 10px)
         .careerRoleBx
             width: 100%
             height: auto
@@ -631,6 +668,7 @@
             padding: 100px 0
         .exGallerySlide
             margin: auto
+            --swiper-pagination-color: #145ddd
             --swiper-pagination-bottom: 0
             --swiper-pagination-bullet-inactive-color: #a0a0a0
             --swiper-pagination-bullet-inactive-opacity: 1

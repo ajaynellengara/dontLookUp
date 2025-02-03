@@ -14,11 +14,12 @@
                         </picture>
                         <div class="container">
                             <div class="cntWrap">
-                                <h1 class="mTxt">Don't look up</h1>
-                                <h2 class="mHead delmt-btn" data-text="look within">look within &nbsp; <a href="#Gallery" class="gsap_delmt_up" aria-label="explore">
+                                <h1 class="mTxt">Welcome to</h1>
+                                <h2 class="mHead delmt-btn" data-text="DLU Academy">DLU Academy &nbsp; <a href="#Gallery" class="gsap_delmt_up" aria-label="explore">
                                         <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                     </a></h2>
-                                <h2 class="mHead" data-text="transform beyond">transform beyond</h2>
+                                <p>Dubai’s Leading Fashion Event Management <br>
+                                    & Professional Modeling Courses!</p>
                             </div>
                         </div>
                     </div>
@@ -128,7 +129,7 @@
                             <img src="assets/images/program-2.webp" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">Professional Modelling</div>
-                                <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
+                                <div class="txt">6 months <br> 9:00am - 11:00am</div>
                                 <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
@@ -138,7 +139,7 @@
                             <img src="assets/images/program-3.webp" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">Professional Workshops</div>
-                                <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
+                                <div class="txt">1 to 2 hours <br> 4:00pm - 6:00pm</div>
                                 <a href="workshops.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
@@ -190,7 +191,7 @@
                             <div id="FaqAcco_1" class="accordion-collapse collapse show" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>Premier Fashion Event Management Training Institute in Dubai with Hands-On Learning Experience</p>
+                                        <p>DLU offers a hybrid learning platform for personalized education, adapting to diverse learning styles to enhance student success and skill acquisition.</p>
                                     </div>
                                 </div>
                             </div>
@@ -204,7 +205,7 @@
                             <div id="FaqAcco_2" class="accordion-collapse collapse" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>Premier Fashion Event Management Training Institute in Dubai with Hands-On Learning Experience</p>
+                                        <p>Be proactive: network, attend conferences, volunteer, and build connections to unlock career opportunities and growth.</p>
                                     </div>
                                 </div>
                             </div>
@@ -218,7 +219,7 @@
                             <div id="FaqAcco_3" class="accordion-collapse collapse" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>Premier Fashion Event Management Training Institute in Dubai with Hands-On Learning Experience</p>
+                                        <p>DLU transforms students by reshaping thought patterns, surpassing traditional learning, and fostering intellectual, personal, and social growth through dynamic, holistic education.</p>
                                     </div>
                                 </div>
                             </div>
@@ -232,7 +233,7 @@
                             <div id="FaqAcco_4" class="accordion-collapse collapse" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>Premier Fashion Event Management Training Institute in Dubai with Hands-On Learning Experience</p>
+                                        <p>DLU fosters active learning through curiosity, equipping students with new skills, perspectives, and understanding to think innovatively and beyond conventional boundaries.</p>
                                     </div>
                                 </div>
                             </div>

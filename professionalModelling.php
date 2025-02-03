@@ -79,31 +79,95 @@
                     </div>
                 </div>
                 <div class="fullSd">
-                    <div class="cStructureBx">
-                        <div class="lftSd">
-                            <div class="bxCnt">
-                                <div class="tleWrap">
-                                    <h4 class="mHd">Course Structure</h4>
+
+                    <div class="swiper cStructureSlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cStructureBx">
+                                    <div class="lftSd">
+                                        <div class="bxCnt">
+                                            <div class="tleWrap">
+                                                <h4 class="mHd">Course Structure</h4>
+                                            </div>
+                                            <div class="txt">The course commences in <br>
+                                                JAN 2025 - JUNE 2025</div>
+                                            <br>
+                                            <div class="txt">
+                                                Duration: 6 months <br>
+                                                Monthly 4 classes <br>
+                                                Morning 11:00am to 1:00 pm<br>
+                                                Sunday</div>
+                                        </div>
+                                    </div>
+                                    <div class="rgtSd">
+                                        <div class="durationBx">
+                                            <div class="duration">1</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">Section</div>
+                                                <div class="txt">Photographer (1 Section)</div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="txt">The course commences in <br>
-                                    JAN 2025 - JUNE 2025</div>
-                                <br>
-                                <div class="txt">
-                                    Duration: 6 months <br>
-                                    Monthly 4 classes <br>
-                                    Morning 11:00am to 1:00 pm<br>
-                                    Sunday</div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cStructureBx">
+                                    <div class="lftSd">
+                                        <div class="bxCnt">
+                                            <div class="tleWrap">
+                                                <h4 class="mHd">Course Structure</h4>
+                                            </div>
+                                            <div class="txt">The course commences in <br>
+                                                JAN 2025 - JUNE 2025</div>
+                                            <br>
+                                            <div class="txt">
+                                                Duration: 6 months <br>
+                                                Monthly 4 classes <br>
+                                                Morning 11:00am to 1:00 pm<br>
+                                                Sunday</div>
+                                        </div>
+                                    </div>
+                                    <div class="rgtSd">
+                                        <div class="durationBx">
+                                            <div class="duration">2</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">Section</div>
+                                                <div class="txt">Photographer (1 Section)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cStructureBx">
+                                    <div class="lftSd">
+                                        <div class="bxCnt">
+                                            <div class="tleWrap">
+                                                <h4 class="mHd">Course Structure</h4>
+                                            </div>
+                                            <div class="txt">The course commences in <br>
+                                                JAN 2025 - JUNE 2025</div>
+                                            <br>
+                                            <div class="txt">
+                                                Duration: 6 months <br>
+                                                Monthly 4 classes <br>
+                                                Morning 11:00am to 1:00 pm<br>
+                                                Sunday</div>
+                                        </div>
+                                    </div>
+                                    <div class="rgtSd">
+                                        <div class="durationBx">
+                                            <div class="duration">3</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">Section</div>
+                                                <div class="txt">Photographer (1 Section)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="rgtSd">
-                            <div class="durationBx">
-                                <div class="duration">1</div>
-                                <div class="dBxCnt">
-                                    <div class="tle">Section</div>
-                                    <div class="txt">Photographer (1 Section)</div>
-                                </div>
-                            </div>
-                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
                 <div class="lftSd">
@@ -121,10 +185,13 @@
                     <div class="feeStruBx">
                         <div class="tle">Registration Fee</div>
                         <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
-                        <div class="amoutTxt">75000 AED</div>
+
                         <div class="line">
-                            <img src="assets/images/amoutline.svg" width="510" height="40" loading="lazy" alt="amoutline">
-                            <div class="lineTxt">3 months</div>
+                            <!-- <input id="toSlider" type="range" value="75000" min="2000" max="10000" />
+                            <img src="assets/images/amoutline.svg" width="510" height="40" loading="lazy" alt="amoutline"> -->
+                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">7500</span> AED</div>
+                            <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="8000">
+                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 8000)/10000)*100%);"><span id="courseDuration1" class="course-duration">6 Month</span></div>
                         </div>
                     </div>
                 </div>
@@ -221,6 +288,11 @@
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {
+        var cStructureSlide = new Swiper(".cStructureSlide", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
         // GATEWAY_SLIDE
         var gatewaySlide;
 
@@ -272,6 +344,33 @@
 
         // Add resize event listener to check window size on resize
         window.addEventListener('resize', initSwiper);
+
+
+        const sliders = document.querySelectorAll('.course-range');
+
+        sliders.forEach(slider => {
+            const courseFee = slider.parentElement.querySelector('.course-fee');
+            const courseDuration = slider.parentElement.querySelector('.course-duration');
+            const parentContainer = slider.closest('.line');
+            slider.addEventListener('input', function() {
+                const value = parseInt(slider.value);
+                parentContainer.style.setProperty('--slider-value', value);
+                // Calculate course duration based on the slider value
+                if (value <= 3000) {
+                    courseDuration.textContent = '1 Month';
+                    courseFee.textContent = "2500";
+                } else if (value <= 6000) {
+                    courseDuration.textContent = '3 Months';
+                    courseFee.textContent = "4500";
+                } else if (value <= 9000) {
+                    courseDuration.textContent = '6 Months';
+                    courseFee.textContent = "7500";
+                } else {
+                    courseDuration.textContent = '12 Months';
+                    courseFee.textContent = "10000";
+                }
+            });
+        });
 
 
     });
