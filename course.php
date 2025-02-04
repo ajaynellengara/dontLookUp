@@ -40,7 +40,7 @@
                         <div class="bxCnt">
                             <div class="tle">fashion event management</div>
                             <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                            <a href="fashionEvent.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                            <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@
                         <div class="bxCnt">
                             <div class="tle">Professional Modelling</div>
                             <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                            <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                            <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                         </div>
                     </div>
                 </div>
@@ -70,6 +70,7 @@
 
     <?php include "./includes/joinAcademy.php" ?>
 
+
 </div>
 
 <!-- FANCYBOX -->
@@ -83,6 +84,7 @@
 <!-- SWIPER -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
 
 <script>
     document.addEventListener("DOMContentLoaded", function() {

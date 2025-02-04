@@ -28,13 +28,13 @@
                                             <a href="about.php" class="ftTxt" aria-label="nav">About</a>
                                         </li>
                                         <li>
-                                            <a href="privacy.php" class="ftTxt" aria-label="nav">Privacy Policy</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Privacy Policy</a>
                                         </li>
                                         <li>
-                                            <a href="privacy.php" class="ftTxt" aria-label="nav">Terms & Conditions</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Terms & Conditions</a>
                                         </li>
                                         <li>
-                                            <a href="blogs.php" class="ftTxt" aria-label="nav">Blog</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Blog</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -56,13 +56,13 @@
                                 <div class="accordion-body">
                                     <ul class="ftUl">
                                         <li>
-                                            <a href="events.php" class="ftTxt" aria-label="nav">Events</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Events</a>
                                         </li>
                                         <li>
-                                            <a href="lifeDlu.php" class="ftTxt" aria-label="nav">Life @ DLU </a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Life @ DLU </a>
                                         </li>
                                         <li>
-                                            <a href="workshops.php" class="ftTxt" aria-label="nav">Placements</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Placements</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -84,16 +84,16 @@
                                 <div class="accordion-body">
                                     <ul class="ftUl">
                                         <li>
-                                            <a href="fashionEvent.php" class="ftTxt" aria-label="nav">Event Management</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Event Management</a>
                                         </li>
                                         <li>
-                                            <a href="professionalModelling.php" class="ftTxt" aria-label="nav">Modelling</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Modelling</a>
                                         </li>
                                         <li>
-                                            <a href="lifeDlu.php" class="ftTxt" aria-label="nav">Mindset for a model</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Mindset for a model</a>
                                         </li>
                                         <li>
-                                            <a href="workshops.php" class="ftTxt" aria-label="nav">Brand your self</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Brand your self</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -124,7 +124,7 @@
                                             <a href="mailto:hello@dontlookup.academy" class="ftTxt mail" aria-label="nav">hello@dontlookup.academy</a>
                                         </li>
                                         <li>
-                                            <a href="enrolNow.php" class="ftTxt" aria-label="nav">Book a Tour</a>
+                                            <a href="index.php" class="ftTxt" aria-label="nav">Book a Tour</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -146,16 +146,16 @@
                                 <div class="accordion-body">
                                     <ul class="ftUl">
                                         <li>
-                                            <a href="//instargram.php" class="ftTxt" target="_blank" aria-label="nav">Instagram</a>
+                                            <a href="index.php" class="ftTxt" target="_blank" aria-label="nav">Instagram</a>
                                         </li>
                                         <li>
-                                            <a href="//facebook.com" class="ftTxt" target="_blank" aria-label="nav">Facebook</a>
+                                            <a href="index.php" class="ftTxt" target="_blank" aria-label="nav">Facebook</a>
                                         </li>
                                         <li>
-                                            <a href="//x.com" class="ftTxt" target="_blank" aria-label="nav">LinkedIn</a>
+                                            <a href="index.php" class="ftTxt" target="_blank" aria-label="nav">LinkedIn</a>
                                         </li>
                                         <li>
-                                            <a href="//linkedIn.com" class="ftTxt" target="_blank" aria-label="nav">Youtube</a>
+                                            <a href="index.php" class="ftTxt" target="_blank" aria-label="nav">Youtube</a>
                                         </li>
                                     </ul>
                                 </div>

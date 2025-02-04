@@ -30,14 +30,14 @@
                     </div>
                     <div class="qLinkItemWrap">
                         <div class="item">
-                            <a href="enrolNow.php" class="qLinkBtn hoveranim" aria-label="join">
+                            <button class="qLinkBtn hoveranim" aria-label="join">
                                 <span>Join the community</span>
-                            </a>
+                            </button>
                         </div>
                         <div class="item">
-                            <a href="enrolNow.php#ContactInfo" class="qLinkBtn qLinkBtn2 hoveranim" aria-label="enrol">
+                            <button class="qLinkBtn qLinkBtn2 hoveranim" aria-label="enrol">
                                 <span>Enrol now</span>
-                            </a>
+                            </button>
                         </div>
                         <div class="item cNacBtnWrap">
                             <button type="button" class="cNacBtn" aria-label="menu">
