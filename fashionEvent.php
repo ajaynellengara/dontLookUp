@@ -5,9 +5,9 @@
 <div id="pageWrapper" class="coursePage detail">
     <section id="InnerBanner">
         <picture>
-            <source rel="preload" srcset="assets/images/banner-course-1.jpg" media="(min-width:768px)"
+            <source rel="preload" srcset="assets/images/banner-fashion-1.jpg" media="(min-width:768px)"
                 width="1920" height="1080">
-            <img rel="preload" src="assets/images/banner-course-1.jpg" width="640" height="360"
+            <img rel="preload" src="assets/images/banner-fashion-1.jpg" width="640" height="360"
                 alt="course" fetchpriority="low" loading="lazy" decoding="async">
         </picture>
         <div class="container">
@@ -40,7 +40,7 @@
                         <p>At DLU ACADEMY, we take pride in our alumni who excel in pivotal roles—whether as innovators, industry professionals, or consultants—driving the evolution of fashion events. DLU ACADEMY has been the leading institution for fashion event management training in Dubai, helping students grow from enthusiastic newcomers into seasoned experts, who often return to share their valuable experiences and insights.</p>
                     </div>
                     <div class="btnWrap">
-                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <a href="enrolNow.php" class="baseBtn_1 hoveranim" aria-label="learn">
                             <span>enrol now</span>
                         </a>
                     </div>
@@ -76,27 +76,27 @@
                     </div>
                 </div>
                 <div class="fullSd">
-                    <div class="swiper cStructureSlide">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="cStructureBx">
-                                    <div class="lftSd">
-                                        <div class="bxCnt">
-                                            <div class="tleWrap">
-                                                <h4 class="mHd">Course Structure</h4>
-                                            </div>
-                                            <div class="txt">The course commences in <br>
-                                                JAN 2025 - JUNE 2025</div>
-                                            <br>
-                                            <div class="txt">
-                                                Duration: 6 months <br>
-                                                3 classes per week <br>
-                                                Saturday / Sunday / Monday <br>
-                                                Timings: 6:30 pm– 8:30 pm <br>
-                                                ( Sunday 12 am -2 pm)</div>
-                                        </div>
-                                    </div>
-                                    <div class="rgtSd">
+                    <div class="cStructureBx">
+                        <div class="lftSd">
+                            <div class="bxCnt">
+                                <div class="tleWrap">
+                                    <h4 class="mHd">Course Structure</h4>
+                                </div>
+                                <div class="txt">The course commences in <br>
+                                    JAN 2025 - JUNE 2025</div>
+                                <br>
+                                <div class="txt">
+                                    Duration: 6 months <br>
+                                    3 classes per week <br>
+                                    Saturday / Sunday / Monday <br>
+                                    Timings: 6:30 pm– 8:30 pm <br>
+                                    ( Sunday 12 am -2 pm)</div>
+                            </div>
+                        </div>
+                        <div class="rgtSd">
+                            <div class="swiper cStructureSlide">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
                                         <div class="durationBx">
                                             <div class="duration">1</div>
                                             <div class="dBxCnt">
@@ -106,70 +106,61 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="cStructureBx">
-                                    <div class="lftSd">
-                                        <div class="bxCnt">
-                                            <div class="tleWrap">
-                                                <h4 class="mHd">Course Structure</h4>
-                                            </div>
-                                            <div class="txt">The course commences in <br>
-                                                JAN 2025 - JUNE 2025</div>
-                                            <br>
-                                            <div class="txt">
-                                                Duration: 6 months <br>
-                                                3 classes per week <br>
-                                                Saturday / Sunday / Monday <br>
-                                                Timings: 6:30 pm– 8:30 pm <br>
-                                                ( Sunday 12 am -2 pm)</div>
-                                        </div>
-                                    </div>
-                                    <div class="rgtSd">
+                                    <div class="swiper-slide">
                                         <div class="durationBx">
                                             <div class="duration">2</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">month</div>
-                                                <div class="txt">Introduction to
-                                                    Fashion Event Management</div>
+                                                <div class="txt">Advanced Planning
+                                                    And Coordination</div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="cStructureBx">
-                                    <div class="lftSd">
-                                        <div class="bxCnt">
-                                            <div class="tleWrap">
-                                                <h4 class="mHd">Course Structure</h4>
-                                            </div>
-                                            <div class="txt">The course commences in <br>
-                                                JAN 2025 - JUNE 2025</div>
-                                            <br>
-                                            <div class="txt">
-                                                Duration: 6 months <br>
-                                                3 classes per week <br>
-                                                Saturday / Sunday / Monday <br>
-                                                Timings: 6:30 pm– 8:30 pm <br>
-                                                ( Sunday 12 am -2 pm)</div>
-                                        </div>
-                                    </div>
-                                    <div class="rgtSd">
+                                    <div class="swiper-slide">
                                         <div class="durationBx">
                                             <div class="duration">3</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">month</div>
-                                                <div class="txt">Introduction to
-                                                    Fashion Event Management</div>
+                                                <div class="txt"> Case Studies And
+                                                    Strategic Analysis</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="durationBx">
+                                            <div class="duration">4</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">month</div>
+                                                <div class="txt">Marketing, Sponsorship,
+                                                    And Analysis</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="durationBx">
+                                            <div class="duration">5</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">month</div>
+                                                <div class="txt">Project Development
+                                                    And Presentation</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="durationBx">
+                                            <div class="duration">6</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">month</div>
+                                                <div class="txt">Final Assessments And
+                                                    Career Preparation
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="swiper-pagination"></div>
                             </div>
                         </div>
-                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
                 <div class="lftSd">
@@ -185,12 +176,12 @@
                 </div>
                 <div class="rgtSd">
                     <div class="feeStruBx">
-                        <div class="tle">Course Objectives</div>
+                        <div class="tle">Fee Structure</div>
                         <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
                         <div class="line">
-                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">7500</span> AED</div>
+                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">18500 </span> AED<sub id="courseType1" class="course-type"> </sub></div>
                             <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="8000">
-                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 8000)/10000)*100%);"><span id="courseDuration1" class="course-duration">6 Month</span></div>
+                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 8000)/10000)*100%);"><span id="courseDuration1" class="course-duration">6 Months</span></div>
                         </div>
                     </div>
                 </div>
@@ -255,10 +246,10 @@
                         <div class="rJoinDluBx">
                             <img src="assets/images/rJoinDlu-2.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
                             <div class="bxCnt">
-                                <div class="tle">INDUSTRY NETWORKING</div>
+                                <div class="tle">UAE & GLOBAL INTERNSHIP</div>
                             </div>
                             <div class="bxCnt hover">
-                                <div class="tle">INDUSTRY NETWORKING</div>
+                                <div class="tle">UAE & GLOBAL INTERNSHIP</div>
                                 <div class="txt">Volunteering opportunities enhancing industry networking opportunities</div>
                             </div>
                         </div>
@@ -331,6 +322,10 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var cStructureSlide = new Swiper(".cStructureSlide", {
+            freeMode: true,
+            autoplay: {
+                delay: 4000,
+            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -394,23 +389,27 @@
         sliders.forEach(slider => {
             const courseFee = slider.parentElement.querySelector('.course-fee');
             const courseDuration = slider.parentElement.querySelector('.course-duration');
+            const courseType = slider.parentElement.querySelector('.course-type');
             const parentContainer = slider.closest('.line');
             slider.addEventListener('input', function() {
                 const value = parseInt(slider.value);
                 parentContainer.style.setProperty('--slider-value', value);
                 // Calculate course duration based on the slider value
-                if (value <= 3000) {
-                    courseDuration.textContent = '1 Month';
-                    courseFee.textContent = "2500";
-                } else if (value <= 6000) {
-                    courseDuration.textContent = '3 Months';
-                    courseFee.textContent = "4500";
-                } else if (value <= 9000) {
-                    courseDuration.textContent = '6 Months';
-                    courseFee.textContent = "7500";
+                if (value <= 5000) {
+                    courseDuration.textContent = '5 Months';
+                    courseFee.textContent = "3300";
+                    courseType.textContent = "(Monthly)";
+                // } else if (value <= 6000) {
+                //     courseDuration.textContent = '3 Months';
+                //     courseFee.textContent = "4500";
+                // } else if (value <= 9000) {
+                //     courseDuration.textContent = '6 Months';
+                //     courseFee.textContent = "7500";
                 } else {
-                    courseDuration.textContent = '12 Months';
-                    courseFee.textContent = "10000";
+                    courseDuration.textContent = '6 Months';
+                    courseFee.textContent = "18500";
+                    courseType.textContent = "";
+
                 }
             });
         });

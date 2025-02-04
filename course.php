@@ -40,7 +40,7 @@
                         <div class="bxCnt">
                             <div class="tle">fashion event <br>  management</div>
                             <div class="txt">6 months <br> 6:30pm - 8:30pm</div>
-                            <a href="index.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                            <a href="fashionEvent.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                         </div>
                     </div>
                 </div>

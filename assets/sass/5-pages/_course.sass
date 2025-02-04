@@ -18,23 +18,13 @@
             height: auto
             @include display
             .imgWrap
-                font-size: 24px
-                line-height: 1
-                font-weight: 600
-                font-family: $fontstack3
-                text-transform: uppercase
-                color: $basecolor2
+                @extend %secTle2
                 width: 100%
                 height: auto
                 display: block
                 margin-bottom: 15px
-                @media only screen and (min-width: 576px)
-                    font-size: 28px
                 @media only screen and (min-width: 992px)
-                    font-size: 32px
                     max-width: 30%
-                @media only screen and (min-width: 1551px)
-                    font-size: 38px
                 img
                     width: 140px
                     height: auto
@@ -144,7 +134,7 @@
         .tleWrap
             .mHd
                 line-height: 1
-                color: $basecolor
+                color: $basecolor4
         .ckCntWrap
             h1, h2, h3, h4, h5, h6, p, li, td
                 color: $text
@@ -193,7 +183,7 @@
                 line-height: 1.2
                 font-weight: 600
                 text-transform: uppercase
-                color: $basecolor
+                color: $basecolor4
                 margin-bottom: 15px
                 @media only screen and (min-width: 576px)
                     font-size: 20px
@@ -207,7 +197,7 @@
                 margin-left: 15px
                 &>li
                     @extend %pTxt
-                    color: $basecolor
+                    color: $basecolor4
                     width: 100%
                     list-style: disc
                     &:not(:last-of-type)
@@ -218,12 +208,19 @@
                 color: $basecolor
         .cStructureSlide
             --swiper-pagination-color: white
-            --swiper-pagination-bullet-width: 12px
-            --swiper-pagination-bullet-height: 12px
+            --swiper-pagination-bullet-width: 8px
+            --swiper-pagination-bullet-height: 8px
+            --swiper-pagination-bottom: 0
+            padding-bottom: 15px
+            @media only screen and (min-width: 992px)
+                --swiper-pagination-bullet-width: 12px
+                --swiper-pagination-bullet-height: 12px
+            .swiper-pagination
+                text-align: right
         .cStructureBx
             width: 100%
             height: auto
-            background-color: $basecolor
+            background-color: $basecolor4
             padding: 15px
             margin-top: 20px
             align-items: center
@@ -373,9 +370,9 @@
             height: 100%
             display: block
             background-color: $basecolor2
-            padding: 15px 15px 20px
+            padding: 15px 15px 40px
             @media only screen and (min-width: 576px)
-                padding: 20px 20px 40px
+                padding: 20px 20px 50px
             @media only screen and (min-width: 992px)
                 padding: 40px 40px 60px
             @media only screen and (min-width: 1551px)
@@ -401,6 +398,8 @@
                 text-transform: uppercase
                 font-family: $fontstack4
                 color: $text
+                sub
+                    font-size: 0.75rem
             .line
                 width: 100%
                 height: auto
@@ -547,7 +546,8 @@
                 right: 0
                 width: 100%
                 height: 50%
-                background-color: #145ddd
+                background-color: $basecolor4
+                pointer-events: none
                 @media only screen and (min-width: 992px)
                     top: 40%
                 @media only screen and (min-width: 1200px)
@@ -682,7 +682,7 @@
             padding: 100px 0
         .exGallerySlide
             margin: auto
-            --swiper-pagination-color: #145ddd
+            --swiper-pagination-color: $basecolor4
             --swiper-pagination-bottom: 0
             --swiper-pagination-bullet-inactive-color: #a0a0a0
             --swiper-pagination-bullet-inactive-opacity: 1
@@ -754,7 +754,12 @@
             position: relative
             z-index: 0
             @media only screen and (min-width: 992px)
-                max-width: 100%
+                max-width: 220px
+                margin-left: auto
+            @media only screen and (min-width: 1200px)
+                max-width: 320px
+            @media only screen and (min-width: 1551px)
+                max-width: 468px
             @media only screen and (max-width: 991px)
                 display: grid
                 grid-template-columns: repeat(2, 1fr)
@@ -816,6 +821,12 @@
         .cntWrap
             p
                 color: $white
+
+    #ReasonsJoinDlu
+        padding: 20px 0
+        background-color: $white
+        .tleWrap>.mHd
+            color: $basecolor4
 
     // #Gateway
     //     .gatewayBx
@@ -889,3 +900,12 @@
                 padding: 15px 10px
             @media only screen and (min-width: 992px)
                 padding: 20px 15px
+
+.coursePage.lifeDlu
+    #LifeDlu
+        padding: 0
+    #Gateway
+        @media only screen and (min-width: 992px)
+            padding-top: 140px
+        @media only screen and (min-width: 1551px)
+            padding-top: 260px

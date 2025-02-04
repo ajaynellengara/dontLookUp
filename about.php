@@ -59,7 +59,7 @@
                     <div class="tleWrap center">
                         <h3 class="mHd">Join the Future NOW</h3>
                     </div>
-                    <p>At Don't Lookup Academy (DLU), Dubai's leading academy for Fashion Event Management and Professional Modeling courses, we are committed to nurturing creativity, professionalism, and excellence in the dynamic world of fashion and events. Based in the vibrant city of Dubai, DLU offers world-class courses in Fashion Event Management, Professional Modeling, and a range of other specialized programs designed to empower aspiring professionals and unlock their full potential.</p>
+                    <p>At Don'tLookup Academy (DLU), Dubai's leading academy for Fashion Event Management and Professional Modeling courses, we are committed to nurturing creativity, professionalism, and excellence in the dynamic world of fashion and events. Based in the vibrant city of Dubai, DLU offers world-class courses in Fashion Event Management, Professional Modeling, and a range of other specialized programs designed to empower aspiring professionals and unlock their full potential.</p>
                 </div>
             </div>
             <div class="miviFlx">
@@ -112,10 +112,10 @@
                         <div class="rJoinDluBx">
                             <img src="assets/images/rJoinDlu-2.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
                             <div class="bxCnt">
-                                <div class="tle">INDUSTRY NETWORKING</div>
+                                <div class="tle">UAE & GLOBAL INTERNSHIP</div>
                             </div>
                             <div class="bxCnt hover">
-                                <div class="tle">INDUSTRY NETWORKING</div>
+                                <div class="tle">UAE & GLOBAL INTERNSHIP</div>
                                 <div class="txt">Volunteering opportunities enhancing industry networking opportunities</div>
                             </div>
                         </div>
@@ -189,7 +189,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -203,7 +203,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -217,7 +217,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -231,7 +231,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>

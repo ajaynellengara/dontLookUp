@@ -27,19 +27,19 @@
 </div>
 <div class="accordion-item">
     <div class="accordion-header">
-        <a href="about.php"
+        <a href="workshops.php"
             class="accordion-button"
-            aria-label="about">
-            <span>ABOUT US</span>
+            aria-label="workshops">
+            <span>workshops</span>
         </a>
     </div>
 </div>
 <div class="accordion-item">
     <div class="accordion-header">
-        <a href="workshops.php"
+        <a href="events.php"
             class="accordion-button"
-            aria-label="workshops">
-            <span>workshops</span>
+            aria-label="about">
+            <span>Events</span>
         </a>
     </div>
 </div>
