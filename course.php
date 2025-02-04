@@ -48,7 +48,7 @@
                     <div class="programBx">
                         <img src="assets/images/program-2.webp" width="200" height="200" loading="lazy" alt="arrow">
                         <div class="bxCnt">
-                            <div class="tle">ProfessionalModelling</div>
+                            <div class="tle">Professional <br> Modelling</div>
                             <div class="txt">6 months <br> 9:00am - 11:00am</div>
                             <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                         </div>

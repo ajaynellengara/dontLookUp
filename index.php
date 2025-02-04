@@ -7,9 +7,9 @@
                 <div class="swiper-slide">
                     <div class="banner-item">
                         <picture>
-                            <source rel="preload" srcset="assets/images/banner-home-1.webp" media="(min-width:768px)"
+                            <source rel="preload" srcset="assets/images/banner-home-1.png" media="(min-width:768px)"
                                 width="1920" height="1080">
-                            <img rel="preload" src="assets/images/banner-home-1.webp" width="640" height="360"
+                            <img rel="preload" src="assets/images/banner-home-1.png" width="640" height="360"
                                 alt="banner" fetchpriority="low" loading="lazy" decoding="async">
                         </picture>
                         <div class="container">
@@ -18,7 +18,7 @@
                                 <h2 class="mHead delmt-btn" data-text="DLU Academy">DLU Academy &nbsp; <a href="#Gallery" class="gsap_delmt_up" aria-label="explore">
                                         <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                     </a></h2>
-                                <p>Dubai’s Leading Fashion Event Management <br>
+                                <p class="sTxt">Dubai’s Leading Fashion Event Management <br>
                                     & Professional Modeling Courses!</p>
                             </div>
                         </div>

@@ -13,7 +13,7 @@
         <div class="container">
             <div class="cntWrap">
                 <h1 class="mTxt">Professional Modelling</h1>
-                <h2 class="mHead">Become the Model You're
+                <h2 class="mHead">Become the Model You're <br>
                     Meant to Be</h2>
             </div>
         </div>
@@ -58,7 +58,8 @@
                 <div class="lftSd">
                     <div class="cntWrap ckCntWrap">
                         <div class="tleWrap">
-                            <h4 class="mHd">Course Syllabus</h4>
+                            <h4 class="mHd">Course
+                            Objectives</h4>
                         </div>
                         <p>These objectives can help structure a comprehensive fashion
                             modelling course that prepares students for success in the industry!</p>
@@ -79,7 +80,6 @@
                     </div>
                 </div>
                 <div class="fullSd">
-
                     <div class="swiper cStructureSlide">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -87,7 +87,7 @@
                                     <div class="lftSd">
                                         <div class="bxCnt">
                                             <div class="tleWrap">
-                                                <h4 class="mHd">Course Structure</h4>
+                                                <h4 class="mHd">Course <br> Structure</h4>
                                             </div>
                                             <div class="txt">The course commences in <br>
                                                 JAN 2025 - JUNE 2025</div>
@@ -115,7 +115,7 @@
                                     <div class="lftSd">
                                         <div class="bxCnt">
                                             <div class="tleWrap">
-                                                <h4 class="mHd">Course Structure</h4>
+                                                <h4 class="mHd">Course <br> Structure</h4>
                                             </div>
                                             <div class="txt">The course commences in <br>
                                                 JAN 2025 - JUNE 2025</div>
@@ -143,7 +143,7 @@
                                     <div class="lftSd">
                                         <div class="bxCnt">
                                             <div class="tleWrap">
-                                                <h4 class="mHd">Course Structure</h4>
+                                                <h4 class="mHd">Course <br>Structure</h4>
                                             </div>
                                             <div class="txt">The course commences in <br>
                                                 JAN 2025 - JUNE 2025</div>
@@ -214,27 +214,34 @@
                             <div class="bxCnt">
                                 <ul>
                                     <li>
-                                        <p>Self Confidence</p>
+                                        <p>Catwalk Training</p>
                                     </li>
                                     <li>
-                                        <p>Intelligence</p>
+                                        <p>Personality Development</p>
                                     </li>
                                     <li>
-                                        <p>Never give up mentality</p>
+                                        <p>Public Speech</p>
                                     </li>
                                     <li>
-                                        <p>Discipline</< /p>li>
-                                    <li>
-                                        <p>Fashion sense</p>
+                                        <p>Confidence Through body language</p>
                                     </li>
                                     <li>
-                                        <p>Communication skill</p>
+                                        <p>Voice modulation</p>
                                     </li>
                                     <li>
-                                        <p>Analysing capacity</p>
+                                        <p>Communication Development</p>
                                     </li>
                                     <li>
-                                        <p>And practice</p>
+                                        <p>Pageant Q & A Training</p>
+                                    </li>
+                                    <li>
+                                        <p>Photo Posing Techniques</p>
+                                    </li>
+                                    <li>
+                                        <p>Profile Management </p>
+                                    </li>
+                                    <li>
+                                        <p>Mannerisms</p>
                                     </li>
                                 </ul>
                             </div>
@@ -256,16 +263,13 @@
                                         Its about Attitude.</h4>
                                 </div>
                                 <ul>
-                                    <li>Catwalk Training</li>
-                                    <li>Personality Development</li>
-                                    <li>Public Speech</li>
-                                    <li>Confidence Through body language</li>
-                                    <li>Voice modulation</li>
-                                    <li>Communication Development</li>
-                                    <li>Pageant Q & A Training</li>
-                                    <li>Photo Posing Techniques</li>
-                                    <li>Profile Management</li>
-                                    <li>Mannerisms</li>
+                                    <li>Self Confidence</li>
+                                    <li>Intelligence</li>
+                                    <li>Never give up mentality</li>
+                                    <li>Discipline</li>
+                                    <li>Fashion sense</li>
+                                    <li>Communication skill</li>
+                                    <li>Analysing capacity And practice</li>
                                 </ul>
                             </div>
                         </div>

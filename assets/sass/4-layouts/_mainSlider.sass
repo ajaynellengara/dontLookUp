@@ -83,11 +83,12 @@
             @media only screen and (min-width: 992px)
                 font-size: 100px
             @media only screen and (min-width: 1200px)
-                font-size: 152px
+                font-size: 220px
+                margin-left: -5px
             @media only screen and (min-width: 1551px)
-                font-size: 158px
+                font-size: 240px
             @media only screen and (min-width: 1771px)
-                font-size: 172px
+                font-size: 260px
             &::before
                 content: attr(data-text)
                 width: 100%
@@ -98,6 +99,8 @@
                 overflow: hidden
                 animation: text-fill 6s ease-in-out alternate infinite
                 pointer-events: none
+                @media only screen and (min-width: 1200px)
+                    margin-left: -5px
             &:nth-child(2)
                 &::before
                     animation-duration: 3s
@@ -117,6 +120,19 @@
                 font-size: 62px
             @media only screen and (min-width: 1771px)
                 font-size: 80px
+        .sTxt
+            font-size: 14px
+            line-height: 1.2
+            font-weight: 500
+            font-family: $fontstack1
+            color: $white
+            display: block
+            @media only screen and (min-width: 576px)
+                font-size: 16px
+            @media only screen and (min-width: 992px)
+                font-size: 24px
+            @media only screen and (min-width: 1551px)
+                font-size: 32px
         .delmt-btn
             align-items: center
             @include display
