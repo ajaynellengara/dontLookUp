@@ -12,7 +12,7 @@
                     <p>The page you are looking for does not exist. It may have been moved, or removed altogether. </p>
                     <p>Perhaps you can return back to the site's homepage and see if you can find what you are looking
                         for.</p>
-                    <a href="index.php" class="btn hoveranim" aria-label="home page">
+                    <a href="index1.php" class="btn hoveranim" aria-label="home page">
                         <span>Back to homepage</span>
                     </a>
                 </div>

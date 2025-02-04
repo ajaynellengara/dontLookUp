@@ -43,7 +43,7 @@
                         <p>At DLU Academy, we believe in nurturing talent and fostering confidence. Join us to gain the skills, knowledge, and connections you need to shine in the industry. Your journey to becoming a professional model starts here—let’s make your dreams a reality!</p>
                     </div>
                     <div class="btnWrap">
-                        <a href="enrolNow.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
                             <span>enrol now</span>
                         </a>
                     </div>
@@ -185,7 +185,6 @@
                     <div class="feeStruBx">
                         <div class="tle">Registration Fee</div>
                         <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
-
                         <div class="line">
                             <!-- <input id="toSlider" type="range" value="75000" min="2000" max="10000" />
                             <img src="assets/images/amoutline.svg" width="510" height="40" loading="lazy" alt="amoutline"> -->
@@ -283,7 +282,6 @@
 
     <?php include "./includes/joinAcademy.php" ?>
 
-
 </div>
 
 <!-- SWIPER -->
@@ -295,6 +293,7 @@
         var cStructureSlide = new Swiper(".cStructureSlide", {
             pagination: {
                 el: ".swiper-pagination",
+                clickable: true,
             },
         });
         // GATEWAY_SLIDE
@@ -375,7 +374,6 @@
                 }
             });
         });
-
 
     });
 </script>

@@ -12,7 +12,7 @@
         <a href="about.php"
             class="accordion-button"
             aria-label="about">
-            <span>ABOUT US</span>
+            <span>About DLU</span>
         </a>
     </div>
 </div>
@@ -27,6 +27,15 @@
 </div>
 <div class="accordion-item">
     <div class="accordion-header">
+        <a href="about.php"
+            class="accordion-button"
+            aria-label="about">
+            <span>ABOUT US</span>
+        </a>
+    </div>
+</div>
+<div class="accordion-item">
+    <div class="accordion-header">
         <a href="workshops.php"
             class="accordion-button"
             aria-label="workshops">
@@ -36,18 +45,9 @@
 </div>
 <div class="accordion-item">
     <div class="accordion-header">
-        <a href="events.php"
-            class="accordion-button"
-            aria-label="about">
-            <span>Events</span>
-        </a>
-    </div>
-</div>
-<div class="accordion-item">
-    <div class="accordion-header">
         <a href="lifeDlu.php"
             class="accordion-button"
-            aria-label="lifeatdlu">
+            aria-label="lifeDlu">
             <span>Life at DLU</span>
         </a>
     </div>

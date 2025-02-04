@@ -7,8 +7,8 @@
                     <h4 class="mHd gsap_splitting_txt">Join DLU Academy Today!</h4>
                 </div>
                 <div class="btnWrap">
-                    <a href="enrolNow.php" class="baseBtn_1 hoveranim" aria-label="learn">
-                        <span>enrol nowre</span>
+                    <a href="index.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <span>Explore more</span>
                     </a>
                 </div>
             </div>

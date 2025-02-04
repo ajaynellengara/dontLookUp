@@ -508,7 +508,7 @@
                 border: 1px solid $white
                 will-change: transform
                 margin: auto
-                @include center
+                display: block
                 @media only screen and (min-width: 376px)
                     max-width: 160px
                 @media only screen and (min-width: 576px)
@@ -523,9 +523,6 @@
                 &:hover
                     color: $black
                 &::before
-                    background-color: $basecolor2
-                &.active
-                    color: $black
                     background-color: $basecolor2
             .qLinkBtn2
                 color: $basecolor
