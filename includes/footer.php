@@ -118,7 +118,10 @@
                                             <p class="ftTxt">Contact Us</p>
                                         </li>
                                         <li>
-                                            <a href="tel:+9714360 6456" class="ftTxt tel" aria-label="nav">+971 4 360 6456</a>
+                                            <a href="tel:+97143606456" class="ftTxt tel" aria-label="nav">+971 4 360 6456</a>
+                                        </li>
+                                        <li>
+                                            <a href="tel:00972585962334" class="ftTxt tel" aria-label="nav">00972 585 962 334</a>
                                         </li>
                                         <li>
                                             <a href="mailto:hello@dontlookup.academy" class="ftTxt mail" aria-label="nav">hello@dontlookup.academy</a>

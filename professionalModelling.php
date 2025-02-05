@@ -66,17 +66,85 @@
                     </div>
                 </div>
                 <div class="rgtSd">
-                    <div class="cObjectBx">
-                        <div class="item">
-                            <div class="tle">Understand
-                                the Fashion Industry</div>
-                            <p>Gain a comprehensive understanding of the fashion industry, including its history, key players, and current trends.</p>
+                    <div class="swiper cObjectSlide">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="cObjectBx">
+                                    <div class="item">
+                                        <div class="tle">Understand the Fashion Industry</div>
+                                        <p>Gain a comprehensive understanding of the fashion industry, including its history, key players, and current trends.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tle">Master Posing Techniques</div>
+                                        <p>Develop a variety of posing techniques suitable for different styles of photography and runway presentations, emphasizing body awareness and confidence.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cObjectBx">
+                                    <div class="item">
+                                        <div class="tle"> Learn Runway Skills</div>
+                                        <p>Acquire essential skills for walking the runway, including posture,
+                                            timing, and movement, while mastering the art of creating a
+                                            captivating presence.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tle">Enhance Personal Branding</div>
+                                        <p> Learn how to create and develop a personal brand that re ects
+                                            individuality and professionalism, including social media presence
+                                            and portfolio development.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cObjectBx">
+                                    <div class="item">
+                                        <div class="tle">Practice with Industry Professionals</div>
+                                        <p> Engage in workshops and sessions with industry professionals, such
+                                            as photographers, stylists, and designers, to gain rsthand
+                                            experience and insights.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tle">Understand Fashion Styling</div>
+                                        <p> Explore the role of styling in fashion modeling, including how to
+                                            collaborate e ectively with stylists to enhance visual storytelling.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cObjectBx">
+                                    <div class="item">
+                                        <div class="tle">Develop Networking Skills</div>
+                                        <p> Cultivate e ective networking techniques to build relationships
+                                            within the fashion industry, including understanding casting
+                                            calls and agency interactions.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tle">Navigate Health and Wellness</div>
+                                        <p> Emphasize the importance of physical and mental health in the
+                                            modeling industry, including self-care practices and
+                                            maintaining a balanced lifestyle.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="cObjectBx">
+                                    <div class="item">
+                                        <div class="tle">Learn About Diversity and Inclusion</div>
+                                        <p> Explore the signi cance of diversity and representation in
+                                            fashion, and develop an appreciation for di erent body types,
+                                            cultures, and styles.</p>
+                                    </div>
+                                    <div class="item">
+                                        <div class="tle">Build a Professional Portfolio</div>
+                                        <p> Create a strong modeling portfolio that showcases versatility,
+                                            creativity, and professionalism, ready for presentation to modeling
+                                            agencies and clients.</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="item">
-                            <div class="tle">Master Posing
-                                Techniques</div>
-                            <p>Develop a variety of posing techniques suitable for different styles of photography and runway presentations, emphasizing body awareness and confidence.</p>
-                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
                 <div class="fullSd">
@@ -104,7 +172,7 @@
                                             <div class="duration">1</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Photographer (1 Section)</div>
+                                                <div class="txt">Fashion Choreographer (5 Sections) <br>- ATHUL SURESH</div>
                                             </div>
                                         </div>
                                     </div>
@@ -113,7 +181,7 @@
                                             <div class="duration">2</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Makeup (2 Sections)</div>
+                                                <div class="txt">Photographer (1 Section)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -122,7 +190,7 @@
                                             <div class="duration">3</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Fitness (3 Sections)</div>
+                                                <div class="txt">Makeup (2 Sections)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -131,7 +199,7 @@
                                             <div class="duration">4</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Dress Like A Model (1 Section)</div>
+                                                <div class="txt">Fitness (3 Sections)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -140,7 +208,7 @@
                                             <div class="duration">5</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Mind Set Of A Model (2 Sections)</div>
+                                                <div class="txt">Dress Like A Model (1 Section)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -149,13 +217,22 @@
                                             <div class="duration">6</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt"> Fashion Choreographers (8 Sections)</div>
+                                                <div class="txt">Mind Set Of A Model (2 Sections)</div>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="swiper-slide">
                                         <div class="durationBx">
                                             <div class="duration">7</div>
+                                            <div class="dBxCnt">
+                                                <div class="tle">Section</div>
+                                                <div class="txt"> Fashion Choreographers (8 Sections)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="durationBx">
+                                            <div class="duration">8</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
                                                 <div class="txt">Portfolio Shoot (2 Sections)</div>
@@ -297,13 +374,23 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var cStructureSlide = new Swiper(".cStructureSlide", {
-            freeMode: true,
             autoplay: {
                 delay: 4000,
             },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
+            },
+        });
+
+        var swiper = new Swiper(".cObjectSlide", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
         });
         // GATEWAY_SLIDE

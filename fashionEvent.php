@@ -322,7 +322,6 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         var cStructureSlide = new Swiper(".cStructureSlide", {
-            freeMode: true,
             autoplay: {
                 delay: 4000,
             },

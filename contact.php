@@ -33,20 +33,16 @@
                         <div class="item">
                             <div class="tle">Call Centre</div>
                             <p>
-                                <a href="tel:+9710000000000">+971 000 000 0000</a>
+                                <a href="tel:+00972585962334" target="_blank" aria-label="phone">00972 585 962 334</a>
                             </p>
                             <p>
-                                <a href="tel:+9710000000000">+971 000 000 0000</a>
+                                <a href="mailto:admission@dontlookup.academy" target="_blank" aria-label="mail">admission@dontlookup.academy</a>
                             </p>
                         </div>
                         <div class="item">
                             <div class="tle">Our Location</div>
-                            <p>
-                                <a href="tel:+9710000000000">+971 000 000 0000</a>
-                            </p>
-                            <p>
-                                <a href="tel:+9710000000000">+971 000 000 0000</a>
-                            </p>
+                            <p>Dubai <br>
+                                United Arab Emirates</p>
                         </div>
                     </div>
                 </div>
