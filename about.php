@@ -25,13 +25,7 @@
                     <img src="assets/images/aboutDlu-1.svg" width="140" height="32" loading="lazy" alt="about">
                 </div>
                 <div class="txtWrap">
-                    <h5>Our objective is to provide unmatched quality of education in the
-                        chosen fields. Aspiring students will experience top class training from
-                        highly qualified and experience tutors. Our courses are unique with
-                        tailor made course materials to suit the requirements of modern
-                        corporate world. Syllabuses are framed to cater students who require
-                        an upgradation of their existing skills or for learning a new skill for the
-                        enhancement of their professional career.</h5>
+                    <h5>Our objective is to deliver unmatched educational quality in specialized fields. Aspiring students will receive top-tier training from highly qualified and experienced tutors. Our courses are distinctive, featuring tailored course materials designed to meet the demands of the modern corporate world. The syllabi are crafted to support students seeking to upgrade their existing skills or acquire new ones to enhance their professional careers</h5>
                 </div>
             </div>
             <div class="trainingBx">

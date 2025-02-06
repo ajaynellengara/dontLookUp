@@ -145,6 +145,12 @@
                             </div>
                         </div>
                         <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev c-swiper-button">
+                            <img src="assets/images/icon-swiper-lft.svg" width="75" height="75" loading="lazy" alt="lft">
+                        </div>
+                        <div class="swiper-button-next c-swiper-button">
+                            <img src="assets/images/icon-swiper-rgt.svg" width="75" height="75" loading="lazy" alt="lft">
+                        </div>
                     </div>
                 </div>
                 <div class="fullSd">
@@ -270,9 +276,9 @@
                         <div class="tle">Registration Fee</div>
                         <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
                         <div class="line">
-                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">7500 </span> AED<sub id="courseType1" class="course-type"> </sub></div>
-                            <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="8000">
-                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 8000)/10000)*100%);"><span id="courseDuration1" class="course-duration">6 Months</span></div>
+                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">2300 </span> AED<sub id="courseType1" class="course-type">Registration Fee </sub></div>
+                            <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="1000">
+                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 1000)/10000)*100%);"><span id="courseDuration1" class="course-duration">1<sup>st</sup> Month</span></div>
                         </div>
                     </div>
                 </div>
@@ -457,21 +463,30 @@
                 const value = parseInt(slider.value);
                 parentContainer.style.setProperty('--slider-value', value);
                 // Calculate course duration based on the slider value
-                if (value <= 5000) {
-                    courseDuration.textContent = '5 Months';
+                if (value <= 1666) {
+                    courseDuration.textContent = '1 Month';
+                    courseFee.textContent = "2300";
+                    courseType.textContent = "Registration Fee";
+                } else if (value <= 3333) {
+                    courseDuration.textContent = '2 Month';
                     courseFee.textContent = "1300";
                     courseType.textContent = "(Monthly)";
-                    // } else if (value <= 6000) {
-                    //     courseDuration.textContent = '3 Months';
-                    //     courseFee.textContent = "4500";
-                    // } else if (value <= 9000) {
-                    //     courseDuration.textContent = '6 Months';
-                    //     courseFee.textContent = "7500";
+                } else if (value <= 4999) {
+                    courseDuration.textContent = '3 Month';
+                    courseFee.textContent = "1300";
+                    courseType.textContent = "(Monthly)";
+                } else if (value <= 6666) {
+                    courseDuration.textContent = '4 Month';
+                    courseFee.textContent = "1300";
+                    courseType.textContent = "(Monthly)";
+                } else if (value <= 8333) {
+                    courseDuration.textContent = '5 Month';
+                    courseFee.textContent = "1300";
+                    courseType.textContent = "(Monthly)";
                 } else {
-                    courseDuration.textContent = '6 Months';
+                    courseDuration.textContent = '6 Month';
                     courseFee.textContent = "7500";
-                    courseType.textContent = "";
-
+                    courseType.textContent = "Finished🫠";
                 }
             });
         });

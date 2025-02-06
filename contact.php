@@ -33,7 +33,7 @@
                         <div class="item">
                             <div class="tle">Call Centre</div>
                             <p>
-                                <a href="tel:+00972585962334" target="_blank" aria-label="phone">00972 585 962 334</a>
+                                <a href="tel:+00971585962334" target="_blank" aria-label="phone">00971 585 962 334</a>
                             </p>
                             <p>
                                 <a href="mailto:admission@dontlookup.academy" target="_blank" aria-label="mail">admission@dontlookup.academy</a>

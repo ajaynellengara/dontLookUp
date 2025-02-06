@@ -9,7 +9,7 @@
                 </div>
                 <div class="rgtSd">
                     <div class="accoMenuDesk">
-                        <div class="accordion accoMenu" id="AccoMenuMob">
+                        <div class="accordion accoMenu" id="AccoMenu">
                             <?php include "includes/navLinks.php" ?>
                         </div>
                     </div>
@@ -23,7 +23,7 @@
                             <div class="mobLogo">
                                 <img src="assets/images/logo.svg" width="160" height="160" loading="lazy" alt="logo">
                             </div>
-                            <div class="accordion accoMenu" id="AccoMenuMob">
+                            <div class="accordion accoMenuMob accoMenu" id="AccoMenu">
                                 <?php include "includes/navLinks.php" ?>
                             </div>
                         </div>

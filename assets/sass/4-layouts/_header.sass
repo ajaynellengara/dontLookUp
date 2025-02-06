@@ -151,18 +151,6 @@
             &>.accordion-collapse
                 width: 100%
                 transition: opcatity 0.4s ease, visibility 0.4s ease
-                @media only screen and (min-width: $header-collapse)
-                    position: absolute
-                    right: 0
-                    top: 100%
-                    opacity: 0
-                    pointer-events: none
-                    display: block
-                    transform: translateY(10px)
-                    &.show
-                        opacity: 1
-                        pointer-events: all
-                        transform: translateY(0)
             .accordion-body
                 padding: 0 25px
                 @media only screen and (min-width: 576px)
@@ -173,7 +161,7 @@
         width: 100%
         min-width: 160px
         height: auto
-        background-color: $white
+        background-color: $basecolor4
         @media only screen and (min-width: $header-collapse)
             min-width: 200px
             padding: 6px 0
@@ -227,7 +215,7 @@
                         font-size: 15px
                         padding: 12px 16px
                     &:hover
-                        color: $basecolor3
+                        color: $basecolor2
                 a::after
                     display: none
     .hdTop
@@ -374,7 +362,7 @@
                 z-index: 0
                 opacity: 1
                 transition: background-color 0.5s cubic-bezier(0.28, 0.11, 0.32, 1)
-                background-color: rgba($black, 0.8)
+                background-color: rgba($black, 0.95)
                 transition: all 0.4s
             .cNavWrap
                 width: 100%
@@ -412,6 +400,12 @@
                     z-index: 1
                     top: 30px
                     right: 25px
+        .accoMenuMob>.accordion-item
+            &>.accordion-collapse
+                position: unset
+            &>.accordion-header
+                a::after, button::after
+                    filter: brightness(100)
         .accoMenuDesk>.accoMenu
             height: 100%
             display: none

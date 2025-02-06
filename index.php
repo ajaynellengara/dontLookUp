@@ -129,8 +129,8 @@
                             <img src="assets/images/program-2.webp" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">Professional Modelling</div>
-                                <div class="txt">6 months <br> 9:00am - 11:00am</div>
-                                <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                                <div class="txt">3/6 months <br> 9:00am - 11:00am</div>
+                                <a href="professionalModelling.php"  class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
                     </div>
@@ -191,7 +191,7 @@
                             <div id="FaqAcco_1" class="accordion-collapse collapse show" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>DLU offers a hybrid learning platform for personalized education, adapting to diverse learning styles to enhance student success and skill acquisition.</p>
+                                        <p>DLU provides a hybrid learning platform that offers personalized education, catering to diverse learning styles to foster student success and skill development.</p>
                                     </div>
                                 </div>
                             </div>
@@ -219,7 +219,7 @@
                             <div id="FaqAcco_3" class="accordion-collapse collapse" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>DLU transforms students by reshaping thought patterns, surpassing traditional learning, and fostering intellectual, personal, and social growth through dynamic, holistic education.</p>
+                                        <p>DLU transforms students by reshaping thought patterns, surpassing traditional learning, and fostering intellectual, personal, and promoting intellectual, personal, and social growth through a dynamic, holistic approach to education</p>
                                     </div>
                                 </div>
                             </div>
@@ -233,7 +233,7 @@
                             <div id="FaqAcco_4" class="accordion-collapse collapse" data-bs-parent="#FaqAcco">
                                 <div class="accordion-body">
                                     <div class="ckCntWrap">
-                                        <p>DLU fosters active learning through curiosity, equipping students with new skills, perspectives, and understanding to think innovatively and beyond conventional boundaries.</p>
+                                        <p>DLU fosters active learning through curiosity, equipping students with new skills, perspectives, and understanding to think innovatively . and insights to think innovatively and break conventional boundaries.</p>
                                     </div>
                                 </div>
                             </div>

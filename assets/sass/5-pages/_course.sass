@@ -889,9 +889,13 @@
     #CourseSyllabus
         .cObjectSlide
             border-bottom: 1px solid #a0a0a0
+            --swiper-navigation-size: 30px !important
+            --swiper-navigation-sides-offset: 0
+            @media only screen and (min-width: 992px)
+                --swiper-navigation-size: 33px !important 
             .swiper-pagination
                 width: 40px
-                height: auto
+                height: auto 
                 background-color: $white
                 position: absolute
                 z-index: 1
@@ -905,8 +909,10 @@
                     color: $basecolor4
             .cObjectBx
                 padding-left: 40px
+                padding-right: 40px
                 @media only screen and (min-width: 992px)
                     padding-left: 0
+                    padding-right: 0
         .careerRoleBx
             ul
                 margin-left: 0
