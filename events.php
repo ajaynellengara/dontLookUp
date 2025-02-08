@@ -34,26 +34,26 @@
                 <div class="fullSd">
                     <div class="eventFlx">
                         <div class="item">
-                            <div class="eventBx">
+                            <a href="events-1.php" class="eventBx" aria-label="events 2">
                                 <div class="bxImg">
-                                    <img src="assets/images/blog-1.jpg" width="576" height="376" loading="lazy" alt="event">
+                                    <img src="assets/images/events1.png" width="576" height="376" loading="lazy" alt="event">
                                 </div>
                                 <div class="bxCnt">
-                                    <div class="tle">Event name</div>
-                                    <div class="txt">DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</div>
+                                    <div class="tle">Teen Super Globe</div>
+                                    <div class="txt">Mr. & Miss Teen Super Globe is an esteemed international pageant that celebrates the charisma, talent, and leadership potential of teenagers from around the world.</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                         <div class="item">
-                            <div class="eventBx">
+                            <a href="events-2.php" class="eventBx" aria-label="events 2">
                                 <div class="bxImg">
-                                    <img src="assets/images/blog-1.jpg" width="576" height="376" loading="lazy" alt="event">
+                                    <img src="assets/images/events2.png" width="576" height="376" loading="lazy" alt="event">
                                 </div>
                                 <div class="bxCnt">
-                                    <div class="tle">Event name</div>
-                                    <div class="txt">DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</div>
+                                    <div class="tle">JMI - Junior model international</div>
+                                    <div class="txt">Junior Model International (JMI) is a prestigious global platform that celebrates young talent in the fashion and modeling industry. With participants from various countries..</div>
                                 </div>
-                            </div>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -147,6 +147,7 @@
         });
         // GATEWAY_SLIDE
         var gatewaySlide;
+
         function initSwiper() {
             if (window.innerWidth <= 768) {
                 // Initialize Swiper if it hasn't been initialized yet

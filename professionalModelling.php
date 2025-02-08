@@ -276,9 +276,9 @@
                         <div class="tle">Registration Fee</div>
                         <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
                         <div class="line">
-                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">2300 </span> AED<sub id="courseType1" class="course-type">Registration Fee </sub></div>
+                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">2300 </span> AED<sub id="courseType1" class="course-type">Registration Fee + 1<sup>st</sup> month fee</div>
                             <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="1000">
-                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 1000)/10000)*100%);"><span id="courseDuration1" class="course-duration">1<sup>st</sup> Month</span></div>
+                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 1000)/10000)*100%);"><span id="courseDuration1" class="course-duration">1 Month</span></div>
                         </div>
                     </div>
                 </div>

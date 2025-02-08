@@ -121,7 +121,7 @@
                                             <a href="tel:00971585962334" class="ftTxt tel" aria-label="nav">00971 585 962 334</a>
                                         </li>
                                         <li>
-                                            <a href="mailto:hello@dontlookup.academy" class="ftTxt mail" aria-label="nav">hello@dontlookup.academy</a>
+                                            <a href="mailto:admission@dontlookup.academy" class="ftTxt mail" aria-label="nav">admission@dontlookup.academy</a>
                                         </li>
                                         <li>
                                             <a href="enrolNow.php" class="ftTxt" aria-label="nav">Book a Tour</a>
@@ -146,16 +146,16 @@
                                 <div class="accordion-body">
                                     <ul class="ftUl">
                                         <li>
-                                            <a href="//instargram.php" class="ftTxt" target="_blank" aria-label="nav">Instagram</a>
+                                            <a href="https://www.instagram.com/dontlookup.academy/" class="ftTxt" target="_blank" aria-label="nav">Instagram</a>
                                         </li>
                                         <li>
-                                            <a href="//facebook.com" class="ftTxt" target="_blank" aria-label="nav">Facebook</a>
+                                            <a href="https://www.facebook.com/dontlookup.academy" class="ftTxt" target="_blank" aria-label="nav">Facebook</a>
                                         </li>
                                         <li>
-                                            <a href="//x.com" class="ftTxt" target="_blank" aria-label="nav">LinkedIn</a>
+                                            <a href="https://www.linkedin.com/company/dontlookupacademy/about/?viewAsMember=true" class="ftTxt" target="_blank" aria-label="nav">LinkedIn</a>
                                         </li>
                                         <li>
-                                            <a href="//linkedIn.com" class="ftTxt" target="_blank" aria-label="nav">Youtube</a>
+                                            <a href="https://www.youtube.com/channel/UCeqcISKKvDOnh11rGYLxhIw" class="ftTxt" target="_blank" aria-label="nav">Youtube</a>
                                         </li>
                                     </ul>
                                 </div>

@@ -18,11 +18,15 @@
 </div>
 <div class="accordion-item hasAcco">
     <div class="accordion-header">
+        <a href="course.php"
+            class="accordion-button"
+            aria-label="Course">
+            <span>Course</span>
+        </a>
         <button class="accordion-button collapsed" type="button"
             data-bs-toggle="collapse" data-bs-target="#AccoMenuItem_3"
             aria-expanded="false" aria-controls="AccoMenuItem_3"
             aria-labelledby="AccoMenuItem_3">
-            <span>Course</span>
         </button>
     </div>
     <div id="AccoMenuItem_3" class="accordion-collapse collapse"
@@ -40,7 +44,7 @@
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <a href="professionalModelling.php"
+                        <a href="javascript:void(0)"
                             class="accordion-button"
                             aria-label="Professional Modelling">
                             <span>Professional Modelling (3 Months)</span>
@@ -49,7 +53,7 @@
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <a href="404.php"
+                        <a href="professionalModelling.php"
                             class="accordion-button"
                             aria-label="Professional Modelling (6 Months)">
                             <span>Professional Modelling (6 Months)</span>

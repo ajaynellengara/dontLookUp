@@ -398,12 +398,6 @@
                     courseDuration.textContent = '5 Months';
                     courseFee.textContent = "3300";
                     courseType.textContent = "(Monthly)";
-                // } else if (value <= 6000) {
-                //     courseDuration.textContent = '3 Months';
-                //     courseFee.textContent = "4500";
-                // } else if (value <= 9000) {
-                //     courseDuration.textContent = '6 Months';
-                //     courseFee.textContent = "7500";
                 } else {
                     courseDuration.textContent = '6 Months';
                     courseFee.textContent = "18500";

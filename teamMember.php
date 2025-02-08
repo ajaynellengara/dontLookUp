@@ -34,22 +34,22 @@
                     <div class="secTle">Let’s Connect!</div>
                     <ul class="socialUl">
                         <li>
-                            <a href="//instagram.com" aria-label="Instagram">
+                            <a href="https://www.instagram.com/dontlookup.academy/" target="_blank" aria-label="Instagram">
                                 <img src="assets/images/icon-Instagram.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
                         </li>
                         <li>
-                            <a href="//facebook.com" aria-label="facebook">
+                            <a href="https://www.facebook.com/dontlookup.academy" target="_blank" aria-label="facebook">
                                 <img src="assets/images/icon-facebook.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
                         </li>
                         <li>
-                            <a href="//x.com" aria-label="x">
-                                <img src="assets/images/icon-x.svg" width="52" height="52" loading="lazy" alt="social">
+                            <a href="https://www.youtube.com/channel/UCeqcISKKvDOnh11rGYLxhIw" target="_blank" aria-label="x">
+                                <img src="assets/images/icon-youtube.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
                         </li>
                         <li>
-                            <a href="//linkedIn.com" aria-label="linkedIn">
+                            <a href="https://www.linkedin.com/company/dontlookupacademy/about/?viewAsMember=true" target="_blank" aria-label="linkedIn">
                                 <img src="assets/images/icon-linkedIn.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
                         </li>
@@ -65,7 +65,7 @@
             </div>
         </div>
     </section>
-    
+
 </div>
 
 <?php include "./includes/footer.php" ?>

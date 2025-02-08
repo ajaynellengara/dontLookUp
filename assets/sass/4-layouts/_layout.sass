@@ -289,9 +289,9 @@ input.baseBtn
         clear: both
         content: ""
     h1, h2, h3, h4, h5, h6
-        font-weight: 600
+        font-weight: 700
         line-height: 1.1
-        color: $black
+        color: $white
         margin-bottom: 10px
         @media only screen and (min-width: 576px)
             margin-bottom: 15px
@@ -299,6 +299,8 @@ input.baseBtn
             margin-bottom: 20px
         @media only screen and (min-width: 1551px)
             margin-bottom: 30px
+        span
+            color: $basecolor
     h1
         font-size: 26px
         font-weight: 700
@@ -346,7 +348,6 @@ input.baseBtn
         max-height: 100%
         will-change: transform
         margin-bottom: 10px
-        @include imgFit
         @media only screen and ( min-width: 576px )
             margin-bottom: 15px
         @media only screen and ( min-width: 992px )
