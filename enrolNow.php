@@ -79,6 +79,10 @@
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Current Profession" required>
+                                        <div class="help-block danger d-none">Invalid Input</div>
+                                    </div>
+                                    <!-- <div class="form-group">
                                         <select class="form-select2" aria-label="profession">
                                             <option selected disabled>Current Profession</option>
                                             <option value="1">profession 1</option>
@@ -86,10 +90,14 @@
                                             <option value="3">profession 3</option>
                                         </select>
                                         <div class="help-block danger d-none">Invalid Input</div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Experience" required>
+                                        <div class="help-block danger d-none">Invalid Input</div>
+                                    </div>
+                                    <!-- <div class="form-group">
                                         <select class="form-select2" aria-label="experience">
                                             <option selected disabled>Work Experience</option>
                                             <option value="1">Experience 1</option>
@@ -97,7 +105,7 @@
                                             <option value="3">Experience 3</option>
                                         </select>
                                         <div class="help-block danger d-none">Invalid Input</div>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group">
