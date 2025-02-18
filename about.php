@@ -94,11 +94,11 @@
                         <div class="rJoinDluBx">
                             <img src="assets/images/rJoinDlu-1.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
                             <div class="bxCnt">
-                                <div class="tle">UAE's first Training Hub</div>
+                                <div class="tle">UAE’s First Training Hub for Fashion Event Management, Modeling & Workshops</div>
                             </div>
                             <div class="bxCnt hover">
-                                <div class="tle">UAE's first Training Hub</div>
-                                <div class="txt">The first professional training center for fashion event management, modeling, and workshops.</div>
+                                <div class="tle">UAE’s First Training Hub for Fashion Event Management, Modeling & Workshops</div>
+                                <div class="txt">The premier destination for aspiring professionals, offering expert-led training, industry insights, and hands-on experience to excel in fashion and event management.</div>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">UAE & GLOBAL INTERNSHIP</div>
-                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities</div>
+                                <div class="txt">Gain real-world experience, global exposure, and career opportunities through our fashion and event management internships.</div>
                             </div>
                         </div>
                     </div>
@@ -122,7 +122,7 @@
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">PRACTICAL KNOWLEDGE</div>
-                                <div class="txt">Practical Insights Through Real-Life Knowledge and Case Studies.</div>
+                                <div class="txt">Real-World Insights Through Practical Knowledge and Case Studies.</div>
                             </div>
                         </div>
                     </div>
@@ -136,7 +136,7 @@
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">INDUSTRY NETWORKING</div>
-                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities.</div>
+                                <div class="txt">We connect students with industry professionals, offering networking events, internships, and mentorship for real-world career opportunities.</div>
                             </div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">BEST OPPORTUNITIES</div>
-                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities.</div>
+                                <div class="txt">We provide top-tier opportunities for students to excel through industry connections, hands-on experience, and expert guidance.</div>
                             </div>
                         </div>
                     </div>
@@ -160,7 +160,7 @@
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">RECOGNISED CERTIFICATION</div>
-                                <div class="txt">Volunteering opportunities enhancing industry networking opportunities.</div>
+                                <div class="txt">Our academy offers industry-recognised certifications that enhance credibility and open doors to global career opportunities.</div>
                             </div>
                         </div>
                     </div>
@@ -183,7 +183,7 @@
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
-                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember-shammas.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -194,10 +194,10 @@
                         <div class="teamBx">
                             <img src="assets/images/team-2.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Shammas Kalladath</div>
-                                <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
+                                <div class="tle">Jojith Rajan</div>
+                                <div class="txt">Jojith Rajan is the Global CTO of Nuvento Inc and Dockery.AI based in Texas, US. Being a strong Hands-on New Age Technologist</div>
                                 <div class="btnWrap">
-                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember-jojith.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -208,10 +208,10 @@
                         <div class="teamBx">
                             <img src="assets/images/team-3.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Shammas Kalladath</div>
-                                <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
+                                <div class="tle">Deepak divakaran</div>
+                                <div class="txt">Have been in leadership roles for more than two decades. Empowering and equipping workforce to fit into their roles was my passion.</div>
                                 <div class="btnWrap">
-                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember-deepak.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -220,12 +220,26 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="teamBx">
-                            <img src="assets/images/team-1.png" width="376" height="476" loading="lazy" alt="experise">
+                            <img src="assets/images/teamMember-ajay.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Shammas Kalladath</div>
-                                <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
+                                <div class="tle">Ajay Ashok</div>
+                                <div class="txt">Have been in leadership roles for more than two decades. Empowering and equipping workforce to fit into their roles was my passion.</div>
                                 <div class="btnWrap">
-                                    <a href="teamMember.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember-ajay.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                        <span>read more</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="teamBx">
+                            <img src="assets/images/teamMember-athul.png" width="376" height="476" loading="lazy" alt="experise">
+                            <div class="bxCnt">
+                                <div class="tle">Athul Suresh</div>
+                                <div class="txt">A visionary leader in the modeling and talent development industry, with years of experience and a thriving academy that operates across..</div>
+                                <div class="btnWrap">
+                                    <a href="teamMember-athul.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -253,40 +267,40 @@
             <div class="swiper expertiseSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
+                        <a href="teamMember-athul.php" class="expertiseBx">
                             <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
+                        <a href="teamMember-deepak.php" class="expertiseBx">
                             <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Athul suresh</div>
-                                <div class="txt">fashion choreographer</div>
+                                <div class="tle">Deepak divakaran</div>
+                                <div class="txt">Personality development</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
+                        <a href="teamMember-shammas.php" class="expertiseBx">
                             <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Athul suresh</div>
-                                <div class="txt">fashion choreographer</div>
+                                <div class="tle">Shammas Kalladath</div>
+                                <div class="txt">Marketing & personal branding </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
-                            <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                        <a href="teamMember-ajay.php" class="expertiseBx">
+                            <img src="assets/images/expertise-4.jpg" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Athul suresh</div>
-                                <div class="txt">fashion choreographer</div>
+                                <div class="tle">Ajay Ashok</div>
+                                <div class="txt">Course Director</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -302,7 +316,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-1.png" width="140" height="70" loading="lazy" alt="ourPartners">
+                            <img src="assets/images/ourPartners-1.svg" width="140" height="70" loading="lazy" alt="ourPartners">
                         </div>
                     </div>
                     <div class="swiper-slide">
@@ -312,17 +326,7 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-3.png" width="140" height="70" loading="lazy" alt="ourPartners">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-4.png" width="140" height="70" loading="lazy" alt="ourPartners">
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-5.png" width="140" height="70" loading="lazy" alt="ourPartners">
+                            <img src="assets/images/ourPartners-3.svg" width="140" height="70" loading="lazy" alt="ourPartners">
                         </div>
                     </div>
                 </div>
@@ -337,50 +341,37 @@
         <div class="swiper gallerySlide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
-                    <a href="assets/images/gallery-2.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-2.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/gallery-3.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-3.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-2.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-2.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-4.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-4.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-5.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-5.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-3.jpg" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-3.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-6.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-6.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-4.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-4.jpg" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/lifeDluGal-5.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-5.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-7.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-7.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-8.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-8.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-6.jpg" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-6.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-9.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-9.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-7.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-7.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/gallery-10.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-10.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
             </div>
@@ -388,7 +379,7 @@
     </section>
 
     <?php include "./includes/gateway.php" ?>
-    
+
     <?php include "./includes/joinAcademy.php" ?>
 
 
@@ -418,7 +409,7 @@
         // TEAM_SLIDE
         var teamSlide = new Swiper(".teamSlide", {
             slidesPerView: 1.4,
-            loop: $('.teamSlide .swiper-slide').length >= 1 ? true : false,
+            loop: false,
             spaceBetween: 10,
             centeredSlides: true,
             roundLengths: true,
@@ -442,17 +433,14 @@
             breakpoints: {
                 468: {
                     slidesPerView: 2,
-                    loop: $('.teamSlide .swiper-slide').length >= 2 ? true : false,
                     spaceBetween: 15,
                 },
                 576: {
                     slidesPerView: 3,
-                    loop: $('.teamSlide .swiper-slide').length >= 3 ? true : false,
                     spaceBetween: 20,
                 },
                 992: {
                     slidesPerView: 3,
-                    loop: $('.teamSlide .swiper-slide').length >= 4 ? true : false,
                     spaceBetween: 30,
                 },
             },
@@ -498,6 +486,7 @@
             loop: true,
             spaceBetween: 0,
             watchSlidesProgress: true,
+            centerInsufficientSlides: true,
             lazy: {
                 loadPrevNext: true,
             },
@@ -534,6 +523,7 @@
         });
         // GATEWAY_SLIDE
         var gatewaySlide;
+
         function initSwiper() {
             if (window.innerWidth <= 768) {
                 if (!gatewaySlide) {

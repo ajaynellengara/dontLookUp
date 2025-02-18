@@ -55,8 +55,8 @@
                     </div>
                 </div>
                 <div class="item">
-                    <a href="https://videocdn.cdnpk.net/videos/bb7cdb5f-5abb-41fc-b2f0-8db69fd8becb/horizontal/previews/videvo_watermarked/large.mp4" data-fancybox="course" class="courseVdoBx" aria-label="course video">
-                        <img src="assets/images/banner-course-1.jpg" width="1080" height="768" loading="lazy" alt="course">
+                    <a href="https://www.youtube.com/watch?v=e505TkUwhj0" data-fancybox="course" class="courseVdoBx" aria-label="course video">
+                        <img src="assets/images/course-video-1.jpg" width="1080" height="768" loading="lazy" alt="course">
                         <div class="icon">
                             <img src="assets/images/icon-play.svg" width="36" height="36" loading="lazy" alt="play">
                         </div>

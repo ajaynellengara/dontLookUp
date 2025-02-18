@@ -20,7 +20,7 @@
                 @media only screen and (min-width: 1551px)
                     padding: 0 20px
             &>.lftSd
-                width: calc(100% - 268px)
+                width: 100%
                 align-items: center
                 @include display
                 @media only screen and (min-width: 576px)
@@ -32,7 +32,7 @@
                 @media only screen and (min-width: 1551px)
                     width: calc(100% - 640px)
             &>.rgtSd
-                width: 268px
+                width: 100%
                 @media only screen and (min-width: 576px)
                     width: 468px
                 @media only screen and (min-width: 992px)
@@ -41,9 +41,15 @@
                     width: 640px
             .bxImg
                 width: 100%
+                max-width: 200px
                 height: 100%
                 max-height: calc(var(--app-height) - var(--header-y))
+                margin: auto
                 display: block
+                @media only screen and (min-width: 576px)
+                    max-width: 320px
+                @media only screen and (min-width: 992px)
+                    max-width: 420px
                 img
                     @include imgFit
                     object-position: top

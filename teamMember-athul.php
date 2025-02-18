@@ -14,13 +14,14 @@
             <div class="teamMemberBx">
                 <div class="lftSd">
                     <div class="bxCnt">
-                        <h1 class="mHead">Shammas <br> Kalladath</h1>
-                        <h2 class="mTxt">Digital Marketing & Media Advisor</h2>
+                        <h1 class="mHead">Athul  <br> Suresh </h1>
+                        <h2 class="mTxt">Fashion choreographer 
+                        </h2>
                     </div>
                 </div>
                 <div class="rgtSd">
                     <div class="bxImg">
-                        <img src="assets/images/teamMember-1.png" width="613" height="776" loading="lazy" alt="teamMember">
+                        <img src="assets/images/teamMember-athul.png" width="613" height="776" loading="lazy" alt="teamMember">
                     </div>
                 </div>
             </div>
@@ -34,11 +35,11 @@
                     <div class="secTle">Let’s Connect!</div>
                     <ul class="socialUl">
                         <li>
-                            <a href="https://www.instagram.com/dontlookup.academy/" target="_blank" aria-label="Instagram">
+                            <a href="https://www.instagram.com/athulsureshk/" target="_blank" aria-label="Instagram">
                                 <img src="assets/images/icon-Instagram.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
                         </li>
-                        <li>
+                        <!-- <li>
                             <a href="https://www.facebook.com/dontlookup.academy" target="_blank" aria-label="facebook">
                                 <img src="assets/images/icon-facebook.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
@@ -47,19 +48,23 @@
                             <a href="https://www.youtube.com/channel/UCeqcISKKvDOnh11rGYLxhIw" target="_blank" aria-label="x">
                                 <img src="assets/images/icon-youtube.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/company/dontlookupacademy/about/?viewAsMember=true" target="_blank" aria-label="linkedIn">
+                        </li> -->
+                        <!-- <li>
+                            <a href="https://www.linkedin.com/in/deepak-divakaran-328733b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" aria-label="linkedIn">
                                 <img src="assets/images/icon-linkedIn.svg" width="52" height="52" loading="lazy" alt="social">
                             </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
                 <div class="rgtSd">
                     <div class="cntWrap ckCntWrap">
-                        <h5 class="secDisc">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</h5>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                        <h5 class="secDisc">Mr. Athul Suresh is a visionary leader in the modeling and talent development industry, with years of experience and a thriving academy that operates across multiple branches in India and the UAE.</h5>
+                        <p>His academy has emerged as a global hub for aspiring models and actors, attracting students from over 15 countries, many of whom benefit from his dynamic online training programs.
+                        </p>
+                        <p>A digital influencer with over 1 million YouTube followers, Athul's training videos are a treasure trove of insights into the world of modeling and acting. His content not only educates but also inspires countless individuals to pursue their dreams with confidence and professionalism.
+                        </p>
+                        <p>As an accomplished show director and pageant coach, Athul has played a pivotal role in guiding talents to achieve their full potential. His meticulous coaching and innovative techniques have helped numerous students excel on both national and international platforms, making a mark in the competitive world of fashion and entertainment.</p>
+                        <p>Through his dedication, expertise, and global reach, Mr. Athul Suresh continues to shape the future of modeling and creative arts, empowering individuals to shine their brightest on and off the stage.</p>
                     </div>
                 </div>
             </div>

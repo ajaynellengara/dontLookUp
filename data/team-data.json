@@ -1,0 +1,43 @@
+{
+    "team-members": {
+        "shammas-kalladath": {
+            "firstName": "Shammas",
+            "lastName": "Kalladath",
+            "title": "Digital Marketing & Media Advisor",
+            "profileImage": "assets/images/teamMember-1.png",
+            "shortDescription": "I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.",
+            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+            "socialLinks": {
+                "instagram": "https://www.instagram.com/dontlookup.academy/",
+                "facebook": "https://www.facebook.com/dontlookup.academy",
+                "youtube": "https://www.youtube.com/channel/UCeqcISKKvDOnh11rGYLxhIw",
+                "linkedin": "https://www.linkedin.com/company/dontlookupacademy/"
+            }
+        },
+        "athul-suresh": {
+            "firstName": "Athul",
+            "lastName": "Suresh",
+            "title": "Digital Marketing & Media Advisor",
+            "profileImage": "assets/images/teamMember-2.png",
+            "shortDescription": "I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.",
+            "description": "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>",
+            "socialLinks": {
+                "instagram": "https://www.instagram.com/dontlookup.academy/",
+                "facebook": "https://www.facebook.com/dontlookup.academy",
+                "youtube": "https://www.youtube.com/channel/UCeqcISKKvDOnh11rGYLxhIw",
+                "linkedin": "https://www.linkedin.com/company/dontlookupacademy/"
+            }
+        },
+        "jane-smith": {
+            "name": "Jane Smith",
+            "title": "Digital Marketing Specialist",
+            "image": "assets/images/jane-smith.jpg",
+            "shortDescription": "Expert in digital marketing and brand strategy",
+            "description": "Another detailed description here...",
+            "socialLinks": {
+                "instagram": "https://www.instagram.com/jane-smith",
+                "linkedin": "https://www.linkedin.com/jane-smith"
+            }
+        }
+    }
+}

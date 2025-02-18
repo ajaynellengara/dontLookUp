@@ -59,7 +59,7 @@
                         <p>Mr. & Miss Teen Super Globe is an international pageant celebrating teens’ charisma, talent, and leadership. Open to ages 13-19, it empowers participants to showcase their personality, cultural heritage, and social awareness. Beyond beauty, it fosters personal growth, confidence, and global friendships, inspiring teens to make a meaningful impact worldwide.</p>
                     </div>
                     <div class="btnWrap">
-                        <a href="enrolNow.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <a href="https://dontlookup.events/registration.html" class="baseBtn_1 hoveranim" target="_blank" aria-label="learn">
                             <span>enrol now</span>
                         </a>
                     </div>

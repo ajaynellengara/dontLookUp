@@ -49,18 +49,18 @@
                 <div class="rgtSd">
                     <div class="cntWrap ckCntWrap">
                         <h5 class="secDisc">Junior Model International celebrates young fashion talent (ages 4-12), fostering confidence, creativity, and cultural pride through global competitions, workshops, and shows, promoting diversity and personal growth.</h5>
-                        <img src="assets/images/events2.png" width="468" height="320" loading="lazy" alt="event1">
+                        <img src="assets/images/junior_model.png" width="468" height="320" loading="lazy" alt="event1">
                         <p>Junior Model International (JMI) is a prestigious global platform that celebrates young talent in the fashion and modeling industry. With participants from various countries, JMI provides aspiring child models with the opportunity to showcase their confidence, creativity, and cultural pride on an international stage. The event emphasizes personality development, fashion sense, and public speaking, while promoting values like friendship, diversity, and cultural exchange. Through competitions, workshops, and fashion shows, Junior Model International aims to nurture future stars of the fashion world and inspire them to pursue their dreams with confidence.</p>
                         <h3><span>Age (4-6, 6-8, 8-10, 10-12)</span></h3>
                         <img src="assets/images/event1-img.png" width="1200" height="400" loading="lazy" alt="event1">
                         <h2>Event Details</h2>
                         <h6>Place: Dubai </h6>
                         <h6>Date: June /00/2025</h6>
-                        <img src="assets/images/event1-dtls.png" width="1200" height="400" loading="lazy" alt="event1">
+                        <img src="assets/images/junior_model-1.png" width="1200" height="400" loading="lazy" alt="event1">
                         <p>Mr. & Miss Teen Super Globe is an international pageant celebrating teens’ charisma, talent, and leadership. Open to ages 13-19, it empowers participants to showcase their personality, cultural heritage, and social awareness. Beyond beauty, it fosters personal growth, confidence, and global friendships, inspiring teens to make a meaningful impact worldwide.</p>
                     </div>
                     <div class="btnWrap">
-                        <a href="enrolNow.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                        <a href="https://dontlookup.events/registration.html" target="_blank" class="baseBtn_1 hoveranim" aria-label="learn">
                             <span>enrol now</span>
                         </a>
                     </div>

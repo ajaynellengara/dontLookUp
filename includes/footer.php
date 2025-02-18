@@ -31,7 +31,7 @@
                                             <a href="privacy.php" class="ftTxt" aria-label="nav">Privacy Policy</a>
                                         </li>
                                         <li>
-                                            <a href="privacy.php" class="ftTxt" aria-label="nav">Terms & Conditions</a>
+                                            <a href="terms.php" class="ftTxt" aria-label="nav">Terms & Conditions</a>
                                         </li>
                                         <li>
                                             <a href="blogs.php" class="ftTxt" aria-label="nav">Blog</a>

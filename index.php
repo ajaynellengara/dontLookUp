@@ -130,7 +130,7 @@
                             <div class="bxCnt">
                                 <div class="tle">Professional Modelling</div>
                                 <div class="txt">3/6 months <br> 9:00am - 11:00am</div>
-                                <a href="professionalModelling.php"  class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
+                                <a href="professionalModelling.php" class="exBtn hoveranim" aria-label="program"><span>Explore more</span></a>
                             </div>
                         </div>
                     </div>
@@ -266,52 +266,40 @@
             <div class="swiper expertiseSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
+                        <a href="teamMember-athul.php" class="expertiseBx">
                             <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
-                                <a href="teamMember.php" aria-label="explore">
-                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
-                                </a>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
+                        <a href="teamMember-deepak.php" class="expertiseBx">
                             <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Athul suresh</div>
-                                <div class="txt">fashion choreographer</div>
-                                <a href="teamMember.php" aria-label="explore">
-                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
-                                </a>
+                                <div class="tle">Deepak divakaran</div>
+                                <div class="txt">Personality development</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
+                        <a href="teamMember-shammas.php" class="expertiseBx">
                             <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Athul suresh</div>
-                                <div class="txt">fashion choreographer</div>
-                                <a href="teamMember.php" aria-label="explore">
-                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
-                                </a>
+                                <div class="tle">Shammas Kalladath</div>
+                                <div class="txt">Marketing & personal branding </div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="swiper-slide">
-                        <div class="expertiseBx">
-                            <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                        <a href="teamMember-ajay.php" class="expertiseBx">
+                            <img src="assets/images/expertise-4.jpg" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Athul suresh</div>
-                                <div class="txt">fashion choreographer</div>
-                                <a href="teamMember.php" aria-label="explore">
-                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
-                                </a>
+                                <div class="tle">Ajay Ashok</div>
+                                <div class="txt">Course Director</div>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -346,50 +334,37 @@
         <div class="swiper gallerySlide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
-                    <a href="assets/images/gallery-2.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-2.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/gallery-3.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-3.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-2.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-2.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-4.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-4.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-5.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-5.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-3.jpg" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-3.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-6.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-6.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-4.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-4.jpg" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/lifeDluGal-5.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-5.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-7.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-7.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-8.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-8.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-6.jpg" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-6.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-9.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-9.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-7.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-7.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/gallery-10.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-10.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
             </div>

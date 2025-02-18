@@ -94,50 +94,37 @@
         <div class="swiper gallerySlide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
-                    <a href="assets/images/gallery-2.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-2.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/gallery-3.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-3.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-2.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-2.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-4.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-4.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-5.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-5.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-3.webp" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-3.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-6.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-6.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-4.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-4.webp" width="376" height="476" loading="lazy" alt="experise">
+                    </a>
+                    <a href="assets/images/lifeDluGal-5.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-5.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-7.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-7.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-8.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-8.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-6.webp" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-6.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/gallery-9.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/gallery-9.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-7.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-7.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/gallery-10.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-10.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/gallery-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/gallery-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.webp" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.webp" width="376" height="476" loading="lazy" alt="experise">
                     </a>
                 </div>
             </div>
