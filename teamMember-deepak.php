@@ -15,7 +15,7 @@
                 <div class="lftSd">
                     <div class="bxCnt">
                         <h1 class="mHead">Deepak <br> divakaran</h1>
-                        <h2 class="mTxt">Personality development ( Co-Founder )
+                        <h2 class="mTxt">Life coach ( Co-Founder )
                         </h2>
                     </div>
                 </div>

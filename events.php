@@ -70,18 +70,18 @@
             <div class="swiper exGallerySlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="assets/images/exGallery-1.jpg" data-fancybox="exGallery" class="exGalleryBx sm">
-                            <img src="assets/images/exGallery-1.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <a href="assets/images/exGallery-og-1.jpg" data-fancybox="exGallery" class="exGalleryBx sm">
+                            <img src="assets/images/exGallery-og-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="assets/images/exGallery-1.jpg" data-fancybox="exGallery" class="exGalleryBx sm">
-                            <img src="assets/images/exGallery-1.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <a href="assets/images/exGallery-og-1.jpg" data-fancybox="exGallery" class="exGalleryBx sm">
+                            <img src="assets/images/exGallery-og-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                         </a>
                     </div>
                     <div class="swiper-slide">
-                        <a href="assets/images/exGallery-1.jpg" data-fancybox="exGallery" class="exGalleryBx">
-                            <img src="assets/images/exGallery-1.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <a href="assets/images/exGallery-og-1.jpg" data-fancybox="exGallery" class="exGalleryBx">
+                            <img src="assets/images/exGallery-og-1.jpg" width="376" height="476" loading="lazy" alt="experise">
                         </a>
                     </div>
                 </div>

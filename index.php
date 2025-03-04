@@ -282,7 +282,7 @@
                             <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Deepak divakaran</div>
-                                <div class="txt">Personality development</div>
+                                <div class="txt">Life coach <br> (Co-Founder)</div>
                                 <a href="teamMember-deepak.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                 </a>
@@ -294,7 +294,7 @@
                             <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Shammas Kalladath</div>
-                                <div class="txt">Marketing & personal branding </div>
+                                <div class="txt">Digital marketing head </div>
                                 <a href="teamMember-shammas.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
                                 </a>
@@ -309,20 +309,6 @@
                                 <div class="txt">Course Director</div>
                                 <a href="teamMember-ajay.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="expertiseBx">
-                            <img src="assets/images/expertise-5.png" width="376" height="476" loading="lazy"
-                                alt="experise">
-                            <div class="bxCnt">
-                                <div class="tle">Sheeba Rani</div>
-                                <div class="txt">Innovative Educator</div>
-                                <a href="teamMember-sheeba.php" aria-label="explore">
-                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
-                                        alt="arrow">
                                 </a>
                             </div>
                         </div>

@@ -160,8 +160,8 @@
                                 <div class="tleWrap">
                                     <h4 class="mHd">Course <br> Structure</h4>
                                 </div>
-                                <div class="txt">The course commences in <br>
-                                    JAN 2025 - JUNE 2025</div>
+                                <!-- <div class="txt">The course commences in <br>
+                                    JAN 2025 - JUNE 2025</div> -->
                                 <br>
                                 <div class="txt">
                                     Duration: 3 months <br>
@@ -247,11 +247,11 @@
                 <div class="rgtSd">
                     <div class="feeStruBx">
                         <div class="tle">Registration Fee</div>
-                        <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
+                        <p>Registration Fee + 3 Months Instalment Plan + VAT (5%)</p>
                         <div class="line">
-                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">2300 </span> AED<sub id="courseType1" class="course-type">Registration Fee + 1<sup>st</sup> month fee</div>
-                            <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="1000">
-                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 1000)/10000)*100%);"><span id="courseDuration1" class="course-duration">1 Month</span></div>
+                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">4500 </span> AED<sub id="courseType1" class="course-type">Total Fee</div>
+                            <input type="range" id="courseRange1" class="course-range" min="1000" max="10000" value="10000">
+                            <div class="lineTxt" style="--left-value: calc((var(--slider-value,10000)/10000)*100%);"><span id="courseDuration1" class="course-duration">3 Month</span></div>
                         </div>
                     </div>
                 </div>
@@ -486,29 +486,17 @@
                 const value = parseInt(slider.value);
                 parentContainer.style.setProperty('--slider-value', value);
                 // Calculate course duration based on the slider value
-                if (value <= 1666) {
+                if (value <= 3333) {
                     courseDuration.textContent = '1 Month';
-                    courseFee.textContent = "2300";
+                    courseFee.textContent = "1000";
                     courseType.textContent = "Registration Fee";
-                } else if (value <= 3333) {
-                    courseDuration.textContent = '2 Month';
-                    courseFee.textContent = "1300";
-                    courseType.textContent = "(Monthly)";
-                } else if (value <= 4999) {
-                    courseDuration.textContent = '3 Month';
-                    courseFee.textContent = "1300";
-                    courseType.textContent = "(Monthly)";
                 } else if (value <= 6666) {
-                    courseDuration.textContent = '4 Month';
-                    courseFee.textContent = "1300";
-                    courseType.textContent = "(Monthly)";
-                } else if (value <= 8333) {
-                    courseDuration.textContent = '5 Month';
-                    courseFee.textContent = "1300";
+                    courseDuration.textContent = '2 Month';
+                    courseFee.textContent = "1750";
                     courseType.textContent = "(Monthly)";
                 } else {
-                    courseDuration.textContent = '6 Month';
-                    courseFee.textContent = "7500";
+                    courseDuration.textContent = '3 Month';
+                    courseFee.textContent = "4500";
                     courseType.textContent = "Finished🫠";
                 }
             });

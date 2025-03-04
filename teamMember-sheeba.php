@@ -15,7 +15,7 @@
                 <div class="lftSd">
                     <div class="bxCnt">
                         <h1 class="mHead">Sheeba <br> Rani </h1>
-                        <h2 class="mTxt">Innovative Educator | STEAM & AI Specialist | Data Analyst
+                        <h2 class="mTxt">Innovative Educator (Co-Founder) | STEAM & AI Specialist | Data Analyst
                         </h2>
                     </div>
                 </div>

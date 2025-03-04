@@ -205,7 +205,7 @@
                             <img src="assets/images/team-1.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Shammas Kalladath</div>
-                                <div class="posInfo">Marketing & Personal Branding</div>
+                                <div class="posInfo">Digital Marketing Head</div>
                                 <div class="txt">I help businesses to achieve their revenue goal in short period of time
                                     and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
@@ -237,7 +237,7 @@
                             <img src="assets/images/team-3.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Deepak divakaran</div>
-                                <div class="posInfo">Personality development <br> (Co-Founder)</div>
+                                <div class="posInfo">Life coach <br> (Co-Founder)</div>
                                 <div class="txt">Have been in leadership roles for more than two decades. Empowering and
                                     equipping workforce to fit into their roles was my passion.</div>
                                 <div class="btnWrap">
@@ -253,7 +253,7 @@
                             <img src="assets/images/team-5.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Sheeba Rani</div>
-                                <div class="posInfo">Innovative Educator</div>
+                                <div class="posInfo">Innovative Educator<br> (Co-Founder)</div>
                                 <div class="txt">Sheeba Rani Anil Kumar is an experienced educator specializing in curriculum development, teacher training, and the integration of STEAM, Robotics, and AI in education.</div>
                                 <div class="btnWrap">
                                     <a href="teamMember-sheeba.php" class="baseBtn_1 hoveranim" aria-label="learn">
@@ -303,7 +303,7 @@
                                 alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Deepak divakaran</div>
-                                <div class="txt">Personality development</div>
+                                <div class="txt">Life coach <br> (Co-Founder)</div>
                                 <a href="teamMember-deepak.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
                                         alt="arrow">
@@ -317,7 +317,7 @@
                                 alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Shammas Kalladath</div>
-                                <div class="txt">Marketing & personal branding </div>
+                                <div class="txt">digital marketing head </div>
                                 <a href="teamMember-shammas.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
                                         alt="arrow">
@@ -333,20 +333,6 @@
                                 <div class="tle">Ajay Ashok</div>
                                 <div class="txt">Course Director</div>
                                 <a href="teamMember-ajay.php" aria-label="explore">
-                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
-                                        alt="arrow">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="expertiseBx">
-                            <img src="assets/images/expertise-5.png" width="376" height="476" loading="lazy"
-                                alt="experise">
-                            <div class="bxCnt">
-                                <div class="tle">Sheeba Rani</div>
-                                <div class="txt">Innovative Educator</div>
-                                <a href="teamMember-sheeba.php" aria-label="explore">
                                     <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
                                         alt="arrow">
                                 </a>

@@ -192,13 +192,13 @@
                         <div class="tle">Fee Structure</div>
                         <p>Registration Fee + 6 Months Instalment Plan + VAT (5%)</p>
                         <div class="line">
-                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">5300 </span> AED<sub
-                                    id="courseType1" class="course-type">Registration Fee + 1<sup>st</sup> month fee
-                            </div>
+                            <div class="amoutTxt"><span id="courseFee1" class="course-fee">18500 </span> AED<sub
+                                    id="courseType1" class="course-type">Total fee </div>
                             <input type="range" id="courseRange1" class="course-range" min="1000" max="10000"
-                                value="1000">
-                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 1000)/10000)*100%);">
-                                <span id="courseDuration1" class="course-duration">1 Month</span></div>
+                                value="10000">
+                            <div class="lineTxt" style="--left-value: calc((var(--slider-value, 10000)/10000)*100%);">
+                                <span id="courseDuration1" class="course-duration">6 Month</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -360,109 +360,109 @@
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    var cStructureSlide = new Swiper(".cStructureSlide", {
-        autoplay: {
-            delay: 4000,
-        },
-        pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-        },
-    });
-    // GATEWAY_SLIDE
-    var gatewaySlide;
+    document.addEventListener("DOMContentLoaded", function() {
+        var cStructureSlide = new Swiper(".cStructureSlide", {
+            autoplay: {
+                delay: 4000,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+        // GATEWAY_SLIDE
+        var gatewaySlide;
 
-    function initSwiper() {
-        if (window.innerWidth <= 768) {
-            // Initialize Swiper if it hasn't been initialized yet
-            if (!gatewaySlide) {
-                gatewaySlide = new Swiper(".gatewaySlide", {
-                    slidesPerView: 2.5,
-                    loop: $('.gatewaySlide .swiper-slide').length > 1,
-                    spaceBetween: 10,
-                    watchSlidesProgress: true,
-                    centeredSlides: true,
-                    roundLengths: true,
-                    lazy: {
-                        loadPrevNext: true,
-                    },
-                    autoplay: {
-                        delay: 2500,
-                        disableOnInteraction: false,
-                    },
-                    pagination: {
-                        el: ".swiper-pagination",
-                        clickable: true,
-                    },
-                    breakpoints: {
-                        576: {
-                            slidesPerView: 3,
-                            loop: $('.gatewaySlide .swiper-slide').length > 2,
+        function initSwiper() {
+            if (window.innerWidth <= 768) {
+                // Initialize Swiper if it hasn't been initialized yet
+                if (!gatewaySlide) {
+                    gatewaySlide = new Swiper(".gatewaySlide", {
+                        slidesPerView: 2.5,
+                        loop: $('.gatewaySlide .swiper-slide').length > 1,
+                        spaceBetween: 10,
+                        watchSlidesProgress: true,
+                        centeredSlides: true,
+                        roundLengths: true,
+                        lazy: {
+                            loadPrevNext: true,
                         },
-                        768: {
-                            slidesPerView: 3,
-                            loop: $('.gatewaySlide .swiper-slide').length > 3,
+                        autoplay: {
+                            delay: 2500,
+                            disableOnInteraction: false,
+                        },
+                        pagination: {
+                            el: ".swiper-pagination",
+                            clickable: true,
+                        },
+                        breakpoints: {
+                            576: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 2,
+                            },
+                            768: {
+                                slidesPerView: 3,
+                                loop: $('.gatewaySlide .swiper-slide').length > 3,
+                            }
                         }
-                    }
-                });
-            }
-        } else {
-            // Destroy Swiper if it has been initialized
-            if (gatewaySlide) {
-                gatewaySlide.destroy(true, true);
-                gatewaySlide = null;
+                    });
+                }
+            } else {
+                // Destroy Swiper if it has been initialized
+                if (gatewaySlide) {
+                    gatewaySlide.destroy(true, true);
+                    gatewaySlide = null;
+                }
             }
         }
-    }
 
-    // Initialize Swiper when the page loads
-    initSwiper();
+        // Initialize Swiper when the page loads
+        initSwiper();
 
-    // Add resize event listener to check window size on resize
-    window.addEventListener('resize', initSwiper);
+        // Add resize event listener to check window size on resize
+        window.addEventListener('resize', initSwiper);
 
 
-    const sliders = document.querySelectorAll('.course-range');
+        const sliders = document.querySelectorAll('.course-range');
 
-    sliders.forEach(slider => {
-        const courseFee = slider.parentElement.querySelector('.course-fee');
-        const courseDuration = slider.parentElement.querySelector('.course-duration');
-        const courseType = slider.parentElement.querySelector('.course-type');
-        const parentContainer = slider.closest('.line');
-        slider.addEventListener('input', function() {
-            const value = parseInt(slider.value);
-            parentContainer.style.setProperty('--slider-value', value);
-            // Calculate course duration based on the slider value
-            if (value <= 1666) {
-                courseDuration.textContent = '1 Month';
-                courseFee.textContent = "5300";
-                courseType.textContent = "Registration Fee";
-            } else if (value <= 3333) {
-                courseDuration.textContent = '2 Month';
-                courseFee.textContent = "3300";
-                courseType.textContent = "(Monthly)";
-            } else if (value <= 4999) {
-                courseDuration.textContent = '3 Month';
-                courseFee.textContent = "3300";
-                courseType.textContent = "(Monthly)";
-            } else if (value <= 6666) {
-                courseDuration.textContent = '4 Month';
-                courseFee.textContent = "3300";
-                courseType.textContent = "(Monthly)";
-            } else if (value <= 8333) {
-                courseDuration.textContent = '5 Month';
-                courseFee.textContent = "3300";
-                courseType.textContent = "(Monthly)";
-            } else {
-                courseDuration.textContent = '6 Month';
-                courseFee.textContent = "18500";
-                courseType.textContent = "Finished🫠";
-            }
+        sliders.forEach(slider => {
+            const courseFee = slider.parentElement.querySelector('.course-fee');
+            const courseDuration = slider.parentElement.querySelector('.course-duration');
+            const courseType = slider.parentElement.querySelector('.course-type');
+            const parentContainer = slider.closest('.line');
+            slider.addEventListener('input', function() {
+                const value = parseInt(slider.value);
+                parentContainer.style.setProperty('--slider-value', value);
+                // Calculate course duration based on the slider value
+                if (value <= 1666) {
+                    courseDuration.textContent = '1 Month';
+                    courseFee.textContent = "5300";
+                    courseType.textContent = "Registration Fee";
+                } else if (value <= 3333) {
+                    courseDuration.textContent = '2 Month';
+                    courseFee.textContent = "3300";
+                    courseType.textContent = "(Monthly)";
+                } else if (value <= 4999) {
+                    courseDuration.textContent = '3 Month';
+                    courseFee.textContent = "3300";
+                    courseType.textContent = "(Monthly)";
+                } else if (value <= 6666) {
+                    courseDuration.textContent = '4 Month';
+                    courseFee.textContent = "3300";
+                    courseType.textContent = "(Monthly)";
+                } else if (value <= 8333) {
+                    courseDuration.textContent = '5 Month';
+                    courseFee.textContent = "3300";
+                    courseType.textContent = "(Monthly)";
+                } else {
+                    courseDuration.textContent = '6 Month';
+                    courseFee.textContent = "18500";
+                    courseType.textContent = "Finished🫠";
+                }
+            });
         });
-    });
 
-});
+    });
 </script>
 
 <?php include "./includes/footer.php" ?>
