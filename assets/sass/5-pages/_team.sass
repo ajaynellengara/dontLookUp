@@ -47,12 +47,11 @@
                 margin: auto
                 display: block
                 @media only screen and (min-width: 576px)
-                    max-width: 320px
-                @media only screen and (min-width: 992px)
-                    max-width: 420px
+                    max-width: 100% 
                 img
                     @include imgFit
-                    object-position: top
+                    object-fit: contain
+                    object-position: bottom
             .bxCnt
                 width: 100%
                 height: auto

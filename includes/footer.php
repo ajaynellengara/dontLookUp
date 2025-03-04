@@ -157,6 +157,9 @@
                                         <li>
                                             <a href="https://www.youtube.com/channel/UCeqcISKKvDOnh11rGYLxhIw" class="ftTxt" target="_blank" aria-label="nav">Youtube</a>
                                         </li>
+                                        <li>
+                                            <a href="https://www.snapchat.com/add/dlu.academy?share_id=6F3LKvEGQ2k&locale=en-GB" class="ftTxt" target="_blank" aria-label="nav">Snapchat</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

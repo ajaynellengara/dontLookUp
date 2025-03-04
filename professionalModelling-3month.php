@@ -23,7 +23,7 @@
         <div class="container">
             <div class="academyWrap">
                 <div class="imgWrap">
-                    Course 02
+                    Course 03
                 </div>
                 <div class="txtWrap">
                     <h5>Welcome to the Professional Modeling Course at DLU Academy Are you ready to step into the spotlight?</h5>
@@ -164,7 +164,7 @@
                                     JAN 2025 - JUNE 2025</div>
                                 <br>
                                 <div class="txt">
-                                    Duration: 6 months <br>
+                                    Duration: 3 months <br>
                                     Monthly 4 classes <br>
                                     Morning 11:00am to 1:00 pm<br>
                                     Sunday</div>
@@ -178,7 +178,7 @@
                                             <div class="duration">1</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Fashion Choreographer (5 Sections) <br>- ATHUL SURESH</div>
+                                                <div class="txt">Fashion Choreographer (3 Sections) <br>- ATHUL SURESH</div>
                                             </div>
                                         </div>
                                     </div>
@@ -187,7 +187,7 @@
                                             <div class="duration">2</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Photographer (1 Section)</div>
+                                                <div class="txt">Photographer (4 Sections)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -196,7 +196,7 @@
                                             <div class="duration">3</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Makeup (2 Sections)</div>
+                                                <div class="txt">Makeup ( Sections)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -205,7 +205,7 @@
                                             <div class="duration">4</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Fitness (3 Sections)</div>
+                                                <div class="txt">Dress Like A Model (1 Section)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -214,7 +214,7 @@
                                             <div class="duration">5</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Dress Like A Model (1 Section)</div>
+                                                <div class="txt">Social media handing (1 Sections)</div>
                                             </div>
                                         </div>
                                     </div>
@@ -223,34 +223,7 @@
                                             <div class="duration">6</div>
                                             <div class="dBxCnt">
                                                 <div class="tle">Section</div>
-                                                <div class="txt">Mind Set Of A Model (2 Sections)</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="durationBx">
-                                            <div class="duration">7</div>
-                                            <div class="dBxCnt">
-                                                <div class="tle">Section</div>
-                                                <div class="txt"> Fashion Choreographers (8 Sections)</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="durationBx">
-                                            <div class="duration">8</div>
-                                            <div class="dBxCnt">
-                                                <div class="tle">Section</div>
-                                                <div class="txt">Portfolio Shoot (2 Sections)</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="durationBx">
-                                            <div class="duration">8</div>
-                                            <div class="dBxCnt">
-                                                <div class="tle">Section</div>
-                                                <div class="txt">Brand Shoot (1 Section)</div>
+                                                <div class="txt">Portfolio shoot (1 Sections)</div>
                                             </div>
                                         </div>
                                     </div>

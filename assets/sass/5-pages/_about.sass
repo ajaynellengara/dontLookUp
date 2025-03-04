@@ -292,8 +292,6 @@
                 color: $white
                 @media only screen and (min-width: 576px)
                     font-size: 12px
-                @media only screen and (min-width: 992px)
-                    font-size: 14px
                 @media only screen and (min-width: 1551px)
                     font-size: 16px
             .bxCnt
@@ -312,15 +310,16 @@
                 transform: translateY(100%)
                 transition: all 0.4s ease
                 text-align: center
-                @media only screen and (min-width: 576px)
-                    padding: 20px
                 @media only screen and (min-width: 992px)
-                    max-width: 268px
-                    padding: 30px
+                    max-width: 276px
+                    padding: 20px
                 &>*
                     margin: 5px 0
-                    @media only screen and (min-width: 992px)
+                    @media only screen and (min-width: 1551px)
                         margin: 10px 0
+                .posInfo
+                    @extend %rJoinDluBxTxt
+                    color: $basecolor2
             .btnWrap
                 .baseBtn_1
                     margin: auto

@@ -266,40 +266,66 @@
             <div class="swiper expertiseSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="teamMember-athul.php" class="expertiseBx">
+                        <div class="expertiseBx">
                             <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
+                                <a href="teamMember-athul.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="teamMember-deepak.php" class="expertiseBx">
+                        <div class="expertiseBx">
                             <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Deepak divakaran</div>
                                 <div class="txt">Personality development</div>
+                                <a href="teamMember-deepak.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="teamMember-shammas.php" class="expertiseBx">
+                        <div class="expertiseBx">
                             <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">Marketing & personal branding </div>
+                                <a href="teamMember-shammas.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="teamMember-ajay.php" class="expertiseBx">
+                        <div class="expertiseBx">
                             <img src="assets/images/expertise-4.jpg" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Ajay Ashok</div>
                                 <div class="txt">Course Director</div>
+                                <a href="teamMember-ajay.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy" alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-5.png" width="376" height="476" loading="lazy"
+                                alt="experise">
+                            <div class="bxCnt">
+                                <div class="tle">Sheeba Rani</div>
+                                <div class="txt">Innovative Educator</div>
+                                <a href="teamMember-sheeba.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
+                                        alt="arrow">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

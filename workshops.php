@@ -5,10 +5,10 @@
 <div id="pageWrapper" class="coursePage workshops">
     <section id="InnerBanner">
         <picture>
-            <source rel="preload" srcset="assets/images/banner-workshops-1.jpg" media="(min-width:768px)"
-                width="1920" height="1080">
-            <img rel="preload" src="assets/images/banner-workshops-1.jpg" width="640" height="360"
-                alt="course" fetchpriority="low" loading="lazy" decoding="async">
+            <source rel="preload" srcset="assets/images/banner-workshops-1.jpg" media="(min-width:768px)" width="1920"
+                height="1080">
+            <img rel="preload" src="assets/images/banner-workshops-1.jpg" width="640" height="360" alt="course"
+                fetchpriority="low" loading="lazy" decoding="async">
         </picture>
         <div class="container">
             <div class="cntWrap">
@@ -26,7 +26,9 @@
                     Workshops
                 </div>
                 <div class="txtWrap">
-                    <h5>Discover hands-on workshops at DLU Academy, where you'll gain essential skills in fashion, event management, and modeling. Elevate your expertise with practical guidance designed to boost your career and confidence.</h5>
+                    <h5>Discover hands-on workshops at DLU Academy, where you'll gain essential skills in fashion, event
+                        management, and modeling. Elevate your expertise with practical guidance designed to boost your
+                        career and confidence.</h5>
                 </div>
             </div>
             <div class="courseDtlFlx">
@@ -36,7 +38,9 @@
                             <h4 class="mHd">Fashion & event
                                 workshop</h4>
                         </div>
-                        <p>DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</p>
+                        <p>DLU Academy Business Workshops are typically focused on providing attendees with practical
+                            skills and insights for succeeding in the business side of fashion, creative industries, or
+                            entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</p>
                     </div>
                 </div>
                 <div class="w50">
@@ -55,7 +59,10 @@
                             <h4 class="mHd">Modelling
                                 workshops</h4>
                         </div>
-                        <p>The DLU Academy Fashion and Modeling Workshop is designed to equip attendees with skills in fashion styling, personal branding, and modeling techniques. These workshops are hands-on and offer expert guidance, making them ideal for anyone looking to enter the modeling industry or enhance their personal style and confidence.</p>
+                        <p>The DLU Academy Fashion and Modeling Workshop is designed to equip attendees with skills in
+                            fashion styling, personal branding, and modeling techniques. These workshops are hands-on
+                            and offer expert guidance, making them ideal for anyone looking to enter the modeling
+                            industry or enhance their personal style and confidence.</p>
                     </div>
                 </div>
             </div>
@@ -67,7 +74,8 @@
             <div class="uWorkshopsBx">
                 <div class="lftSd">
                     <div class="bxImg">
-                        <img src="assets/images/workshops-3.png" width="440" height="720" loading="lazy" alt="workshops">
+                        <img src="assets/images/workshops-3.png" width="440" height="720" loading="lazy"
+                            alt="workshops">
                     </div>
                 </div>
                 <div class="rgtSd">
@@ -94,37 +102,45 @@
         <div class="swiper gallerySlide">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                    <a href="assets/images/lifeDluGal-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
-                    <a href="assets/images/lifeDluGal-2.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-2.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="assets/images/lifeDluGal-3.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/lifeDluGal-3.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-2.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-2.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/lifeDluGal-4.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-4.webp" width="376" height="476" loading="lazy" alt="experise">
-                    </a>
-                    <a href="assets/images/lifeDluGal-5.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-5.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-3.jpg" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-3.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/lifeDluGal-6.webp" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/lifeDluGal-6.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-4.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-4.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
+                    </a>
+                    <a href="assets/images/lifeDluGal-5.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-5.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
-                    <a href="assets/images/lifeDluGal-7.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-7.webp" width="376" height="476" loading="lazy" alt="experise">
+                    <a href="assets/images/lifeDluGal-6.jpg" data-fancybox="gallery" class="galleryBx">
+                        <img src="assets/images/lifeDluGal-6.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
-                    <a href="assets/images/lifeDluGal-1.webp" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                </div>
+                <div class="swiper-slide">
+                    <a href="assets/images/lifeDluGal-7.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-7.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
+                    </a>
+                    <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
             </div>
@@ -141,73 +157,81 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // GALLERY_SLIDE
-        var gallerySlide = new Swiper(".gallerySlide", {
-            slidesPerView: 5,
-            loop: true,
-            spaceBetween: 0,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: true,
-            },
-            autoplay: false,
-        });
-        // GATEWAY_SLIDE
-        var gatewaySlide;
+<!-- FANCYBOX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"
+    integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
-        function initSwiper() {
-            if (window.innerWidth <= 768) {
-                // Initialize Swiper if it hasn't been initialized yet
-                if (!gatewaySlide) {
-                    gatewaySlide = new Swiper(".gatewaySlide", {
-                        slidesPerView: 2.5,
-                        loop: $('.gatewaySlide .swiper-slide').length > 1,
-                        spaceBetween: 10,
-                        watchSlidesProgress: true,
-                        centeredSlides: true,
-                        roundLengths: true,
-                        lazy: {
-                            loadPrevNext: true,
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    // GALLERY_SLIDE
+    var gallerySlide = new Swiper(".gallerySlide", {
+        slidesPerView: 5,
+        loop: true,
+        spaceBetween: 0,
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: true,
+        },
+        autoplay: false,
+    });
+    // GATEWAY_SLIDE
+    var gatewaySlide;
+
+    function initSwiper() {
+        if (window.innerWidth <= 768) {
+            // Initialize Swiper if it hasn't been initialized yet
+            if (!gatewaySlide) {
+                gatewaySlide = new Swiper(".gatewaySlide", {
+                    slidesPerView: 2.5,
+                    loop: $('.gatewaySlide .swiper-slide').length > 1,
+                    spaceBetween: 10,
+                    watchSlidesProgress: true,
+                    centeredSlides: true,
+                    roundLengths: true,
+                    lazy: {
+                        loadPrevNext: true,
+                    },
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    breakpoints: {
+                        576: {
+                            slidesPerView: 3,
+                            loop: $('.gatewaySlide .swiper-slide').length > 2,
                         },
-                        autoplay: {
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        },
-                        pagination: {
-                            el: ".swiper-pagination",
-                            clickable: true,
-                        },
-                        breakpoints: {
-                            576: {
-                                slidesPerView: 3,
-                                loop: $('.gatewaySlide .swiper-slide').length > 2,
-                            },
-                            768: {
-                                slidesPerView: 3,
-                                loop: $('.gatewaySlide .swiper-slide').length > 3,
-                            }
+                        768: {
+                            slidesPerView: 3,
+                            loop: $('.gatewaySlide .swiper-slide').length > 3,
                         }
-                    });
-                }
-            } else {
-                // Destroy Swiper if it has been initialized
-                if (gatewaySlide) {
-                    gatewaySlide.destroy(true, true);
-                    gatewaySlide = null;
-                }
+                    }
+                });
+            }
+        } else {
+            // Destroy Swiper if it has been initialized
+            if (gatewaySlide) {
+                gatewaySlide.destroy(true, true);
+                gatewaySlide = null;
             }
         }
+    }
 
-        // Initialize Swiper when the page loads
-        initSwiper();
+    // Initialize Swiper when the page loads
+    initSwiper();
 
-        // Add resize event listener to check window size on resize
-        window.addEventListener('resize', initSwiper);
+    // Add resize event listener to check window size on resize
+    window.addEventListener('resize', initSwiper);
 
 
-    });
+});
 </script>
 
 <?php include "./includes/footer.php" ?>

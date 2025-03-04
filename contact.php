@@ -5,9 +5,10 @@
 <div id="pageWrapper" class="contactPage">
     <section id="InnerBanner">
         <picture>
-            <source rel="preload" srcset="assets/images/banner-contact-1.jpg" media="(min-width:768px)" width="1920" height="1080">
-            <img rel="preload" src="assets/images/banner-contact-1.jpg" width="640" height="360"
-                alt="course" fetchpriority="low" loading="lazy" decoding="async">
+            <source rel="preload" srcset="assets/images/banner-contact-1.jpg" media="(min-width:768px)" width="1920"
+                height="1080">
+            <img rel="preload" src="assets/images/banner-contact-1.jpg" width="640" height="360" alt="course"
+                fetchpriority="low" loading="lazy" decoding="async">
         </picture>
         <div class="container">
             <div class="cntWrap">
@@ -26,7 +27,8 @@
                     </div>
                 </div>
                 <div class="rgtSd">
-                    <h5 class="secDisc">Have questions or need assistance? Reach out to us! Our dedicated team is here to help with inquiries, feedback, and support. Contact us today and let's connect!</h5>
+                    <h5 class="secDisc">Have questions or need assistance? Reach out to us! Our dedicated team is here
+                        to help with inquiries, feedback, and support. Contact us today and let's connect!</h5>
                 </div>
                 <div class="lftSd">
                     <div class="addrsBx">
@@ -36,7 +38,8 @@
                                 <a href="tel:+00971585962334" target="_blank" aria-label="phone">00971 585 962 334</a>
                             </p>
                             <p>
-                                <a href="mailto:admission@dontlookup.academy" target="_blank" aria-label="mail">admission@dontlookup.academy</a>
+                                <a href="mailto:admission@dontlookup.academy" target="_blank"
+                                    aria-label="mail">admission@dontlookup.academy</a>
                             </p>
                         </div>
                         <div class="item">
@@ -99,7 +102,10 @@
                 </div>
                 <div class="fullSd">
                     <div class="mapBx">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49579.18671172482!2d76.28784058158307!3d10.016684015439308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0812a63b6445d3%3A0xfce7a976921f7af1!2sBolgatty%20Palace%20and%20Island%20Resort!5e0!3m2!1sen!2sin!4v1737190629238!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14435.076514939707!2d55.285516874106804!3d25.24469993089804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f42d7bf391ce5%3A0xc92c59be702d25dd!2sAl%20Karama%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1739986225163!5m2!1sen!2sin"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>

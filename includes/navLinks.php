@@ -44,7 +44,7 @@
                 </div>
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <a href="javascript:void(0)"
+                        <a href="professionalModelling-3month.php"
                             class="accordion-button"
                             aria-label="Professional Modelling">
                             <span>Professional Modelling (3 Months)</span>

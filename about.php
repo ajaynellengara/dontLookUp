@@ -5,10 +5,10 @@
 <div id="pageWrapper" class="aboutPage">
     <section id="InnerBanner">
         <picture>
-            <source rel="preload" srcset="assets/images/banner-about-1.webp" media="(min-width:768px)"
-                width="1920" height="1080">
-            <img rel="preload" src="assets/images/banner-about-1.webp" width="640" height="360"
-                alt="about" fetchpriority="low" loading="lazy" decoding="async">
+            <source rel="preload" srcset="assets/images/banner-about-1.webp" media="(min-width:768px)" width="1920"
+                height="1080">
+            <img rel="preload" src="assets/images/banner-about-1.webp" width="640" height="360" alt="about"
+                fetchpriority="low" loading="lazy" decoding="async">
         </picture>
         <div class="container">
             <div class="cntWrap">
@@ -25,7 +25,11 @@
                     <img src="assets/images/aboutDlu-1.svg" width="140" height="32" loading="lazy" alt="about">
                 </div>
                 <div class="txtWrap">
-                    <h5>Our objective is to deliver unmatched educational quality in specialized fields. Aspiring students will receive top-tier training from highly qualified and experienced tutors. Our courses are distinctive, featuring tailored course materials designed to meet the demands of the modern corporate world. The syllabi are crafted to support students seeking to upgrade their existing skills or acquire new ones to enhance their professional careers</h5>
+                    <h5>Our objective is to deliver unmatched educational quality in specialized fields. Aspiring
+                        students will receive top-tier training from highly qualified and experienced tutors. Our
+                        courses are distinctive, featuring tailored course materials designed to meet the demands of the
+                        modern corporate world. The syllabi are crafted to support students seeking to upgrade their
+                        existing skills or acquire new ones to enhance their professional careers</h5>
                 </div>
             </div>
             <div class="trainingBx">
@@ -53,7 +57,12 @@
                     <div class="tleWrap center">
                         <h3 class="mHd">Join the Future NOW</h3>
                     </div>
-                    <p>At Don'tLookup Academy (DLU), Dubai's leading academy for Fashion Event Management and Professional Modeling courses, we are committed to nurturing creativity, professionalism, and excellence in the dynamic world of fashion and events. Based in the vibrant city of Dubai, DLU offers world-class courses in Fashion Event Management, Professional Modeling, and a range of other specialized programs designed to empower aspiring professionals and unlock their full potential.</p>
+                    <p>At Don'tLookup Academy (DLU), Dubai's leading academy for Fashion Event Management and
+                        Professional Modeling courses, we are committed to nurturing creativity, professionalism, and
+                        excellence in the dynamic world of fashion and events. Based in the vibrant city of Dubai, DLU
+                        offers world-class courses in Fashion Event Management, Professional Modeling, and a range of
+                        other specialized programs designed to empower aspiring professionals and unlock their full
+                        potential.</p>
                 </div>
             </div>
             <div class="miviFlx">
@@ -72,7 +81,8 @@
                     <div class="miviBx">
                         <div class="bxCnt">
                             <div class="tle">Mission</div>
-                            <div class="txt">Provide top quality coaching and implement best practices by highly qualified professionals from relevant industries</div>
+                            <div class="txt">Provide top quality coaching and implement best practices by highly
+                                qualified professionals from relevant industries</div>
                         </div>
                         <div class="bxImg">
                             <img src="assets/images/icon-aim.svg" width="140" height="140" loading="lazy" alt="eye">
@@ -92,31 +102,39 @@
                 <div class="gridCol">
                     <div class="item">
                         <div class="rJoinDluBx">
-                            <img src="assets/images/rJoinDlu-1.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <img src="assets/images/rJoinDlu-1.jpg" width="576" height="260" loading="lazy"
+                                alt="rJoinDlu">
                             <div class="bxCnt">
-                                <div class="tle">UAE’s First Training Hub for Fashion Event Management, Modeling & Workshops</div>
+                                <div class="tle">UAE’s First Training Hub for Fashion Event Management, Modeling &
+                                    Workshops</div>
                             </div>
                             <div class="bxCnt hover">
-                                <div class="tle">UAE’s First Training Hub for Fashion Event Management, Modeling & Workshops</div>
-                                <div class="txt">The premier destination for aspiring professionals, offering expert-led training, industry insights, and hands-on experience to excel in fashion and event management.</div>
+                                <div class="tle">UAE’s First Training Hub for Fashion Event Management, Modeling &
+                                    Workshops</div>
+                                <div class="txt">The premier destination for aspiring professionals, offering expert-led
+                                    training, industry insights, and hands-on experience to excel in fashion and event
+                                    management.</div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="rJoinDluBx">
-                            <img src="assets/images/rJoinDlu-2.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <img src="assets/images/rJoinDlu-2.jpg" width="576" height="260" loading="lazy"
+                                alt="rJoinDlu">
                             <div class="bxCnt">
                                 <div class="tle">UAE & GLOBAL INTERNSHIP</div>
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">UAE & GLOBAL INTERNSHIP</div>
-                                <div class="txt">Gain real-world experience, global exposure, and career opportunities through our fashion and event management internships.</div>
+                                <div class="txt">Gain real-world experience, global exposure, and career opportunities
+                                    through our fashion and event management internships.</div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="rJoinDluBx">
-                            <img src="assets/images/rJoinDlu-3.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <img src="assets/images/rJoinDlu-3.jpg" width="576" height="260" loading="lazy"
+                                alt="rJoinDlu">
                             <div class="bxCnt">
                                 <div class="tle">PRACTICAL KNOWLEDGE</div>
                             </div>
@@ -130,37 +148,43 @@
                 <div class="gridCol">
                     <div class="item">
                         <div class="rJoinDluBx">
-                            <img src="assets/images/rJoinDlu-4.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <img src="assets/images/rJoinDlu-4.jpg" width="576" height="260" loading="lazy"
+                                alt="rJoinDlu">
                             <div class="bxCnt">
                                 <div class="tle">INDUSTRY NETWORKING</div>
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">INDUSTRY NETWORKING</div>
-                                <div class="txt">We connect students with industry professionals, offering networking events, internships, and mentorship for real-world career opportunities.</div>
+                                <div class="txt">We connect students with industry professionals, offering networking
+                                    events, internships, and mentorship for real-world career opportunities.</div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="rJoinDluBx">
-                            <img src="assets/images/rJoinDlu-5.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <img src="assets/images/rJoinDlu-5.jpg" width="576" height="260" loading="lazy"
+                                alt="rJoinDlu">
                             <div class="bxCnt">
                                 <div class="tle">BEST OPPORTUNITIES</div>
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">BEST OPPORTUNITIES</div>
-                                <div class="txt">We provide top-tier opportunities for students to excel through industry connections, hands-on experience, and expert guidance.</div>
+                                <div class="txt">We provide top-tier opportunities for students to excel through
+                                    industry connections, hands-on experience, and expert guidance.</div>
                             </div>
                         </div>
                     </div>
                     <div class="item">
                         <div class="rJoinDluBx">
-                            <img src="assets/images/rJoinDlu-6.jpg" width="576" height="260" loading="lazy" alt="rJoinDlu">
+                            <img src="assets/images/rJoinDlu-6.jpg" width="576" height="260" loading="lazy"
+                                alt="rJoinDlu">
                             <div class="bxCnt">
                                 <div class="tle">RECOGNISED CERTIFICATION</div>
                             </div>
                             <div class="bxCnt hover">
                                 <div class="tle">RECOGNISED CERTIFICATION</div>
-                                <div class="txt">Our academy offers industry-recognised certifications that enhance credibility and open doors to global career opportunities.</div>
+                                <div class="txt">Our academy offers industry-recognised certifications that enhance
+                                    credibility and open doors to global career opportunities.</div>
                             </div>
                         </div>
                     </div>
@@ -181,7 +205,9 @@
                             <img src="assets/images/team-1.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Shammas Kalladath</div>
-                                <div class="txt">I help businesses to achieve their revenue goal in short period of time and save money on marketing, sales and other areas of business.</div>
+                                <div class="posInfo">Marketing & Personal Branding</div>
+                                <div class="txt">I help businesses to achieve their revenue goal in short period of time
+                                    and save money on marketing, sales and other areas of business.</div>
                                 <div class="btnWrap">
                                     <a href="teamMember-shammas.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
@@ -195,7 +221,9 @@
                             <img src="assets/images/team-2.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Jojith Rajan</div>
-                                <div class="txt">Jojith Rajan is the Global CTO of Nuvento Inc and Dockery.AI based in Texas, US. Being a strong Hands-on New Age Technologist</div>
+                                <div class="posInfo">Chief Strategic Advisor</div>
+                                <div class="txt">Jojith Rajan is the Global CTO of Nuvento Inc and Dockery.AI based in
+                                    Texas, US. Being a strong Hands-on New Age Technologist</div>
                                 <div class="btnWrap">
                                     <a href="teamMember-jojith.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
@@ -209,7 +237,9 @@
                             <img src="assets/images/team-3.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Deepak divakaran</div>
-                                <div class="txt">Have been in leadership roles for more than two decades. Empowering and equipping workforce to fit into their roles was my passion.</div>
+                                <div class="posInfo">Personality development <br> (Co-Founder)</div>
+                                <div class="txt">Have been in leadership roles for more than two decades. Empowering and
+                                    equipping workforce to fit into their roles was my passion.</div>
                                 <div class="btnWrap">
                                     <a href="teamMember-deepak.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
@@ -220,26 +250,13 @@
                     </div>
                     <div class="swiper-slide">
                         <div class="teamBx">
-                            <img src="assets/images/teamMember-ajay.png" width="376" height="476" loading="lazy" alt="experise">
+                            <img src="assets/images/team-5.png" width="376" height="476" loading="lazy" alt="experise">
                             <div class="bxCnt">
-                                <div class="tle">Ajay Ashok</div>
-                                <div class="txt">Have been in leadership roles for more than two decades. Empowering and equipping workforce to fit into their roles was my passion.</div>
+                                <div class="tle">Sheeba Rani</div>
+                                <div class="posInfo">Innovative Educator</div>
+                                <div class="txt">Sheeba Rani Anil Kumar is an experienced educator specializing in curriculum development, teacher training, and the integration of STEAM, Robotics, and AI in education.</div>
                                 <div class="btnWrap">
-                                    <a href="teamMember-ajay.php" class="baseBtn_1 hoveranim" aria-label="learn">
-                                        <span>read more</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="teamBx">
-                            <img src="assets/images/teamMember-athul.png" width="376" height="476" loading="lazy" alt="experise">
-                            <div class="bxCnt">
-                                <div class="tle">Athul Suresh</div>
-                                <div class="txt">A visionary leader in the modeling and talent development industry, with years of experience and a thriving academy that operates across..</div>
-                                <div class="btnWrap">
-                                    <a href="teamMember-athul.php" class="baseBtn_1 hoveranim" aria-label="learn">
+                                    <a href="teamMember-sheeba.php" class="baseBtn_1 hoveranim" aria-label="learn">
                                         <span>read more</span>
                                     </a>
                                 </div>
@@ -267,40 +284,74 @@
             <div class="swiper expertiseSlide">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <a href="teamMember-athul.php" class="expertiseBx">
-                            <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-1.webp" width="376" height="476" loading="lazy"
+                                alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Athul suresh</div>
                                 <div class="txt">fashion choreographer</div>
+                                <a href="teamMember-athul.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
+                                        alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="teamMember-deepak.php" class="expertiseBx">
-                            <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-2.webp" width="376" height="476" loading="lazy"
+                                alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Deepak divakaran</div>
                                 <div class="txt">Personality development</div>
+                                <a href="teamMember-deepak.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
+                                        alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="teamMember-shammas.php" class="expertiseBx">
-                            <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-3.webp" width="376" height="476" loading="lazy"
+                                alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Shammas Kalladath</div>
                                 <div class="txt">Marketing & personal branding </div>
+                                <a href="teamMember-shammas.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
+                                        alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
                     </div>
                     <div class="swiper-slide">
-                        <a href="teamMember-ajay.php" class="expertiseBx">
-                            <img src="assets/images/expertise-4.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-4.jpg" width="376" height="476" loading="lazy"
+                                alt="experise">
                             <div class="bxCnt">
                                 <div class="tle">Ajay Ashok</div>
                                 <div class="txt">Course Director</div>
+                                <a href="teamMember-ajay.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
+                                        alt="arrow">
+                                </a>
                             </div>
-                        </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="expertiseBx">
+                            <img src="assets/images/expertise-5.png" width="376" height="476" loading="lazy"
+                                alt="experise">
+                            <div class="bxCnt">
+                                <div class="tle">Sheeba Rani</div>
+                                <div class="txt">Innovative Educator</div>
+                                <a href="teamMember-sheeba.php" aria-label="explore">
+                                    <img src="assets/images/icon-arrow.svg" width="40" height="40" loading="lazy"
+                                        alt="arrow">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -316,17 +367,20 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-1.svg" width="140" height="70" loading="lazy" alt="ourPartners">
+                            <img src="assets/images/ourPartners-og-1.svg" width="140" height="70" loading="lazy"
+                                alt="ourPartners">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-2.png" width="140" height="70" loading="lazy" alt="ourPartners">
+                            <img src="assets/images/ourPartners-og-2.png" width="140" height="70" loading="lazy"
+                                alt="ourPartners">
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <div class="ourPartnersBx">
-                            <img src="assets/images/ourPartners-3.svg" width="140" height="70" loading="lazy" alt="ourPartners">
+                            <img src="assets/images/ourPartners-og-3.svg" width="140" height="70" loading="lazy"
+                                alt="ourPartners">
                         </div>
                     </div>
                 </div>
@@ -342,36 +396,44 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                     <a href="assets/images/lifeDluGal-2.jpg" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-2.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-2.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="assets/images/lifeDluGal-3.jpg" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/lifeDluGal-3.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-3.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="assets/images/lifeDluGal-4.jpg" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-4.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-4.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                     <a href="assets/images/lifeDluGal-5.jpg" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-5.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-5.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="assets/images/lifeDluGal-6.jpg" data-fancybox="gallery" class="galleryBx">
-                        <img src="assets/images/lifeDluGal-6.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-6.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
                 <div class="swiper-slide">
                     <a href="assets/images/lifeDluGal-7.jpg" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-7.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-7.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                     <a href="assets/images/lifeDluGal-1.jpg" data-fancybox="gallery" class="galleryBx sm">
-                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy" alt="experise">
+                        <img src="assets/images/lifeDluGal-1.jpg" width="376" height="476" loading="lazy"
+                            alt="experise">
                     </a>
                 </div>
             </div>
@@ -405,169 +467,168 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        // TEAM_SLIDE
-        var teamSlide = new Swiper(".teamSlide", {
-            slidesPerView: 1.4,
-            loop: false,
-            spaceBetween: 10,
-            centeredSlides: true,
-            roundLengths: true,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
+document.addEventListener("DOMContentLoaded", function() {
+    // TEAM_SLIDE
+    var teamSlide = new Swiper(".teamSlide", {
+        slidesPerView: 1.4,
+        loop: true,
+        spaceBetween: 10,
+        centeredSlides: true,
+        watchSlidesProgress: true,
+        lazy: {
+            loadPrevNext: true,
+        },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        autoplay: false,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+        },
+        breakpoints: {
+            468: {
+                slidesPerView: 2,
+                spaceBetween: 15,
             },
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
+            576: {
+                slidesPerView: 3,
+                spaceBetween: 20,
             },
-            autoplay: false,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+            992: {
+                slidesPerView: 3,
+                spaceBetween: 30,
             },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev"
+        },
+    });
+    // EXPERTISE_SLIDE
+    var expertiseSlide = new Swiper(".expertiseSlide", {
+        slidesPerView: 1.4,
+        loop: false,
+        spaceBetween: 0,
+        watchSlidesProgress: true,
+        lazy: {
+            loadPrevNext: true,
+        },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            376: {
+                slidesPerView: 2,
             },
-            breakpoints: {
-                468: {
-                    slidesPerView: 2,
-                    spaceBetween: 15,
-                },
-                576: {
-                    slidesPerView: 3,
-                    spaceBetween: 20,
-                },
-                992: {
-                    slidesPerView: 3,
-                    spaceBetween: 30,
-                },
+            468: {
+                slidesPerView: 2.5,
             },
-        });
-        // EXPERTISE_SLIDE
-        var expertiseSlide = new Swiper(".expertiseSlide", {
-            slidesPerView: 1.4,
-            loop: false,
-            spaceBetween: 0,
-            watchSlidesProgress: true,
-            lazy: {
-                loadPrevNext: true,
+            576: {
+                slidesPerView: 3,
             },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
+            992: {
+                slidesPerView: 3.5,
             },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
+            1551: {
+                slidesPerView: 3.8,
             },
-            breakpoints: {
-                376: {
-                    slidesPerView: 2,
-                },
-                468: {
-                    slidesPerView: 2.5,
-                },
-                576: {
-                    slidesPerView: 3,
-                },
-                992: {
-                    slidesPerView: 3.5,
-                },
-                1551: {
-                    slidesPerView: 3.8,
-                },
+        },
+    });
+    // EXPERTISE_SLIDE
+    var ourPartnersSlide = new Swiper(".ourPartnersSlide", {
+        slidesPerView: 2,
+        loop: true,
+        spaceBetween: 0,
+        watchSlidesProgress: true,
+        centerInsufficientSlides: true,
+        lazy: {
+            loadPrevNext: true,
+        },
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        breakpoints: {
+            376: {
+                slidesPerView: 3,
             },
-        });
-        // EXPERTISE_SLIDE
-        var ourPartnersSlide = new Swiper(".ourPartnersSlide", {
-            slidesPerView: 2,
-            loop: true,
-            spaceBetween: 0,
-            watchSlidesProgress: true,
-            centerInsufficientSlides: true,
-            lazy: {
-                loadPrevNext: true,
+            576: {
+                slidesPerView: 4,
             },
-            autoplay: {
-                delay: 3000,
-                disableOnInteraction: false,
+            992: {
+                slidesPerView: 5,
             },
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            breakpoints: {
-                376: {
-                    slidesPerView: 3,
-                },
-                576: {
-                    slidesPerView: 4,
-                },
-                992: {
-                    slidesPerView: 5,
-                },
-            },
-        });
-        // GALLERY_SLIDE
-        var gallerySlide = new Swiper(".gallerySlide", {
-            slidesPerView: 5,
-            loop: true,
-            spaceBetween: 0,
-            autoplay: {
-                delay: 1000,
-                disableOnInteraction: true,
-            },
-            autoplay: false,
-        });
-        // GATEWAY_SLIDE
-        var gatewaySlide;
+        },
+    });
+    // GALLERY_SLIDE
+    var gallerySlide = new Swiper(".gallerySlide", {
+        slidesPerView: 5,
+        loop: true,
+        spaceBetween: 0,
+        autoplay: {
+            delay: 1000,
+            disableOnInteraction: true,
+        },
+        autoplay: false,
+    });
+    // GATEWAY_SLIDE
+    var gatewaySlide;
 
-        function initSwiper() {
-            if (window.innerWidth <= 768) {
-                if (!gatewaySlide) {
-                    gatewaySlide = new Swiper(".gatewaySlide", {
-                        slidesPerView: 2.5,
-                        loop: $('.gatewaySlide .swiper-slide').length > 1,
-                        spaceBetween: 10,
-                        watchSlidesProgress: true,
-                        centeredSlides: true,
-                        roundLengths: true,
-                        lazy: {
-                            loadPrevNext: true,
+    function initSwiper() {
+        if (window.innerWidth <= 768) {
+            if (!gatewaySlide) {
+                gatewaySlide = new Swiper(".gatewaySlide", {
+                    slidesPerView: 2.5,
+                    loop: $('.gatewaySlide .swiper-slide').length > 1,
+                    spaceBetween: 10,
+                    watchSlidesProgress: true,
+                    centeredSlides: true,
+                    roundLengths: true,
+                    lazy: {
+                        loadPrevNext: true,
+                    },
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                    pagination: {
+                        el: ".swiper-pagination",
+                        clickable: true,
+                    },
+                    breakpoints: {
+                        576: {
+                            slidesPerView: 3,
+                            loop: $('.gatewaySlide .swiper-slide').length > 2,
                         },
-                        autoplay: {
-                            delay: 2500,
-                            disableOnInteraction: false,
-                        },
-                        pagination: {
-                            el: ".swiper-pagination",
-                            clickable: true,
-                        },
-                        breakpoints: {
-                            576: {
-                                slidesPerView: 3,
-                                loop: $('.gatewaySlide .swiper-slide').length > 2,
-                            },
-                            768: {
-                                slidesPerView: 3,
-                                loop: $('.gatewaySlide .swiper-slide').length > 3,
-                            }
+                        768: {
+                            slidesPerView: 3,
+                            loop: $('.gatewaySlide .swiper-slide').length > 3,
                         }
-                    });
-                }
-            } else {
-                if (gatewaySlide) {
-                    gatewaySlide.destroy(true, true);
-                    gatewaySlide = null;
-                }
+                    }
+                });
+            }
+        } else {
+            if (gatewaySlide) {
+                gatewaySlide.destroy(true, true);
+                gatewaySlide = null;
             }
         }
-        initSwiper();
-        window.addEventListener('resize', initSwiper);
+    }
+    initSwiper();
+    window.addEventListener('resize', initSwiper);
 
-    });
+});
 </script>
 
 <?php include "./includes/footer.php" ?>
