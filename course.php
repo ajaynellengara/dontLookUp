@@ -36,7 +36,7 @@
             <div class="courseFlx">
                 <div class="item">
                     <div class="programBx">
-                        <img src="assets/images/program-1.webp" width="200" height="200" loading="lazy" alt="arrow">
+                        <img src="assets/images/program-1-1.jpg" width="200" height="200" loading="lazy" alt="arrow">
                         <div class="bxCnt">
                             <div class="tle">fashion event <br>  management</div>
                             <div class="txt">6 months <br> 6:30pm - 8:30pm</div>

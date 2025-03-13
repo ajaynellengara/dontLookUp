@@ -96,7 +96,7 @@
                         </a>
                     </div>
                     <div class="item gsap_delmt_rgt">
-                        <a href="about.php" class="imgBx" data-fancybox="gallery1" aria-label="explore">
+                        <a href="about.php" class="imgBx" aria-label="explore">
                             <img src="assets/images/gal-vw-btn.svg" width="200" height="200" loading="lazy" alt="arrow">
                         </a>
                     </div>
@@ -116,7 +116,7 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="programBx">
-                            <img src="assets/images/program-1.webp" width="200" height="200" loading="lazy" alt="arrow">
+                            <img src="assets/images/program-1.jpg" width="200" height="200" loading="lazy" alt="arrow">
                             <div class="bxCnt">
                                 <div class="tle">fashion event management</div>
                                 <div class="txt">6 months <br> 6:30pm - 8:30pm</div>

@@ -14,7 +14,7 @@
             <div class="cntWrap">
                 <h1 class="mTxt">Blogs</h1>
                 <h2 class="mHead">Experience Engaging Events
-                That Inspire and Connect</h2>
+                    That Inspire and Connect</h2>
             </div>
         </div>
     </section>
@@ -24,57 +24,74 @@
             <div class="dFlx">
                 <div class="lftSd">
                     <div class="secTle">Latest <br>
-                    Updates</div>
+                        Updates</div>
                 </div>
                 <div class="rgtSd">
-                    <h5 class="secDisc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h5>
+                    <h5 class="secDisc">
+                        Stay ahead of the trends with insider tips, style inspiration, and expert advice from the world of fashion and modeling.
+                    </h5>
                 </div>
                 <div class="fullSd">
                     <div class="eventFlx">
                         <div class="item">
-                            <a href="blogDetail.php" class="eventBx" aria-label="blog">
+                            <a href="blogDetail-1.php" class="eventBx" aria-label="blog">
                                 <div class="bxImg">
                                     <img src="assets/images/blog-1.jpg" width="576" height="376" loading="lazy" alt="event">
                                 </div>
                                 <div class="bxCnt">
-                                    <div class="tle">Event name</div>
-                                    <div class="txt">DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</div>
+                                    <div class="tle">Breaking Into Plus-Size Modeling: <br>
+                                    Challenges and Opportunities</div>
+                                    <div class="baseBtn_1 hoveranim">
+                                        <span>Read More</span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="item">
-                            <a href="blogDetail.php" class="eventBx" aria-label="blog">
+                            <a href="blogDetail-2.php" class="eventBx" aria-label="blog">
                                 <div class="bxImg">
-                                    <img src="assets/images/blog-1.jpg" width="576" height="376" loading="lazy" alt="event">
+                                    <img src="assets/images/blog-2.jpg" width="576" height="376" loading="lazy" alt="event">
                                 </div>
                                 <div class="bxCnt">
-                                    <div class="tle">Event name</div>
-                                    <div class="txt">DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</div>
+                                    <div class="tle">The Evolution of Fashion: <br>
+                                    From Classic to Contemporary</div>
+                                    <div class="baseBtn_1 hoveranim">
+                                        <span>Read More</span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="item">
-                            <a href="blogDetail.php" class="eventBx" aria-label="blog">
+                            <a href="blogDetail-3.php" class="eventBx" aria-label="blog">
                                 <div class="bxImg">
-                                    <img src="assets/images/blog-1.jpg" width="576" height="376" loading="lazy" alt="event">
+                                    <img src="assets/images/blog-3.jpg" width="576" height="376" loading="lazy" alt="event">
                                 </div>
                                 <div class="bxCnt">
-                                    <div class="tle">Event name</div>
-                                    <div class="txt">DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</div>
+                                    <div class="tle">Fashion and Modelling Industry in the UAE:  <br>
+                                    A Growing Hub of Creativity and Innovation</div>
+                                    <div class="baseBtn_1 hoveranim">
+                                        <span>Read More</span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
+                        
                         <div class="item">
-                            <a href="blogDetail.php" class="eventBx" aria-label="blog">
+                            <a href="blogDetail-4.php" class="eventBx" aria-label="blog">
                                 <div class="bxImg">
-                                    <img src="assets/images/blog-1.jpg" width="576" height="376" loading="lazy" alt="event">
+                                    <img src="assets/images/blog-4.jpg" width="576" height="376" loading="lazy" alt="event">
                                 </div>
                                 <div class="bxCnt">
-                                    <div class="tle">Event name</div>
-                                    <div class="txt">DLU Academy Business Workshops are typically focused on providing attendees with practical skills and insights for succeeding in the business side of fashion, creative industries, or entrepreneurship. Here’s what you might expect from a DLU Academy business workshop.</div>
+                                    <div class="tle">The Power of Personal Branding for Models and Fashion Influencers</div>
+                                    <div class="baseBtn_1 hoveranim">
+                                        <span>Read More</span>
+                                    </div>
                                 </div>
                             </a>
                         </div>
+                        
                     </div>
                 </div>
             </div>

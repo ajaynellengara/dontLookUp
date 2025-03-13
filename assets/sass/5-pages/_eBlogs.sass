@@ -9,23 +9,20 @@
             .bxImg>img
                 transform: scale(1.1)
         .tle
-            font-size: 16px
+            font-size: 14px
             line-height: 1.1
             font-weight: 600
             text-transform: uppercase
             font-family: $fontstack4
             color: $white
-            white-space: nowrap
-            overflow: hidden
-            text-overflow: ellipsis
             @media only screen and (min-width: 576px)
-                font-size: 24px
+                font-size: 16px
             @media only screen and (min-width: 992px)
-                font-size: 44px
+                font-size: 26px
             @media only screen and (min-width: 1551px)
-                font-size: 52px
+                font-size: 28px
             @media only screen and (min-width: 1771px)
-                font-size: 72px
+                font-size: 34px
         .txt
             @extend %pTxt
             color: $white
@@ -38,7 +35,7 @@
             margin-bottom: 15px
             @media only screen and (min-width: 576px)
                 margin-bottom: 20px
-            @media only screen and (min-width: 992px)
+            @media only screen and (min-width: 1551px)
                 margin-bottom: 30px
             img
                 transition: transform 0.4s
@@ -110,11 +107,11 @@
             &>*
                 padding: 15px 0
                 @media only screen and (min-width: 576px)
-                    padding: 40px 10px
+                    padding: 15px 10px
                 @media only screen and (min-width: 992px)
-                    padding: 40px 15px
+                    padding: 20px 15px
                 @media only screen and (min-width: 1551px)
-                    padding: 60px 20px
+                    padding: 40px 20px
             &>.item
                 width: 100%
                 @media only screen and (min-width: 576px)
