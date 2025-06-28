@@ -12,9 +12,8 @@
         </picture>
         <div class="container">
             <div class="cntWrap">
-                <h1 class="mTxt">Blogs</h1>
-                <h2 class="mHead">Experience Engaging Events
-                    That Inspire and Connect</h2>
+                <h1 class="mTxt">The Vogue Vault</h1>
+                <h2 class="mHead">Your Fashion & Modeling <br> Inspiration</h2>
             </div>
         </div>
     </section>

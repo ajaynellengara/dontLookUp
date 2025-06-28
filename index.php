@@ -457,36 +457,37 @@
         // SPLITTING
         gsap.registerPlugin(ScrollTrigger);
 
-        function initSplittingAnimation(targetSelector) {
-            const targets = document.querySelectorAll(targetSelector);
-            targets.forEach(target => {
-                Splitting({
-                    target: target,
-                    by: 'chars'
-                });
-                const chars = target.querySelectorAll(".char");
-                gsap.fromTo(
-                    chars, {
-                        opacity: 0,
-                        y: 50
-                    }, {
-                        opacity: 1,
-                        y: 0,
-                        duration: 0.4,
-                        stagger: 0.04,
-                        ease: "power3.out",
-                        scrollTrigger: {
-                            trigger: target,
-                            start: "top 85%",
-                            toggleActions: "play none none reset",
-                            markers: false,
-                            once: false,
-                        }
-                    }
-                );
-            });
-        }
-        initSplittingAnimation(".gsap_splitting_txt");
+        // function initSplittingAnimation(targetSelector) {
+        //     const targets = document.querySelectorAll(targetSelector);
+        //     targets.forEach(target => {
+        //         Splitting({
+        //             target: target,
+        //             by: 'chars'
+        //         });
+        //         const chars = target.querySelectorAll(".char");
+        //         gsap.fromTo(
+        //             chars, {
+        //                 opacity: 0,
+        //                 y: 50
+        //             }, {
+        //                 opacity: 1,
+        //                 y: 0,
+        //                 duration: 0.4,
+        //                 stagger: 0.04,
+        //                 ease: "power3.out",
+        //                 scrollTrigger: {
+        //                     trigger: target,
+        //                     start: "top 85%",
+        //                     toggleActions: "play none none reset",
+        //                     markers: false,
+        //                     once: false,
+        //                 }
+        //             }
+        //         );
+        //     });
+        // }
+        // initSplittingAnimation(".gsap_splitting_txt");
+        
         // GSAP_ANIMATIONS
         const gsapDelmtRgts = document.querySelectorAll(".gsap_delmt_rgt");
         gsapDelmtRgts.forEach(gsapDelmtRgt => {

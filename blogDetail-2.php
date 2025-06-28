@@ -5,16 +5,15 @@
 <div id="pageWrapper" class="eventsPage blog">
     <section id="InnerBanner">
         <picture>
-            <source rel="preload" srcset="assets/images/banner-blog-1.jpg" media="(min-width:768px)"
+            <source rel="preload" srcset="assets/images/banner-blog-2.jpg" media="(min-width:768px)"
                 width="1920" height="1080">
-            <img rel="preload" src="assets/images/banner-blog-1.jpg" width="640" height="360"
+            <img rel="preload" src="assets/images/banner-blog-2.jpg" width="640" height="360"
                 alt="course" fetchpriority="low" loading="lazy" decoding="async">
         </picture>
         <div class="container">
             <div class="cntWrap">
                 <h1 class="mTxt">Blogs</h1>
-                <h2 class="mHead">Experience Engaging Events
-                    That Inspire and Connect</h2>
+                <h2 class="mHead">The Evolution of Fashion: From Classic to Contemporary.</h2>
             </div>
         </div>
     </section>
@@ -49,10 +48,15 @@
                 </div>
                 <div class="rgtSd">
                     <div class="cntWrap ckCntWrap">
-                        <h5 class="secDisc">The Evolution of Fashion: From Classic to Contemporary </h5>
-                        <p>Fashion is an ever-evolving reflection of society, culture, and technology. The journey from
+                        <h5 class="secDisc">
+                            The Evolution of Fashion: From Classic to Contemporary.
+                        </h5>
+                        <p>
+                            Fashion is an ever-evolving reflection of society, culture, and technology. The journey from
                             classic to contemporary fashion has been shaped by countless trends, movements, and
-                            pivotal moments that have redefined style across generations. Understanding this evolution
+                            pivotal moments that have redefined style across generations.
+                        </p>
+                        <p> Understanding this evolution
                             not only provides insight into the industry but also highlights how fashion continuously
                             adapts to meet the needs and desires of people worldwide. </p>
                         <h6>Classic Fashion: Timeless Elegance</h6>

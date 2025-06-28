@@ -5,16 +5,15 @@
 <div id="pageWrapper" class="eventsPage blog">
     <section id="InnerBanner">
         <picture>
-            <source rel="preload" srcset="assets/images/banner-blog-1.jpg" media="(min-width:768px)"
+            <source rel="preload" srcset="assets/images/banner-blog-4.jpg" media="(min-width:768px)"
                 width="1920" height="1080">
-            <img rel="preload" src="assets/images/banner-blog-1.jpg" width="640" height="360"
+            <img rel="preload" src="assets/images/banner-blog-4.jpg" width="640" height="360"
                 alt="course" fetchpriority="low" loading="lazy" decoding="async">
         </picture>
         <div class="container">
             <div class="cntWrap">
                 <h1 class="mTxt">Blogs</h1>
-                <h2 class="mHead">Experience Engaging Events
-                    That Inspire and Connect</h2>
+                <h2 class="mHead">The Power of Personal Branding for Models and Fashion Influencers.</h2>
             </div>
         </div>
     </section>
